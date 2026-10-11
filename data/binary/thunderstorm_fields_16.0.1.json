@@ -1,0 +1,5751 @@
+[
+{
+"type": "<Droppy.ThunderstormEmojiGridLayout>",
+"kind": 0,
+"fields": [
+[
+"flat",
+"Say<Droppy.ThunderstormEmoji>G"
+],
+[
+"sections",
+"Say<Droppy.ThunderstormEmojiGridLayout.SectionRange>G"
+],
+[
+"rows",
+"SaySaySiGG"
+],
+[
+"rowColForIndex",
+"SDyS2i3row_Si3coltG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmoji>",
+"kind": 0,
+"fields": [
+[
+"character",
+"SS"
+],
+[
+"name",
+"SS"
+],
+[
+"lowercasedName",
+"SS"
+],
+[
+"lowercasedKeywords",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiGridLayout.SectionRange>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SSSg"
+],
+[
+"range",
+"SnySiG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiGridSection>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SSSg"
+],
+[
+"emojis",
+"Say<Droppy.ThunderstormEmoji>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiEntry>",
+"kind": 0,
+"fields": [
+[
+"c",
+"SS"
+],
+[
+"n",
+"SS"
+],
+[
+"k",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiAnnotation>",
+"kind": 0,
+"fields": [
+[
+"n",
+"SS"
+],
+[
+"k",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiAnnotationCatalog>",
+"kind": 0,
+"fields": [
+[
+"cldrVersion",
+"SS"
+],
+[
+"locale",
+"SS"
+],
+[
+"annotations",
+"SDySS<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiAnnotation>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiEntry.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"c",
+null
+],
+[
+"n",
+null
+],
+[
+"k",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiAnnotationCatalog.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"cldrVersion",
+null
+],
+[
+"locale",
+null
+],
+[
+"annotations",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiCatalog(anon).BundledEmojiAnnotation.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"n",
+null
+],
+[
+"k",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiPickerTapState>",
+"kind": 1,
+"fields": [
+[
+"lock",
+"So6NSLockC"
+],
+[
+"_active",
+"Sb"
+],
+[
+"_trigger",
+"SS"
+],
+[
+"_buffer",
+"SaySSG"
+],
+[
+"_suppressed",
+"Sb"
+],
+[
+"_settingsSuppressed",
+"Sb"
+],
+[
+"_triggerEditingSuppressed",
+"Sb"
+],
+[
+"_textTriggerEnabled",
+"Sb"
+],
+[
+"_shortcut",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormEmojiPickerTapContext>",
+"kind": 1,
+"fields": [
+[
+"generation",
+"<ref2>"
+],
+[
+"state",
+"<Droppy.ThunderstormEmojiPickerTapState>"
+],
+[
+"condition",
+"So11NSConditionC"
+],
+[
+"isValid",
+"Sb"
+],
+[
+"activeCallbackCount",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormEmojiPickerTapSession>",
+"kind": 1,
+"fields": [
+[
+"generation",
+"<ref2>"
+],
+[
+"tap",
+"<ref2>"
+],
+[
+"source",
+"<ref2>"
+],
+[
+"context",
+"<Droppy(anon).ThunderstormEmojiPickerTapContext>"
+],
+[
+"queue",
+"So17OS_dispatch_queueC"
+],
+[
+"lock",
+"So6NSLockC"
+],
+[
+"runLoop",
+"<ref2>Sg"
+],
+[
+"isStopped",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiPickerController>",
+"kind": 7,
+"fields": [
+[
+"hotKey",
+"<ref2>Sg"
+],
+[
+"tapState",
+"<Droppy.ThunderstormEmojiPickerTapState>"
+],
+[
+"$__lazy_storage_$_model",
+"<ref2>Sg"
+],
+[
+"tapGeneration",
+"<ref2>"
+],
+[
+"tapSession",
+"<Droppy(anon).ThunderstormEmojiPickerTapSession>Sg"
+],
+[
+"panel",
+"So7NSPanelCSg"
+],
+[
+"isPresenting",
+"Sb"
+],
+[
+"globalClickMonitor",
+"ypSg"
+],
+[
+"appSwitchObserver",
+"So8NSObject_pSg"
+],
+[
+"keyboardLayoutObserver",
+"So8NSObject_pSg"
+],
+[
+"deferredHardReclaimWorkItem",
+"<ref2>Sg"
+],
+[
+"deferredHardReclaimDelay",
+"Sd"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiPickerPanel>",
+"kind": 7,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormKeyboardLayoutCache>",
+"kind": 1,
+"fields": [
+[
+"lock",
+"So6NSLockC"
+],
+[
+"layoutData",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiPickerModel>",
+"kind": 1,
+"fields": [
+[
+"_query",
+"<ref2>ySSG"
+],
+[
+"_selectedIndex",
+"<ref2>ySiG"
+],
+[
+"_layout",
+"<ref2>y<ref2>G"
+],
+[
+"_navigationTick",
+"<ref2>ySiG"
+],
+[
+"_isRevealed",
+"<ref2>ySbG"
+],
+[
+"_revealAnchor",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiPickerView>",
+"kind": 0,
+"fields": [
+[
+"_model",
+"<ref2>y<ref2>G"
+],
+[
+"onPick",
+"y<ref2>c"
+],
+[
+"cornerRadius",
+"<ref2>"
+],
+[
+"pickerWidth",
+"<ref2>"
+],
+[
+"searchFieldHeight",
+"<ref2>"
+],
+[
+"gridSpacing",
+"<ref2>"
+],
+[
+"gridHeight",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionCommandProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"launch",
+"y<ref2>_<ref2>tcSg"
+],
+[
+"iconCache",
+"SDySSSo7NSImageCG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionNode>",
+"kind": 0,
+"fields": [
+[
+"type",
+"SS"
+],
+[
+"props",
+"SDySS<Droppy.ThunderstormJSON>G"
+],
+[
+"children",
+"Say<Droppy.ThunderstormExtensionNode>G"
+],
+[
+"id",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormJSON>",
+"kind": 3,
+"fields": [
+[
+"bool",
+"Sb"
+],
+[
+"number",
+"Sd"
+],
+[
+"string",
+"SS"
+],
+[
+"array",
+"Say<Droppy.ThunderstormJSON>G"
+],
+[
+"object",
+"SDySS<Droppy.ThunderstormJSON>G"
+],
+[
+"null",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionAction>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"node",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"section",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionImage>",
+"kind": 2,
+"fields": [
+[
+"symbol",
+"SS_<ref2>Sg4tintt"
+],
+[
+"file",
+"<ref2>_<ref2>Sg4tintSb6circlet"
+],
+[
+"remote",
+"<ref2>_Sb6circlet"
+],
+[
+"fileIcon",
+"<ref2>"
+],
+[
+"text",
+"SS"
+],
+[
+"color",
+"<ref2>"
+],
+[
+"none",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime>",
+"kind": 1,
+"fields": [
+[
+"_state",
+"<ref2>y<Droppy.ThunderstormExtensionRuntime.State>G"
+],
+[
+"_nodeURL",
+"<ref2>y<ref2>SgG"
+],
+[
+"_nodeDescription",
+"<ref2>ySSSgG"
+],
+[
+"log",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime.State>",
+"kind": 3,
+"fields": [
+[
+"installing",
+"SS"
+],
+[
+"failed",
+"SS"
+],
+[
+"notInstalled",
+null
+],
+[
+"ready",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime(anon).Marker>",
+"kind": 0,
+"fields": [
+[
+"nodePath",
+"SS"
+],
+[
+"nodeVersion",
+"SS"
+],
+[
+"downloaded",
+"Sb"
+],
+[
+"hostScriptVersion",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime.RuntimeError>",
+"kind": 2,
+"fields": [
+[
+"message",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime(anon).ResolvedNode>",
+"kind": 0,
+"fields": [
+[
+"url",
+"<ref2>"
+],
+[
+"version",
+"SS"
+],
+[
+"downloaded",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionRuntime(anon).Marker.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"nodePath",
+null
+],
+[
+"nodeVersion",
+null
+],
+[
+"downloaded",
+null
+],
+[
+"hostScriptVersion",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSession>",
+"kind": 1,
+"fields": [
+[
+"id",
+"<ref2>"
+],
+[
+"installedExtension",
+"<ref2>"
+],
+[
+"command",
+"<ref2>"
+],
+[
+"_screen",
+"<ref2>y<ref2>SgG"
+],
+[
+"_depth",
+"<ref2>ySiG"
+],
+[
+"_selectedItemID",
+"<ref2>ySSSgG"
+],
+[
+"_searchText",
+"<ref2>ySSG"
+],
+[
+"_toast",
+"<ref2>y<Droppy.ThunderstormExtensionSession.Toast>SgG"
+],
+[
+"_failure",
+"<ref2>ySSSgG"
+],
+[
+"_isStarting",
+"<ref2>ySbG"
+],
+[
+"_formValues",
+"<ref2>ySDySS<ref2>GG"
+],
+[
+"_navigationTick",
+"<ref2>ySiG"
+],
+[
+"_chromeRevision",
+"<ref2>ySiG"
+],
+[
+"_dropdownValue",
+"<ref2>ySSSgG"
+],
+[
+"_focusedFormFieldID",
+"<ref2>ySSSgG"
+],
+[
+"_detailScroll",
+"<ref2>y<Droppy.ThunderstormExtensionSession.DetailScroll>G"
+],
+[
+"chromeSignature",
+"SS"
+],
+[
+"onEnd",
+"y<Droppy.ThunderstormExtensionSession.Ending>cSg"
+],
+[
+"onSearchTextReset",
+"yycSg"
+],
+[
+"process",
+"So6NSTaskCSg"
+],
+[
+"stdinHandle",
+"So12NSFileHandleCSg"
+],
+[
+"openReadEnds",
+"SDy<Droppy.ThunderstormExtensionSession(anon).CommandStream>So12NSFileHandleCG"
+],
+[
+"isFinished",
+"Sb"
+],
+[
+"isRetired",
+"Sb"
+],
+[
+"isShuttingDown",
+"Sb"
+],
+[
+"outputBuffer",
+"<ref2>"
+],
+[
+"stderrTail",
+"SaySSG"
+],
+[
+"didEnd",
+"Sb"
+],
+[
+"searchDebounce",
+"ScTyyt<ref2>GSg"
+],
+[
+"toastDismissal",
+"ScTyyt<ref2>GSg"
+],
+[
+"writeQueue",
+"So17OS_dispatch_queueC"
+],
+[
+"log",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSession.Toast>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"style",
+"SS"
+],
+[
+"title",
+"SS"
+],
+[
+"message",
+"SSSg"
+],
+[
+"primaryTitle",
+"SSSg"
+],
+[
+"primaryHandler",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSession.DetailScroll>",
+"kind": 0,
+"fields": [
+[
+"tick",
+"Si"
+],
+[
+"delta",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSession.Ending>",
+"kind": 2,
+"fields": [
+[
+"closeWindow",
+null
+],
+[
+"popToRoot",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSession(anon).CommandStream>",
+"kind": 2,
+"fields": [
+[
+"output",
+null
+],
+[
+"errors",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionStoreToolbar>",
+"kind": 0,
+"fields": [
+[
+"_browser",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormInstalledExtensionLink>",
+"kind": 0,
+"fields": [
+[
+"installedExtension",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionTile>",
+"kind": 0,
+"fields": [
+[
+"url",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionsSettingsPage>",
+"kind": 0,
+"fields": [
+[
+"_runtime",
+"<ref2>y<ref2>G"
+],
+[
+"_store",
+"<ref2>y<ref2>G"
+],
+[
+"_browser",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormInstalledExtensionPage>",
+"kind": 0,
+"fields": [
+[
+"extensionID",
+"SS"
+],
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormStoreListingRow>",
+"kind": 0,
+"fields": [
+[
+"listing",
+"<ref2>"
+],
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormInstalledExtensionContent>",
+"kind": 0,
+"fields": [
+[
+"installedExtension",
+"<ref2>"
+],
+[
+"_runtime",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionPreferenceRow>",
+"kind": 0,
+"fields": [
+[
+"installedExtension",
+"<ref2>"
+],
+[
+"preference",
+"<ref2>"
+],
+[
+"__text",
+"<ref2>ySSG"
+],
+[
+"__isOn",
+"<ref2>ySbG"
+],
+[
+"__loaded",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionStore>",
+"kind": 1,
+"fields": [
+[
+"_installed",
+"<ref2>ySay<Droppy.ThunderstormInstalledExtension>GG"
+],
+[
+"_installing",
+"<ref2>yShySSGG"
+],
+[
+"_lastError",
+"<ref2>ySSSgG"
+],
+[
+"log",
+"<ref2>"
+],
+[
+"_isImportingFromRaycast",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionManifest>",
+"kind": 0,
+"fields": [
+[
+"name",
+"SS"
+],
+[
+"title",
+"SSSg"
+],
+[
+"description",
+"SSSg"
+],
+[
+"icon",
+"SSSg"
+],
+[
+"commands",
+"Say<ref2>G"
+],
+[
+"preferences",
+"Say<Droppy.ThunderstormExtensionPreference>GSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Person>",
+"kind": 0,
+"fields": [
+[
+"name",
+"SSSg"
+],
+[
+"handle",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Icons>",
+"kind": 0,
+"fields": [
+[
+"light",
+"SSSg"
+],
+[
+"dark",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionManifest.Argument>",
+"kind": 0,
+"fields": [
+[
+"name",
+"SS"
+],
+[
+"type",
+"SSSg"
+],
+[
+"placeholder",
+"SSSg"
+],
+[
+"required",
+"SbSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormJSONValueBox>",
+"kind": 0,
+"fields": [
+[
+"value",
+"<Droppy.ThunderstormJSON>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Command>",
+"kind": 0,
+"fields": [
+[
+"name",
+"SS"
+],
+[
+"title",
+"SS"
+],
+[
+"subtitle",
+"SSSg"
+],
+[
+"description",
+"SSSg"
+],
+[
+"mode",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"id",
+null
+],
+[
+"name",
+null
+],
+[
+"title",
+null
+],
+[
+"description",
+null
+],
+[
+"author",
+null
+],
+[
+"owner",
+null
+],
+[
+"icons",
+null
+],
+[
+"download_url",
+null
+],
+[
+"download_count",
+null
+],
+[
+"commands",
+null
+],
+[
+"platforms",
+null
+],
+[
+"updated_at",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Icons(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"light",
+null
+],
+[
+"dark",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Person(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"handle",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionManifest(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"title",
+null
+],
+[
+"description",
+null
+],
+[
+"icon",
+null
+],
+[
+"commands",
+null
+],
+[
+"preferences",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionManifest.Command(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"title",
+null
+],
+[
+"subtitle",
+null
+],
+[
+"description",
+null
+],
+[
+"mode",
+null
+],
+[
+"icon",
+null
+],
+[
+"keywords",
+null
+],
+[
+"arguments",
+null
+],
+[
+"preferences",
+null
+],
+[
+"disabledByDefault",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionStore.RaycastExtension>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"folder",
+"<ref2>"
+],
+[
+"title",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormStoreListing.Command(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"title",
+null
+],
+[
+"subtitle",
+null
+],
+[
+"description",
+null
+],
+[
+"mode",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionPreference(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"type",
+null
+],
+[
+"title",
+null
+],
+[
+"label",
+null
+],
+[
+"description",
+null
+],
+[
+"placeholder",
+null
+],
+[
+"required",
+null
+],
+[
+"default",
+null
+],
+[
+"data",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionManifest.Argument(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"name",
+null
+],
+[
+"type",
+null
+],
+[
+"placeholder",
+null
+],
+[
+"required",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionPreference.Option(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"title",
+null
+],
+[
+"value",
+null
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormStorePage>",
+"kind": 0,
+"fields": [
+[
+"data",
+"Say<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormStorePage.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"data",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionStore.StoreError>",
+"kind": 2,
+"fields": [
+[
+"message",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionScrollProbe.ProbeView>",
+"kind": 7,
+"fields": [
+[
+"lastTick",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionImageCache>",
+"kind": 1,
+"fields": [
+[
+"cache",
+"So7NSCacheCySo5NSURLCSo7NSImageCG"
+],
+[
+"dataCache",
+"So7NSCacheCySo8NSStringCSo7NSImageCG"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionScrollProbe>",
+"kind": 0,
+"fields": [
+[
+"scroll",
+"<Droppy.ThunderstormExtensionSession.DetailScroll>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionShortcutButtons>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"beforePerforming",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionHeaderDropdown>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"isOpen",
+"Sb"
+],
+[
+"action",
+"yyc"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionSurface>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"onOpenActions",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionToastView>",
+"kind": 0,
+"fields": [
+[
+"toast",
+"<Droppy.ThunderstormExtensionSession.Toast>"
+],
+[
+"onPrimary",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionFormView>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"screen",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"_focusedField",
+"<ref2>ySSSgG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionDetailView>",
+"kind": 0,
+"fields": [
+[
+"node",
+"<ref2>Sg"
+],
+[
+"assets",
+"<ref2>"
+],
+[
+"scroll",
+"<Droppy.ThunderstormExtensionSession.DetailScroll>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionGridView>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"screen",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"onOpenActions",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionListView>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"screen",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"onOpenActions",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionFailureView>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SS"
+],
+[
+"message",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionFilePicker>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"field",
+"<Droppy.ThunderstormExtensionNode>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionTagPicker>",
+"kind": 0,
+"fields": [
+[
+"_session",
+"<ref2>y<ref2>G"
+],
+[
+"field",
+"<Droppy.ThunderstormExtensionNode>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionMetadataView>",
+"kind": 0,
+"fields": [
+[
+"node",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"assets",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionMarkdown>",
+"kind": 0,
+"fields": [
+[
+"markdown",
+"SS"
+],
+[
+"assets",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionGridCell>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"assets",
+"<ref2>"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"aspectRatio",
+"<ref2>"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionLoadingBar>",
+"kind": 0,
+"fields": [
+[
+"_reduceMotion",
+"<ref2>ySbG"
+],
+[
+"__startedAt",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionItemRow>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"assets",
+"<ref2>"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"compact",
+"Sb"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionEmptyView>",
+"kind": 0,
+"fields": [
+[
+"node",
+"<Droppy.ThunderstormExtensionNode>"
+],
+[
+"assets",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionMarkdown(anon).Block>",
+"kind": 3,
+"fields": [
+[
+"heading",
+"Si_SSt"
+],
+[
+"paragraph",
+"SS"
+],
+[
+"bullet",
+"SS_SSSg7orderedt"
+],
+[
+"quote",
+"SS"
+],
+[
+"code",
+"SS"
+],
+[
+"image",
+"SS_SS3altt"
+],
+[
+"rule",
+null
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionFlow>",
+"kind": 0,
+"fields": [
+[
+"spacing",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionAccessories>",
+"kind": 0,
+"fields": [
+[
+"accessories",
+"Say<Droppy.ThunderstormJSON>G"
+],
+[
+"assets",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtensionImageView>",
+"kind": 0,
+"fields": [
+[
+"image",
+"<Droppy.ThunderstormExtensionImage>"
+],
+[
+"size",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormExtensionHUDView>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCalculatorHistory>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"file",
+"<ref2>ySay<Droppy.ThunderstormCalculation>GG"
+],
+[
+"entries",
+"Say<Droppy.ThunderstormCalculation>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCalculation>",
+"kind": 0,
+"fields": [
+[
+"expression",
+"SS"
+],
+[
+"answer",
+"SS"
+],
+[
+"date",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCalculation(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"expression",
+null
+],
+[
+"answer",
+null
+],
+[
+"date",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLibraryBackup>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormLibraryBackup.Backup>",
+"kind": 0,
+"fields": [
+[
+"format",
+"SS"
+],
+[
+"version",
+"Si"
+],
+[
+"created",
+"<ref2>"
+],
+[
+"quicklinks",
+"Say<ref2>G"
+],
+[
+"snippets",
+"Say<ref2>G"
+],
+[
+"calculatorHistory",
+"Say<Droppy.ThunderstormCalculation>G"
+],
+[
+"settings",
+"SDySSSaySSGG"
+],
+[
+"strings",
+"SDyS2SG"
+],
+[
+"flags",
+"SDySSSbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLibraryBackup.Backup(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"format",
+null
+],
+[
+"version",
+null
+],
+[
+"created",
+null
+],
+[
+"quicklinks",
+null
+],
+[
+"snippets",
+null
+],
+[
+"calculatorHistory",
+null
+],
+[
+"settings",
+null
+],
+[
+"strings",
+null
+],
+[
+"flags",
+null
+]
+]
+},
+{
+"type": "$s6Droppy27ThunderstormLibraryProviderP",
+"kind": 5,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormJSONFile>",
+"kind": 0,
+"fields": [
+[
+"name",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormBackupPage>",
+"kind": 0,
+"fields": [
+[
+"__message",
+"<ref2>ySSSgG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormFoldersPage>",
+"kind": 0,
+"fields": [
+[
+"__scriptFolder",
+"<ref2>y<ref2>G"
+],
+[
+"__scriptCount",
+"<ref2>ySiG"
+],
+[
+"__notesFolder",
+"<ref2>y<ref2>SgG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippetPage>",
+"kind": 0,
+"fields": [
+[
+"id",
+"<ref2>"
+],
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuicklinkPage>",
+"kind": 0,
+"fields": [
+[
+"id",
+"<ref2>"
+],
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippetsPage>",
+"kind": 0,
+"fields": [
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuicklinksPage>",
+"kind": 0,
+"fields": [
+[
+"_store",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormFooterButton>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SS"
+],
+[
+"role",
+"<ref2>Sg"
+],
+[
+"action",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMarkdownNotesProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"notes",
+"Say<Droppy.ThunderstormMarkdownNotesProvider(anon).Note>G"
+],
+[
+"indexedAt",
+"<ref2>Sg"
+],
+[
+"isIndexing",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormColorProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMarkdownNotesProvider(anon).Note>",
+"kind": 0,
+"fields": [
+[
+"url",
+"<ref2>"
+],
+[
+"title",
+"SS"
+],
+[
+"preview",
+"SS"
+],
+[
+"text",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuickAddProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuicklinkStore>",
+"kind": 1,
+"fields": [
+[
+"_quicklinks",
+"<ref2>ySay<Droppy.ThunderstormQuicklink>GG"
+],
+[
+"file",
+"<ref2>ySay<Droppy.ThunderstormQuicklink>GG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuicklinkProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuicklink(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"id",
+null
+],
+[
+"name",
+null
+],
+[
+"link",
+null
+],
+[
+"keyword",
+null
+],
+[
+"isFallback",
+null
+],
+[
+"openWithBundleID",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormScriptCommandProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"scripts",
+"Say<Droppy.ThunderstormScriptCommand>G"
+],
+[
+"scannedAt",
+"<ref2>Sg"
+],
+[
+"folderWatcher",
+"So24OS_dispatch_source_vnode_pSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormScriptCommand>",
+"kind": 0,
+"fields": [
+[
+"url",
+"<ref2>"
+],
+[
+"title",
+"SS"
+],
+[
+"mode",
+"<Droppy.ThunderstormScriptCommand.Mode>"
+],
+[
+"icon",
+"SSSg"
+],
+[
+"packageName",
+"SSSg"
+],
+[
+"description",
+"SSSg"
+],
+[
+"argumentPlaceholders",
+"SaySSG"
+],
+[
+"requiredArguments",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormScriptCommand.Mode>",
+"kind": 2,
+"fields": [
+[
+"silent",
+null
+],
+[
+"compact",
+null
+],
+[
+"fullOutput",
+null
+],
+[
+"inline",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippetStore>",
+"kind": 1,
+"fields": [
+[
+"_snippets",
+"<ref2>ySay<Droppy.ThunderstormSnippet>GG"
+],
+[
+"file",
+"<ref2>ySay<Droppy.ThunderstormSnippet>GG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippetProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippetExpander>",
+"kind": 1,
+"fields": [
+[
+"state",
+"<Droppy.ExpanderState>"
+],
+[
+"tapThread",
+"So8NSThreadCSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSnippet(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"id",
+null
+],
+[
+"name",
+null
+],
+[
+"text",
+null
+],
+[
+"keyword",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppleShortcutsProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"names",
+"SaySSG"
+],
+[
+"loadedAt",
+"<ref2>Sg"
+],
+[
+"isLoading",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWindowSwitcherProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMenuSearchProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+],
+[
+"entries",
+"Say<Droppy.ThunderstormMenuSearchProvider.MenuEntry>G"
+],
+[
+"pid",
+"<ref2>Sg"
+],
+[
+"appName",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDictionaryProvider>",
+"kind": 1,
+"fields": [
+[
+"commandPrefix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMenuSearchProvider.MenuEntry>",
+"kind": 0,
+"fields": [
+[
+"path",
+"SaySSG"
+],
+[
+"indexPath",
+"SaySiG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWindowSwitcherProvider(anon).OpenWindow>",
+"kind": 0,
+"fields": [
+[
+"pid",
+"<ref2>"
+],
+[
+"appName",
+"SS"
+],
+[
+"title",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormTemplate>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormMenuState>",
+"kind": 1,
+"fields": [
+[
+"_selection",
+"<ref2>ySiG"
+],
+[
+"selectionCameFromPointer",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMenuItem>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"title",
+"SS"
+],
+[
+"symbolName",
+"SS"
+],
+[
+"beginsGroup",
+"Sb"
+],
+[
+"shortcut",
+"SaySSGSg"
+],
+[
+"isDestructive",
+"Sb"
+],
+[
+"isEnabled",
+"Sb"
+],
+[
+"action",
+"yyYbScMYcc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormActionMenu>",
+"kind": 0,
+"fields": [
+[
+"header",
+"SSSg"
+],
+[
+"items",
+"Say<Droppy.ThunderstormMenuItem>G"
+],
+[
+"_state",
+"<ref2>y<Droppy.ThunderstormMenuState>G"
+],
+[
+"attachment",
+"<Droppy.ThunderstormMenuAttachment>"
+],
+[
+"width",
+"<ref2>"
+],
+[
+"onActivate",
+"ySic"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMenuAttachment>",
+"kind": 2,
+"fields": [
+[
+"bottomLeading",
+null
+],
+[
+"bottomTrailing",
+null
+],
+[
+"topTrailing",
+null
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormMenuEntry>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<Droppy.ThunderstormMenuItem>"
+],
+[
+"selected",
+"Sb"
+],
+[
+"onHighlight",
+"yyc"
+],
+[
+"onActivate",
+"yyc"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormAliasPickerIconCache>",
+"kind": 1,
+"fields": [
+[
+"images",
+"SDySSSo7NSImageCG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppAliasSettingsSection>",
+"kind": 0,
+"fields": [
+[
+"__aliases",
+"<ref2>ySay<ref2>GG"
+],
+[
+"__drafts",
+"<ref2>ySDy<ref2>SSGG"
+],
+[
+"__icons",
+"<ref2>ySDySSSo7NSImageCGG"
+],
+[
+"__showsAppPicker",
+"<ref2>ySbG"
+],
+[
+"_focusedAliasID",
+"<ref2>y<ref2>SgG"
+],
+[
+"_isNativeForm",
+"<ref2>ySbG"
+],
+[
+"onPage",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppAliasPickerCard>",
+"kind": 0,
+"fields": [
+[
+"onPick",
+"y<ref2>c"
+],
+[
+"onClose",
+"yyc"
+],
+[
+"__apps",
+"<ref2>ySay<ref2>GG"
+],
+[
+"__isLoadingApps",
+"<ref2>ySbG"
+],
+[
+"__query",
+"<ref2>ySSG"
+],
+[
+"__iconCache",
+"<ref2>y<Droppy(anon).ThunderstormAliasPickerIconCache>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormAliasPickerAppRow>",
+"kind": 0,
+"fields": [
+[
+"app",
+"<ref2>"
+],
+[
+"iconCache",
+"<Droppy(anon).ThunderstormAliasPickerIconCache>"
+],
+[
+"onPick",
+"y<ref2>c"
+],
+[
+"__image",
+"<ref2>ySo7NSImageCSgG"
+],
+[
+"__isHovering",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppAliasStore>",
+"kind": 1,
+"fields": [
+[
+"defaults",
+"So14NSUserDefaultsC"
+],
+[
+"entries",
+"Say<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppAlias(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"id",
+null
+],
+[
+"path",
+null
+],
+[
+"alias",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormAppIndex>",
+"kind": 1,
+"fields": [
+[
+"$defaultActor",
+"BD"
+],
+[
+"entries",
+"Say<ref2>G"
+],
+[
+"indexedPaths",
+"ShySSG"
+],
+[
+"isWarmed",
+"Sb"
+],
+[
+"entriesRevision",
+"<ref2>"
+],
+[
+"scanTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"needsRescanAfterCurrentScan",
+"Sb"
+],
+[
+"aliasMap",
+"SDySSSaySSGG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormClipboardDetailView>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<ref2>"
+],
+[
+"showsPrimaryActionsInFooter",
+"Sb"
+],
+[
+"onPaste",
+"yyc"
+],
+[
+"onDelete",
+"yyc"
+],
+[
+"onOpenLinkedURL",
+"y<ref2>c"
+],
+[
+"onStyleAttachedSheet",
+"yyc"
+],
+[
+"externalTopBarTextEditingItemID",
+"<ref2>y<ref2>SgGSg"
+],
+[
+"externalTopBarTextEditingContent",
+"<ref2>ySSGSg"
+],
+[
+"__localTopBarTextEditingItemID",
+"<ref2>y<ref2>SgG"
+],
+[
+"__localTopBarTextEditingContent",
+"<ref2>ySSG"
+],
+[
+"__isRemovingBackground",
+"<ref2>ySbG"
+],
+[
+"clipboardService",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormClipboardKind>",
+"kind": 2,
+"fields": [
+[
+"text",
+null
+],
+[
+"link",
+null
+],
+[
+"email",
+null
+],
+[
+"color",
+null
+],
+[
+"image",
+null
+],
+[
+"file",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormClipboardMatch>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<ref2>"
+],
+[
+"title",
+"SS"
+],
+[
+"subtitle",
+"SS"
+],
+[
+"accessoryText",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormClipboardRow>",
+"kind": 0,
+"fields": [
+[
+"match",
+"<Droppy.ThunderstormClipboardMatch>"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"onOpenPreview",
+"yyc"
+],
+[
+"showsPreviewButton",
+"Sb"
+],
+[
+"isPreviewExpanded",
+"Sb"
+],
+[
+"quickOpenHint",
+"SSSg"
+],
+[
+"_tagsEnabled",
+"<ref2>ySbG"
+],
+[
+"__metadataPulseTrigger",
+"<ref2>ySiG"
+],
+[
+"__loadedIcon",
+"<ref2>y<ref2>SgG"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormClipboardService.MatchComputationInputs>",
+"kind": 0,
+"fields": [
+[
+"history",
+"Say<ref2>G"
+],
+[
+"tagsByID",
+"SDy<ref2><ref2>G"
+],
+[
+"tagsEnabled",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCommandCatalog>",
+"kind": 1,
+"fields": [
+[
+"cachedDescriptors",
+"Say<Droppy.ThunderstormCommandCatalog(anon).CachedDescriptor>GSg"
+],
+[
+"cacheInvalidationObserver",
+"So8NSObject_pSg"
+],
+[
+"screenChangeObserver",
+"So8NSObject_pSg"
+],
+[
+"libraryObserver",
+"So8NSObject_pSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCommandCatalog(anon).CachedDescriptor>",
+"kind": 0,
+"fields": [
+[
+"descriptor",
+"<ref2>"
+],
+[
+"normalizedTitle",
+"SS"
+],
+[
+"normalizedSubtitle",
+"SS"
+],
+[
+"normalizedDetail",
+"SS"
+],
+[
+"normalizedKeywords",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCurrencyRateStore>",
+"kind": 1,
+"fields": [
+[
+"$defaultActor",
+"BD"
+],
+[
+"session",
+"So12NSURLSessionC"
+],
+[
+"storageURL",
+"<ref2>"
+],
+[
+"snapshot",
+"<Droppy.ThunderstormCurrencyRateStore.Snapshot>Sg"
+],
+[
+"refreshTask",
+"ScTy<Droppy.ThunderstormCurrencyRateStore.Snapshot>Sg<ref2>GSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCurrencyRateStore.Snapshot>",
+"kind": 0,
+"fields": [
+[
+"baseCurrencyCode",
+"SS"
+],
+[
+"publishedAt",
+"<ref2>"
+],
+[
+"fetchedAt",
+"<ref2>"
+],
+[
+"rates",
+"SDySSSdG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCurrencyRateStore.Snapshot(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"baseCurrencyCode",
+null
+],
+[
+"publishedAt",
+null
+],
+[
+"fetchedAt",
+null
+],
+[
+"rates",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletContentSearch>",
+"kind": 1,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormDropletContentInputs.ShelfEntry>",
+"kind": 0,
+"fields": [
+[
+"url",
+"<ref2>"
+],
+[
+"name",
+"SS"
+],
+[
+"isDirectory",
+"Sb"
+],
+[
+"isBasket",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletContentMatch>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SS"
+],
+[
+"subtitle",
+"SS"
+],
+[
+"detail",
+"SS"
+],
+[
+"url",
+"<ref2>Sg"
+],
+[
+"baseScore",
+"Sd"
+],
+[
+"symbolName",
+"SS"
+],
+[
+"utilityCopyText",
+"SSSg"
+],
+[
+"itemKind",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletContentInputs>",
+"kind": 0,
+"fields": [
+[
+"quickNotes",
+"Say<Droppy.QuickNote>G"
+],
+[
+"obsidianNotes",
+"Say<Droppy.ObsidianVaultNotesManager.VaultNote>G"
+],
+[
+"ocrItems",
+"Say<ref2>G"
+],
+[
+"clipboardItems",
+"Say<ref2>G"
+],
+[
+"liveTranscript",
+"SSSg"
+],
+[
+"voiceRecordings",
+"Say<ref2>G"
+],
+[
+"todoItems",
+"Say<ref2>G"
+],
+[
+"shelfEntries",
+"Say<Droppy.ThunderstormDropletContentInputs.ShelfEntry>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletLibraryItem>",
+"kind": 0,
+"fields": [
+[
+"extensionType",
+"<ref2>"
+],
+[
+"isInstalled",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletLibraryRow>",
+"kind": 0,
+"fields": [
+[
+"item",
+"<Droppy.ThunderstormDropletLibraryItem>"
+],
+[
+"subtitle",
+"SS"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"isProcessing",
+"Sb"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletInstaller>",
+"kind": 1,
+"fields": [
+[
+"_activeActionExtensionID",
+"<ref2>ySSSgG"
+],
+[
+"_activeActionKind",
+"<ref2>y<Droppy.ThunderstormDropletInstaller(anon).DropletActionKind>SgG"
+],
+[
+"aiInstallManager",
+"<Droppy.AIInstallManager>"
+],
+[
+"ffmpegInstallManager",
+"<Droppy.FFmpegInstallManager>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletInstaller(anon).DropletActionKind>",
+"kind": 2,
+"fields": [
+[
+"install",
+null
+],
+[
+"uninstall",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletsLibraryView>",
+"kind": 0,
+"fields": [
+[
+"items",
+"Say<ref2>G"
+],
+[
+"selectedItemID",
+"SSSg"
+],
+[
+"scroll",
+"<ref2>"
+],
+[
+"onRefreshItems",
+"yyc"
+],
+[
+"onOpen",
+"y<ref2>c"
+],
+[
+"onActions",
+"y<ref2>c"
+],
+[
+"_installer",
+"<ref2>y<Droppy.ThunderstormDropletInstaller>G"
+],
+[
+"_aiInstallManager",
+"<ref2>y<ref2>G"
+],
+[
+"_ffmpegInstallManager",
+"<ref2>y<ref2>G"
+],
+[
+"__refreshTask",
+"<ref2>yScTyyt<ref2>GSgG"
+],
+[
+"__lastRemovedFlagsFingerprint",
+"<ref2>ySSSgG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDropletsLibraryView(anon).Row>",
+"kind": 3,
+"fields": [
+[
+"header",
+"SS_Sb7isFirstt"
+],
+[
+"droplet",
+"<Droppy.ThunderstormDropletLibraryItem>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormDroppySettingsView>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormEmojiSurface>",
+"kind": 0,
+"fields": [
+[
+"layout",
+"<Droppy.ThunderstormEmojiGridLayout>"
+],
+[
+"selectedIndex",
+"Si"
+],
+[
+"navigationTick",
+"Si"
+],
+[
+"onHover",
+"ySic"
+],
+[
+"onPick",
+"y<ref2>c"
+],
+[
+"onTagsChanged",
+"yycSg"
+],
+[
+"spacing",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiSelectionFooter>",
+"kind": 0,
+"fields": [
+[
+"emoji",
+"<ref2>Sg"
+],
+[
+"style",
+"<Droppy.ThunderstormEmojiSelectionFooter.Style>"
+],
+[
+"horizontalPadding",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmojiSelectionFooter.Style>",
+"kind": 2,
+"fields": [
+[
+"floating",
+null
+],
+[
+"thunderstorm",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormExtension>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormFavoritesStore>",
+"kind": 1,
+"fields": [
+[
+"_keys",
+"<ref2>ySaySSGG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormFolderListingEmptiness>",
+"kind": 2,
+"fields": [
+[
+"unreadable",
+null
+],
+[
+"empty",
+null
+],
+[
+"filteredOut",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormFolderListing>",
+"kind": 0,
+"fields": [
+[
+"results",
+"Say<ref2>G"
+],
+[
+"isUnreadable",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormGoogleSearchPreviewService>",
+"kind": 7,
+"fields": [
+[
+"websiteDataStore",
+"So18WKWebsiteDataStoreC"
+],
+[
+"webView",
+"So9WKWebViewCSg"
+],
+[
+"idleTeardownTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"cachedPreviews",
+"SDySS<Droppy.ThunderstormGoogleSearchPreviewService.Preview>G"
+],
+[
+"pendingContinuations",
+"SDySSSayScCy<Droppy.ThunderstormGoogleSearchPreviewService.Preview>Sg<ref2>GGG"
+],
+[
+"activeQueryKey",
+"SSSg"
+],
+[
+"activeQuery",
+"SSSg"
+],
+[
+"activeNavigation",
+"So12WKNavigationCSg"
+],
+[
+"activeLoadGeneration",
+"<ref2>Sg"
+],
+[
+"nextLoadGeneration",
+"<ref2>"
+],
+[
+"timeoutTask",
+"ScTyyt<ref2>GSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormGoogleSearchPreviewService.Preview>",
+"kind": 0,
+"fields": [
+[
+"query",
+"SS"
+],
+[
+"answerType",
+"<Droppy.ThunderstormGoogleSearchPreviewService.Preview.AnswerType>"
+],
+[
+"headline",
+"SS"
+],
+[
+"snippet",
+"SS"
+],
+[
+"sourceTitle",
+"SS"
+],
+[
+"sourceURL",
+"<ref2>Sg"
+],
+[
+"sourceDisplay",
+"SS"
+],
+[
+"imageURL",
+"<ref2>Sg"
+],
+[
+"fetchedAt",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormGoogleSearchPreviewService.Preview.AnswerType>",
+"kind": 2,
+"fields": [
+[
+"googleAnswer",
+null
+],
+[
+"webResult",
+null
+],
+[
+"search",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormGoogleSearchPreviewService(anon).PreviewPayload>",
+"kind": 0,
+"fields": [
+[
+"answerType",
+"SS"
+],
+[
+"headline",
+"SS"
+],
+[
+"snippet",
+"SS"
+],
+[
+"sourceTitle",
+"SS"
+],
+[
+"sourceURLString",
+"SS"
+],
+[
+"sourceDisplay",
+"SS"
+],
+[
+"imageURLString",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormGoogleSearchPreviewService(anon).PreviewPayload.CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"answerType",
+null
+],
+[
+"headline",
+null
+],
+[
+"snippet",
+null
+],
+[
+"sourceTitle",
+null
+],
+[
+"sourceURLString",
+null
+],
+[
+"sourceDisplay",
+null
+],
+[
+"imageURLString",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIconProvider>",
+"kind": 1,
+"fields": [
+[
+"cache",
+"So7NSCacheCySo8NSStringCSo7NSImageCG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLoadedIcon>",
+"kind": 0,
+"fields": [
+[
+"identity",
+"SS"
+],
+[
+"image",
+"So7NSImageC"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIconProvider(anon).RasterizedIcon>",
+"kind": 0,
+"fields": [
+[
+"image",
+"So7NSImageC"
+],
+[
+"cost",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIconProvider(anon).UnsafeImageBox>",
+"kind": 0,
+"fields": [
+[
+"image",
+"So7NSImageC"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormInfoView>",
+"kind": 0,
+"fields": [
+[
+"settingsAnchorID",
+"SS"
+],
+[
+"_isNativeForm",
+"<ref2>ySbG"
+],
+[
+"_compactWindow",
+"<ref2>ySbG"
+],
+[
+"_returnCopiesClipboardItems",
+"<ref2>ySbG"
+],
+[
+"installCount",
+"SiSg"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormWindowStylePreview>",
+"kind": 0,
+"fields": [
+[
+"isCompact",
+"Sb"
+],
+[
+"isHovering",
+"Sb"
+],
+[
+"width",
+"<ref2>"
+],
+[
+"barHeight",
+"<ref2>"
+],
+[
+"rowHeight",
+"<ref2>"
+],
+[
+"rowSpacing",
+"<ref2>"
+],
+[
+"rowsInset",
+"<ref2>"
+],
+[
+"tints",
+"Say<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormInlineAnswerAPI(anon).WikipediaResult>",
+"kind": 0,
+"fields": [
+[
+"preview",
+"<Droppy.ThunderstormGoogleSearchPreviewService.Preview>"
+],
+[
+"wikibaseID",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormInlineAnswerAPI>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormIntegrationCatalog>",
+"kind": 1,
+"fields": [
+[
+"cachedDescriptors",
+"Say<ref2>GSg"
+],
+[
+"cachedDescriptorLookup",
+"SDySS<ref2>G"
+],
+[
+"$__lazy_storage_$_settingsSearchTerms",
+"SaySSGSg"
+],
+[
+"$__lazy_storage_$_droppySettingsSearchTerms",
+"SaySSGSg"
+],
+[
+"$__lazy_storage_$_dropletSearchTerms",
+"SaySSGSg"
+],
+[
+"$__lazy_storage_$_widgetSearchTerms",
+"SaySSGSg"
+],
+[
+"observersInstalled",
+"Sb"
+],
+[
+"lastPreferenceSnapshot",
+"<Droppy.ThunderstormIntegrationCatalog(anon).ThunderstormIntegrationCatalogPreferenceSnapshot>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIntegrationCatalog(anon).ThunderstormIntegrationCatalogPreferenceSnapshot>",
+"kind": 0,
+"fields": [
+[
+"installedEnabledPairs",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIntegrationDescriptor>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"kind",
+"<Droppy.ThunderstormIntegrationKind>"
+],
+[
+"title",
+"SS"
+],
+[
+"subtitle",
+"SS"
+],
+[
+"detail",
+"SS"
+],
+[
+"symbolName",
+"SS"
+],
+[
+"keywords",
+"SaySSG"
+],
+[
+"preferredBodyHeight",
+"<ref2>"
+],
+[
+"extensionTypeRaw",
+"SSSg"
+],
+[
+"shelfWidgetTypeRaw",
+"SSSg"
+],
+[
+"builtInSettingsKind",
+"<Droppy.ThunderstormBuiltInSettingsKind>Sg"
+],
+[
+"relatedDescriptorID",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIntegrationKind>",
+"kind": 2,
+"fields": [
+[
+"widget",
+null
+],
+[
+"settings",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormBuiltInSettingsKind>",
+"kind": 2,
+"fields": [
+[
+"droppyApp",
+null
+],
+[
+"dropletsLibrary",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormIntegrationHeightPreferenceKey>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormIntegrationSurface>",
+"kind": 0,
+"fields": [
+[
+"descriptor",
+"<Droppy.ThunderstormIntegrationDescriptor>"
+],
+[
+"relatedDescriptor",
+"<ref2>Sg"
+],
+[
+"onOpenDescriptor",
+"ySSc"
+],
+[
+"onMeasuredHeightChange",
+"y<ref2>c"
+],
+[
+"onClose",
+"yyYbScMYccSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormKeyHint>",
+"kind": 0,
+"fields": [
+[
+"text",
+"SS"
+],
+[
+"isSelected",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormRightClickCatcher.CatcherView>",
+"kind": 7,
+"fields": [
+[
+"action",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormRightClickCatcher>",
+"kind": 0,
+"fields": [
+[
+"action",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormKeyCap>",
+"kind": 0,
+"fields": [
+[
+"text",
+"SS"
+],
+[
+"style",
+"<Droppy.ThunderstormKeyCap.Style>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormKeyCaps>",
+"kind": 0,
+"fields": [
+[
+"caps",
+"SaySSG"
+],
+[
+"style",
+"<Droppy.ThunderstormKeyCap.Style>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormBarButton>",
+"kind": 0,
+"fields": [
+[
+"chrome",
+"<Droppy.ThunderstormBarButtonChrome>"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"isCompact",
+"Sb"
+],
+[
+"action",
+"yyc"
+],
+[
+"label",
+"xyc"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMenuCircleButton>",
+"kind": 0,
+"fields": [
+[
+"action",
+"yyc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormHeaderBackButton>",
+"kind": 0,
+"fields": [
+[
+"action",
+"yyc"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLauncherRow>",
+"kind": 0,
+"fields": [
+[
+"result",
+"<ref2>"
+],
+[
+"isSelected",
+"Sb"
+],
+[
+"slotKey",
+"SSSg"
+],
+[
+"_pointer",
+"<ref2>y<ref2>G"
+],
+[
+"__hovered",
+"<ref2>ySbG"
+],
+[
+"__loadedIcon",
+"<ref2>y<ref2>SgG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSectionHeader>",
+"kind": 0,
+"fields": [
+[
+"title",
+"SS"
+],
+[
+"isFirst",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormEmptyResults>",
+"kind": 0,
+"fields": [
+[
+"text",
+"SS"
+],
+[
+"isSearching",
+"Sb"
+],
+[
+"symbolName",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormKeyCap.Style>",
+"kind": 2,
+"fields": [
+[
+"outline",
+null
+],
+[
+"filled",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormBarButtonChrome>",
+"kind": 2,
+"fields": [
+[
+"capsule",
+null
+],
+[
+"rounded",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormMode>",
+"kind": 2,
+"fields": [
+[
+"search",
+null
+],
+[
+"clipboard",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathBoosts>",
+"kind": 0,
+"fields": [
+[
+"pathValues",
+"SDySSSdG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathIndex>",
+"kind": 1,
+"fields": [
+[
+"$defaultActor",
+"BD"
+],
+[
+"entries",
+"<ref2>y<Droppy.ThunderstormPathIndex(anon).Entry>G"
+],
+[
+"pathToIndex",
+"SDySSSiG"
+],
+[
+"freeSlots",
+"SaySiG"
+],
+[
+"descendantSweepCount",
+"Si"
+],
+[
+"isWarmed",
+"Sb"
+],
+[
+"isBuilding",
+"Sb"
+],
+[
+"needsRebuild",
+"Sb"
+],
+[
+"needsFreshRescan",
+"Sb"
+],
+[
+"pendingEventPaths",
+"ShySSG"
+],
+[
+"pendingEventID",
+"<ref2>Sg"
+],
+[
+"appliedEventID",
+"<ref2>Sg"
+],
+[
+"buildGeneration",
+"<ref2>"
+],
+[
+"eventStreamBox",
+"<Droppy.ThunderstormPathIndex(anon).EventStreamBox>"
+],
+[
+"watchedRoots",
+"SaySSG"
+],
+[
+"persistTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"isPersistDirty",
+"Sb"
+],
+[
+"lastUsedAt",
+"<ref2>"
+],
+[
+"idleUnloadTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"resumeEventID",
+"<ref2>Sg"
+],
+[
+"lifecycleBox",
+"<Droppy.ThunderstormPathIndex(anon).LifecycleBox>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathIndex(anon).EventStreamBox>",
+"kind": 1,
+"fields": [
+[
+"stream",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathIndex(anon).LifecycleBox>",
+"kind": 1,
+"fields": [
+[
+"terminationObserver",
+"So8NSObject_pSg"
+],
+[
+"memoryPressureSource",
+"So33OS_dispatch_source_memorypressure_pSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathIndex(anon).Entry>",
+"kind": 0,
+"fields": [
+[
+"path",
+"SS"
+],
+[
+"title",
+"SS"
+],
+[
+"kind",
+"<ref2>"
+],
+[
+"basenameMask",
+"<ref2>"
+],
+[
+"pathExtension",
+"SS"
+],
+[
+"pathUTF8Length",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathIndex.ParsedQuery>",
+"kind": 0,
+"fields": [
+[
+"normalizedQuery",
+"SS"
+],
+[
+"tokens",
+"SaySSG"
+],
+[
+"extensionFilter",
+"SSSg"
+],
+[
+"queryMask",
+"<ref2>"
+],
+[
+"tokenMasks",
+"Say<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPointerState>",
+"kind": 1,
+"fields": [
+[
+"_hoverArmed",
+"<ref2>ySbG"
+],
+[
+"_commandHeld",
+"<ref2>ySbG"
+],
+[
+"menuOpen",
+"Sb"
+],
+[
+"armingDistance",
+"<ref2>"
+],
+[
+"restingPoint",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormQuickLook>",
+"kind": 7,
+"fields": [
+[
+"url",
+"<ref2>Sg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormResultAction>",
+"kind": 2,
+"fields": [
+[
+"addToBasket",
+null
+],
+[
+"addToShelf",
+null
+],
+[
+"copyToClipboard",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormScrollDriver>",
+"kind": 1,
+"fields": [
+[
+"scrollView",
+"So12NSScrollViewCSgXw"
+],
+[
+"selectedRowView",
+"So6NSViewCSgXw"
+],
+[
+"pendingReset",
+"Sb"
+],
+[
+"revealMargin",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormPassthroughView>",
+"kind": 7,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormScrollViewProbeView>",
+"kind": 7,
+"fields": [
+[
+"configuration",
+"<Droppy(anon).ThunderstormScrollViewProbeView.Configuration>"
+],
+[
+"driver",
+"<Droppy.ThunderstormScrollDriver>SgXw"
+],
+[
+"configuredScrollView",
+"So12NSScrollViewCSgXw"
+],
+[
+"observers",
+"SaySo8NSObject_pG"
+],
+[
+"edgeMask",
+"So15CAGradientLayerC"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSlimScroller>",
+"kind": 7,
+"fields": [
+[
+"isPointerInside",
+"Sb"
+],
+[
+"isDraggingKnob",
+"Sb"
+],
+[
+"hideTask",
+"<ref2>Sg"
+],
+[
+"trackingArea",
+"So14NSTrackingAreaCSg"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormScrollViewProbeView.Configuration>",
+"kind": 0,
+"fields": [
+[
+"slimScroller",
+"Sb"
+],
+[
+"dissolvesEdges",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormScrollRequest.Goal>",
+"kind": 2,
+"fields": [
+[
+"resetToTop",
+null
+],
+[
+"revealSelection",
+null
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormSlimScrollerKey>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormDissolvesEdgesKey>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormKeepsSelectionInView>",
+"kind": 0,
+"fields": [
+[
+"request",
+"<ref2>"
+],
+[
+"selectedID",
+"SSSg"
+],
+[
+"isFirstRow",
+"Sb"
+],
+[
+"proxy",
+"<ref2>"
+],
+[
+"__driver",
+"<ref2>y<Droppy.ThunderstormScrollDriver>G"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormScrollViewProbe>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormSelectedRowProbe>",
+"kind": 0,
+"fields": [
+[
+"isSelected",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormScrollDriverKey>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormArmedHover>",
+"kind": 0,
+"fields": [
+[
+"_hovered",
+"<ref2>ySbG"
+],
+[
+"_pointer",
+"<ref2>y<ref2>G"
+],
+[
+"__isInside",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchIndex>",
+"kind": 1,
+"fields": [
+[
+"$defaultActor",
+"BD"
+],
+[
+"cachedQueryResults",
+"SDySSSay<ref2>GG"
+],
+[
+"cachedQueryOrder",
+"SaySSG"
+],
+[
+"cachedScopes",
+"SaySSGSg"
+],
+[
+"activeGeneration",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchModel>",
+"kind": 1,
+"fields": [
+[
+"_query",
+"<ref2>ySSG"
+],
+[
+"_extensionSession",
+"<ref2>y<ref2>SgG"
+],
+[
+"extensionChromeObserver",
+"<ref2>Sg"
+],
+[
+"_mode",
+"<ref2>y<ref2>G"
+],
+[
+"_results",
+"<ref2>ySay<ref2>GG"
+],
+[
+"resultsRevision",
+"<ref2>"
+],
+[
+"_clipboardMatches",
+"<ref2>ySay<ref2>GG"
+],
+[
+"_dropletLibraryItems",
+"<ref2>ySay<ref2>GG"
+],
+[
+"_selectedItemID",
+"<ref2>ySSSgG"
+],
+[
+"_browserFolderURL",
+"<ref2>y<ref2>SgG"
+],
+[
+"_activeIntegrationID",
+"<ref2>ySSSgG"
+],
+[
+"_activeWebPresentation",
+"<ref2>y<ref2>SgG"
+],
+[
+"_activeClipboardPreviewItemID",
+"<ref2>y<ref2>SgG"
+],
+[
+"_isSearching",
+"<ref2>ySbG"
+],
+[
+"_panelHeight",
+"<ref2>y<ref2>G"
+],
+[
+"_isSurfaceShown",
+"<ref2>ySbG"
+],
+[
+"_presentationToken",
+"<ref2>y<ref2>G"
+],
+[
+"_isPresentationActive",
+"<ref2>ySbG"
+],
+[
+"_activeClipboardTagFilter",
+"<ref2>y<ref2>SgG"
+],
+[
+"_activeClipboardKindFilter",
+"<ref2>y<ref2>SgG"
+],
+[
+"_selectedClipboardItemIDs",
+"<ref2>yShySSGG"
+],
+[
+"_isShowingIdleListing",
+"<ref2>ySbG"
+],
+[
+"_idleFavoriteCount",
+"<ref2>ySiG"
+],
+[
+"cachedIdleListing",
+"<Droppy.ThunderstormSearchModel(anon).IdleListing>Sg"
+],
+[
+"_renameRequest",
+"<ref2>y<Droppy.ThunderstormRenameRequest>SgG"
+],
+[
+"_emojiLayout",
+"<ref2>y<ref2>G"
+],
+[
+"_emojiSelectionIndex",
+"<ref2>ySiG"
+],
+[
+"_emojiNavigationTick",
+"<ref2>ySiG"
+],
+[
+"searchService",
+"<ref2>"
+],
+[
+"clipboardService",
+"<ref2>"
+],
+[
+"commandCatalog",
+"<Droppy.ThunderstormCommandCatalog>"
+],
+[
+"integrationCatalog",
+"<Droppy.ThunderstormIntegrationCatalog>"
+],
+[
+"webIntentEngine",
+"<ref2>"
+],
+[
+"googleSearchPreviewService",
+"<Droppy.ThunderstormGoogleSearchPreviewService>"
+],
+[
+"usageStore",
+"<ref2>"
+],
+[
+"browserFolderStack",
+"Say<ref2>G"
+],
+[
+"_folderListingEmptiness",
+"<ref2>y<ref2>SgG"
+],
+[
+"integrationNavigationStack",
+"Say<Droppy.ThunderstormSearchModel(anon).IntegrationNavigationState>G"
+],
+[
+"searchGeneration",
+"<ref2>"
+],
+[
+"searchingGeneration",
+"<ref2>Sg"
+],
+[
+"searchWatchdogTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"searchIndicatorGraceTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"debounceTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"googlePreviewTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"queryChangeGeneration",
+"Si"
+],
+[
+"clipboardHistoryObserver",
+"<ref2>Sg"
+],
+[
+"extensionStateObserver",
+"<ref2>Sg"
+],
+[
+"suppressEmptyAlternateModeAutoReturn",
+"Sb"
+],
+[
+"activeIntegrationMeasuredHeight",
+"<ref2>Sg"
+],
+[
+"cachedPathContextQuery",
+"SS"
+],
+[
+"cachedPathContext",
+"<Droppy.ThunderstormPathContext>Sg"
+],
+[
+"manualSelectionQuery",
+"SSSg"
+],
+[
+"_resolvedPathContextValue",
+"<ref2>y<Droppy.ThunderstormPathContext>SgG"
+],
+[
+"pathContextTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"hostContext",
+"<Droppy.ThunderstormSearchModel.HostContext>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormRenameRequest>",
+"kind": 0,
+"fields": [
+[
+"resultID",
+"SS"
+],
+[
+"initialName",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPathContext>",
+"kind": 0,
+"fields": [
+[
+"folderURL",
+"<ref2>"
+],
+[
+"filter",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchModel(anon).IdleListing>",
+"kind": 0,
+"fields": [
+[
+"results",
+"Say<ref2>G"
+],
+[
+"favoriteCount",
+"Si"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchModel(anon).IntegrationNavigationState>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"selectedItemID",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchModel.HostContext>",
+"kind": 2,
+"fields": [
+[
+"thunderstorm",
+null
+],
+[
+"clipboardWindow",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormCommand>",
+"kind": 2,
+"fields": [
+[
+"openDroppySettings",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLocalizedIntentParsing.CommandPattern>",
+"kind": 0,
+"fields": [
+[
+"prefix",
+"SS"
+],
+[
+"suffix",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLocalizedIntentParsing>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormSearchService(anon).QueryContext>",
+"kind": 0,
+"fields": [
+[
+"trimmed",
+"SS"
+],
+[
+"normalized",
+"SS"
+],
+[
+"tokens",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchCategory>",
+"kind": 2,
+"fields": [
+[
+"applications",
+null
+],
+[
+"files",
+null
+],
+[
+"systemSettings",
+null
+],
+[
+"droppySettings",
+null
+],
+[
+"commands",
+null
+],
+[
+"library",
+null
+],
+[
+"calculator",
+null
+],
+[
+"web",
+null
+],
+[
+"clipboard",
+null
+],
+[
+"shelf",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchSourcesSettingsSection(anon).WeakIconSource>",
+"kind": 1,
+"fields": [
+[
+"image",
+"So7NSImageCSgXw"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearchSourcesSettingsSection>",
+"kind": 0,
+"fields": [
+[
+"categories",
+"Say<Droppy.ThunderstormSearchCategory>G"
+],
+[
+"onPage",
+"Sb"
+],
+[
+"_sources",
+"<ref2>y<ref2>G"
+],
+[
+"_isNativeForm",
+"<ref2>ySbG"
+],
+[
+"__dropletKeys",
+"<ref2>ySaySSGG"
+],
+[
+"__loadedDropletIcons",
+"<ref2>ySDySSSo7NSImageCGG"
+],
+[
+"_resultsExpanded",
+"<ref2>ySbG"
+],
+[
+"_dropletsExpanded",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSystemSettingsPagesSection>",
+"kind": 0,
+"fields": [
+[
+"_sources",
+"<ref2>y<ref2>G"
+],
+[
+"__paneIcons",
+"<ref2>ySDySSSo7NSImageCGG"
+],
+[
+"_isExpanded",
+"<ref2>ySbG"
+],
+[
+"onPage",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSearxClient>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormSearxClient(anon).FetchOutcome>",
+"kind": 2,
+"fields": [
+[
+"preview",
+"<Droppy.ThunderstormGoogleSearchPreviewService.Preview>"
+],
+[
+"noAnswer",
+null
+],
+[
+"cancelled",
+null
+],
+[
+"unavailable",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormSettingsPages>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormSettingsCategoryLinks>",
+"kind": 0,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormUsageRecord>",
+"kind": 0,
+"fields": [
+[
+"launches",
+"Si"
+],
+[
+"lastOpenedAt",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUsageRecord(anon).CodingKeys>",
+"kind": 2,
+"fields": [
+[
+"launches",
+null
+],
+[
+"lastOpenedAt",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLocalizedConversionParsing.CommandPattern>",
+"kind": 0,
+"fields": [
+[
+"prefix",
+"SS"
+],
+[
+"separator",
+"SS"
+],
+[
+"suffix",
+"SS"
+],
+[
+"operandOrder",
+"<Droppy.ThunderstormLocalizedConversionParsing.CommandPattern(anon).OperandOrder>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLocalizedConversionParsing>",
+"kind": 2,
+"fields": []
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementUnitDescriptor>",
+"kind": 0,
+"fields": [
+[
+"identifier",
+"SS"
+],
+[
+"symbol",
+"SS"
+],
+[
+"category",
+"<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementCategory>"
+],
+[
+"unit",
+"So11NSDimensionC"
+],
+[
+"aliases",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).CurrencyDescriptor>",
+"kind": 0,
+"fields": [
+[
+"code",
+"SS"
+],
+[
+"symbol",
+"SSSg"
+],
+[
+"aliases",
+"SaySSG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementAliasEntry>",
+"kind": 0,
+"fields": [
+[
+"alias",
+"SS"
+],
+[
+"descriptor",
+"<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementUnitDescriptor>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).CurrencyAliasEntry>",
+"kind": 0,
+"fields": [
+[
+"alias",
+"SS"
+],
+[
+"descriptor",
+"<Droppy.ThunderstormUtilityIntentEngine(anon).CurrencyDescriptor>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).ExpressionToken>",
+"kind": 3,
+"fields": [
+[
+"number",
+"Sd"
+],
+[
+"identifier",
+"SS"
+],
+[
+"plus",
+null
+],
+[
+"minus",
+null
+],
+[
+"star",
+null
+],
+[
+"slash",
+null
+],
+[
+"caret",
+null
+],
+[
+"percent",
+null
+],
+[
+"leftParen",
+null
+],
+[
+"rightParen",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormLocalizedConversionParsing.CommandPattern(anon).OperandOrder>",
+"kind": 2,
+"fields": [
+[
+"sourceThenTarget",
+null
+],
+[
+"targetThenSource",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementCategory>",
+"kind": 2,
+"fields": [
+[
+"length",
+null
+],
+[
+"mass",
+null
+],
+[
+"temperature",
+null
+],
+[
+"volume",
+null
+],
+[
+"area",
+null
+],
+[
+"speed",
+null
+],
+[
+"duration",
+null
+],
+[
+"informationStorage",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).ExpressionError>",
+"kind": 2,
+"fields": [
+[
+"invalidNumber",
+null
+],
+[
+"unexpectedToken",
+null
+],
+[
+"missingClosingParenthesis",
+null
+],
+[
+"invalidFunction",
+null
+],
+[
+"divisionByZero",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).ConversionRequest>",
+"kind": 3,
+"fields": [
+[
+"measurement",
+"Sd6amount_<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementUnitDescriptor>4fromAB2tot"
+],
+[
+"currency",
+"Sd6amount_<Droppy.ThunderstormUtilityIntentEngine(anon).CurrencyDescriptor>4fromAB2tot"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementSource>",
+"kind": 0,
+"fields": [
+[
+"amount",
+"Sd"
+],
+[
+"unit",
+"<Droppy.ThunderstormUtilityIntentEngine(anon).MeasurementUnitDescriptor>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormUtilityIntentEngine(anon).SeparatorMatch>",
+"kind": 0,
+"fields": [
+[
+"range",
+"Sny<ref2>G"
+],
+[
+"alias",
+"SS"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormView>",
+"kind": 0,
+"fields": [
+[
+"_model",
+"<ref2>y<ref2>G"
+],
+[
+"onClose",
+"yyc"
+],
+[
+"onPasteClipboardItems",
+"ySay<ref2>Gc"
+],
+[
+"onOpenClipboardLinkedURL",
+"y<ref2>c"
+],
+[
+"onStyleClipboardAttachedSheet",
+"yyc"
+],
+[
+"externalTopBarTextEditingItemID",
+"<ref2>y<ref2>SgGSg"
+],
+[
+"externalTopBarTextEditingContent",
+"<ref2>ySSGSg"
+],
+[
+"_clipboardManager",
+"<ref2>y<ref2>G"
+],
+[
+"_appearanceObserver",
+"<ref2>y<ref2>G"
+],
+[
+"_reduceMotion",
+"<ref2>ySbG"
+],
+[
+"_tagsEnabled",
+"<ref2>ySbG"
+],
+[
+"_externalSurfaceAppearanceRaw",
+"<ref2>ySSG"
+],
+[
+"_notchedSurfaceAppearanceRaw",
+"<ref2>ySSG"
+],
+[
+"_isSearchFieldFocused",
+"<ref2>ySbG"
+],
+[
+"__isResultNavigationActive",
+"<ref2>ySbG"
+],
+[
+"__isSteppingSelectionWithKeys",
+"<ref2>ySbG"
+],
+[
+"__renameText",
+"<ref2>ySSG"
+],
+[
+"__renameTargetResultID",
+"<ref2>ySSSgG"
+],
+[
+"__backNavigationDeleteMonitor",
+"<ref2>y<ref2>G"
+],
+[
+"__scroll",
+"<ref2>y<ref2>G"
+],
+[
+"__focusTask",
+"<ref2>yScTyyt<ref2>GSgG"
+],
+[
+"__focusRequestToken",
+"<ref2>y<ref2>G"
+],
+[
+"__isPerformingOCR",
+"<ref2>ySbG"
+],
+[
+"__ocrTask",
+"<ref2>yScTyyt<ref2>GSgG"
+],
+[
+"__ocrRequestGeneration",
+"<ref2>ySiG"
+],
+[
+"__shownMenu",
+"<ref2>y<ref2>SgG"
+],
+[
+"__menuState",
+"<ref2>y<ref2>G"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormView(anon).ShownMenu>",
+"kind": 2,
+"fields": [
+[
+"actions",
+"SS"
+],
+[
+"app",
+null
+],
+[
+"dropdown",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormView(anon).LauncherRow>",
+"kind": 2,
+"fields": [
+[
+"header",
+"SS_Sb7isFirstt"
+],
+[
+"result",
+"<ref2>"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWebIntentEngine(anon).SearchProvider>",
+"kind": 0,
+"fields": [
+[
+"id",
+"<Droppy.ThunderstormWebIntentEngine(anon).ProviderID>"
+],
+[
+"title",
+"SS"
+],
+[
+"symbolName",
+"SS"
+],
+[
+"prefixes",
+"SaySSG"
+],
+[
+"commandPatterns",
+"Say<ref2>G"
+],
+[
+"homeURL",
+"<ref2>"
+],
+[
+"searchURLBuilder",
+"<ref2>SgSSc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWebIntentEngine(anon).ProviderID>",
+"kind": 2,
+"fields": [
+[
+"web",
+null
+],
+[
+"google",
+null
+],
+[
+"youtube",
+null
+],
+[
+"github",
+null
+],
+[
+"wikipedia",
+null
+],
+[
+"maps",
+null
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWebPresentation>",
+"kind": 0,
+"fields": [
+[
+"id",
+"SS"
+],
+[
+"initialURL",
+"<ref2>"
+],
+[
+"initialTitle",
+"SS"
+],
+[
+"query",
+"SSSg"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormInlineGoogleExtractor.Coordinator>",
+"kind": 7,
+"fields": [
+[
+"webView",
+"So9WKWebViewCSgXw"
+],
+[
+"onResolved",
+"y<ref2>SgYbScMYcc"
+],
+[
+"query",
+"SS"
+],
+[
+"loadTask",
+"ScTyyt<ref2>GSg"
+],
+[
+"lastLoadedURLString",
+"SSSg"
+],
+[
+"hasResolvedCurrentRequest",
+"Sb"
+]
+]
+},
+{
+"type": "<Droppy(anon).ThunderstormInlineGoogleExtractor>",
+"kind": 0,
+"fields": [
+[
+"requestURL",
+"<ref2>"
+],
+[
+"query",
+"SS"
+],
+[
+"onResolved",
+"y<ref2>SgYbScMYcc"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWebResultSurface>",
+"kind": 0,
+"fields": [
+[
+"presentation",
+"<Droppy.ThunderstormWebPresentation>"
+],
+[
+"__googlePreview",
+"<ref2>y<ref2>SgG"
+],
+[
+"__websiteMetadata",
+"<ref2>y<ref2>SgG"
+],
+[
+"__websiteImage",
+"<ref2>ySo7NSImageCSgG"
+],
+[
+"_didFinishGoogleExtractionAttempt",
+"<ref2>ySbG"
+],
+[
+"_isLoading",
+"<ref2>ySbG"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormWindowController>",
+"kind": 7,
+"fields": [
+[
+"searchModel",
+"<ref2>Sg"
+],
+[
+"window",
+"So8NSWindowCSg"
+],
+[
+"globalHotKey",
+"<ref2>Sg"
+],
+[
+"localEventMonitor",
+"ypSg"
+],
+[
+"outsideClickMonitor",
+"ypSg"
+],
+[
+"localOutsideClickMonitor",
+"ypSg"
+],
+[
+"menuTrackingObservers",
+"SaySo8NSObject_pG"
+],
+[
+"activeMenuTrackingDepth",
+"Si"
+],
+[
+"isAnimating",
+"Sb"
+],
+[
+"isClosingAnimationInFlight",
+"Sb"
+],
+[
+"pendingShowAfterClose",
+"Sb"
+],
+[
+"pendingCloseDuringOpen",
+"Sb"
+],
+[
+"pendingExternalAction",
+"yyYbScMYccSg"
+],
+[
+"isExternalActionDeliveryScheduled",
+"Sb"
+],
+[
+"previousApp",
+"So20NSRunningApplicationCSg"
+],
+[
+"activationSession",
+"<Droppy.ThunderstormActivationSession>Sg"
+],
+[
+"deferredHardReclaimWorkItem",
+"<ref2>Sg"
+],
+[
+"deferredPrewarmWorkItem",
+"<ref2>Sg"
+],
+[
+"deferredHardReclaimDelay",
+"Sd"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormActivationSession>",
+"kind": 1,
+"fields": [
+[
+"panel",
+"So8NSWindowCSgXw"
+],
+[
+"returnApplication",
+"So20NSRunningApplicationCSg"
+],
+[
+"stacking",
+"Say<Droppy(anon).ThunderstormStackingPin>G"
+],
+[
+"activationObserver",
+"So8NSObject_pSg"
+],
+[
+"finished",
+"Sb"
+],
+[
+"requestedAt",
+"Sd"
+]
+]
+},
+{
+"type": "<Droppy.ThunderstormPanel>",
+"kind": 7,
+"fields": []
+},
+{
+"type": "<Droppy(anon).ThunderstormStackingPin>",
+"kind": 0,
+"fields": [
+[
+"window",
+"So8NSWindowCSgXw"
+],
+[
+"anchorWindowNumber",
+"Si"
+]
+]
+}
+]

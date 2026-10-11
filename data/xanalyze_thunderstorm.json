@@ -1,0 +1,4282 @@
+{
+ "types": {
+  "declared": 1203,
+  "shared": 163,
+  "distinctive_declared": 997,
+  "distinctive_shared": 83,
+  "distinctive_shared_rate": 0.0832,
+  "items": [
+   {
+    "name": "AIMessage",
+    "ts": "AI/ThunderstormAITypes.swift:186",
+    "tc": "Tinycast/Features/AI/Model/AIRequest.swift:36",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "name": "AIModelPicker",
+    "ts": "AI/Chat/ThunderstormAIModelPanel.swift:61",
+    "tc": "Tinycast/Features/AI/UI/AIChatDetailView.swift:240",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "name": "AIProviderKind",
+    "ts": "AI/ThunderstormAISettings.swift:36",
+    "tc": "Tinycast/Features/AI/Model/AIConnection.swift:3",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "name": "AIStreamEvent",
+    "ts": "AI/ThunderstormAITypes.swift:304",
+    "tc": "Tinycast/Features/AI/Model/AIRequest.swift:82",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "name": "AIToolCall",
+    "ts": "AI/ThunderstormAITypes.swift:175",
+    "tc": "Tinycast/Features/AI/Model/AITool.swift:25",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "name": "AppIndex",
+    "ts": "ThunderstormAppIndex.swift:14",
+    "tc": "Tinycast/Core/AppIndex.swift:15",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "name": "ArgumentValues",
+    "ts": "ThunderstormArgumentBar.swift:80",
+    "tc": "Tinycast/Features/Snippets/SnippetArgumentsPrompt.swift:39",
+    "first_seen": "2026-07-30",
+    "commit": "c6d936f24",
+    "subject": "Add production-ready snippets support (#98)"
+   },
+   {
+    "name": "ArmedHover",
+    "ts": "ThunderstormScrolling.swift:609",
+    "tc": "Tinycast/Palette/RootPaletteView.swift:580",
+    "first_seen": "2026-08-05",
+    "commit": "ade2e12b0",
+    "subject": "Retire the AppCore forwarders and adopt @Environment in views (#192)"
+   },
+   {
+    "name": "BackupCategory",
+    "ts": "Library/ThunderstormLibraryBackup.swift:182",
+    "tc": "Tinycast/Features/Backup/Model/BackupCategory.swift:4",
+    "first_seen": "2026-08-30",
+    "commit": "19d455c5e",
+    "subject": "Export a comprehensive .tinycast backup with per-category selection (#400)"
+   },
+   {
+    "name": "BarButton",
+    "ts": "ThunderstormLauncherChrome.swift:80",
+    "tc": "Tinycast/Features/RootPaletteView.swift:500",
+    "first_seen": "2026-07-10",
+    "commit": "5cb6c759e",
+    "subject": "looking good"
+   },
+   {
+    "name": "BarButtonChrome",
+    "ts": "ThunderstormLauncherChrome.swift:64",
+    "tc": "Tinycast/DesignSystem/BarButton.swift:5",
+    "first_seen": "2026-08-14",
+    "commit": "15fb5641d",
+    "subject": "Filter clipboard history by type (#237)"
+   },
+   {
+    "name": "CalcDimension",
+    "ts": "Calculator/ThunderstormCalcUnits.swift:15",
+    "tc": "Tinycast/Features/Calculator/Model/CalcDimension.swift:1",
+    "first_seen": "2026-09-07",
+    "commit": "4f6136edf",
+    "subject": "Turn the calculator into a typed evaluator for units, currencies, dates and time zones (#4"
+   },
+   {
+    "name": "CalcOperator",
+    "ts": "Calculator/ThunderstormCalcLexer.swift:54",
+    "tc": "Tinycast/Features/Calculator/Model/CalcOperator.swift:1",
+    "first_seen": "2026-09-07",
+    "commit": "4f6136edf",
+    "subject": "Turn the calculator into a typed evaluator for units, currencies, dates and time zones (#4"
+   },
+   {
+    "name": "CalcParser",
+    "ts": "Calculator/ThunderstormCalcParser.swift:56",
+    "tc": "Tinycast/Core/Calculator/CalcParser.swift:119",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "name": "CalcToken",
+    "ts": "Calculator/ThunderstormCalcLexer.swift:60",
+    "tc": "Tinycast/Core/Calculator/CalcParser.swift:3",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "name": "CalcUnits",
+    "ts": "Calculator/ThunderstormCalcUnits.swift:152",
+    "tc": "Tinycast/Core/Calculator/CalcUnits.swift:36",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "name": "CalcValue",
+    "ts": "Calculator/ThunderstormCalcParser.swift:22",
+    "tc": "Tinycast/Features/Calculator/Model/CalcValue.swift:3",
+    "first_seen": "2026-09-07",
+    "commit": "4f6136edf",
+    "subject": "Turn the calculator into a typed evaluator for units, currencies, dates and time zones (#4"
+   },
+   {
+    "name": "CalculatorHistoryScreen",
+    "ts": "Calculator/ThunderstormCalculatorHistoryScreen.swift:19",
+    "tc": "Tinycast/Features/Calculator/UI/CalculatorHistoryScreen.swift:4",
+    "first_seen": "2026-08-05",
+    "commit": "e95816c51",
+    "subject": "Move the clipboard and calculator-history screens onto PaletteScreen (#179)"
+   },
+   {
+    "name": "CatcherView",
+    "ts": "ThunderstormLauncherChrome.swift:259",
+    "tc": "Tinycast/Core/RightClick.swift:13",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "name": "ClipboardPreview",
+    "ts": "ThunderstormClipboardPreview.swift:20",
+    "tc": "Tinycast/Features/Clipboard/ClipboardView.swift:89",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "name": "ClipboardRow",
+    "ts": "ThunderstormClipboardRow.swift:16",
+    "tc": "Tinycast/Features/Clipboard/ClipboardView.swift:39",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "name": "ClipboardScreen",
+    "ts": "ThunderstormClipboardScreen.swift:28",
+    "tc": "Tinycast/Features/Clipboard/UI/ClipboardScreen.swift:4",
+    "first_seen": "2026-08-05",
+    "commit": "e95816c51",
+    "subject": "Move the clipboard and calculator-history screens onto PaletteScreen (#179)"
+   },
+   {
+    "name": "CodingKeys",
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:187",
+    "tc": "Tinycast/Core/HotKey/KeyShortcut.swift:130",
+    "first_seen": "2026-07-03",
+    "commit": "04cbd8c54",
+    "subject": "implemented native keyboard shortcut recorder"
+   },
+   {
+    "name": "ColorValue",
+    "ts": "Library/ThunderstormColors.swift:81",
+    "tc": "Tinycast/Features/Clipboard/Model/ColorValue.swift:4",
+    "first_seen": "2026-09-03",
+    "commit": "f3337ca8c",
+    "subject": "Show a copied colour as the colour, and convert it in the notations people write (#440)"
+   },
+   {
+    "name": "CommandCatalog",
+    "ts": "ThunderstormCommandCatalog.swift:10",
+    "tc": "Tinycast/Features/Launcher/Model/CommandCatalog.swift:65",
+    "first_seen": "2026-08-05",
+    "commit": "277e96ff6",
+    "subject": "Write down the naming vocabulary (#189)"
+   },
+   {
+    "name": "CommandOutputView",
+    "ts": "Library/ThunderstormCommandOutputWindow.swift:194",
+    "tc": "Tinycast/Features/CustomCommands/UI/CommandOutputView.swift:6",
+    "first_seen": "2026-08-28",
+    "commit": "a7be7348c",
+    "subject": "Prompt for a custom command's arguments and stream its output live (#378)"
+   },
+   {
+    "name": "CommandRun",
+    "ts": "Library/ThunderstormShellRunner.swift:486",
+    "tc": "Tinycast/Features/CustomCommands/UI/CommandOutputPresenter.swift:13",
+    "first_seen": "2026-08-28",
+    "commit": "a7be7348c",
+    "subject": "Prompt for a custom command's arguments and stream its output live (#378)"
+   },
+   {
+    "name": "CurrencyRateStore",
+    "ts": "ThunderstormCurrencyRateStore.swift:11",
+    "tc": "Tinycast/Core/CurrencyRateStore.swift:11",
+    "first_seen": "2026-07-27",
+    "commit": "d69e505c8",
+    "subject": "Currency conversion in the inline calculator (#35)"
+   },
+   {
+    "name": "CustomCommand",
+    "ts": "Library/ThunderstormCustomCommands.swift:31",
+    "tc": "Tinycast/Core/CustomCommand.swift:4",
+    "first_seen": "2026-07-29",
+    "commit": "7f5f06e90",
+    "subject": "Add custom commands (#82)"
+   },
+   {
+    "name": "CustomCommandStore",
+    "ts": "Library/ThunderstormCustomCommands.swift:143",
+    "tc": "Tinycast/Core/CustomCommand.swift:50",
+    "first_seen": "2026-07-29",
+    "commit": "7f5f06e90",
+    "subject": "Add custom commands (#82)"
+   },
+   {
+    "name": "CustomQuickAction",
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:151",
+    "tc": "Tinycast/Features/QuickActions/Model/CustomQuickAction.swift:3",
+    "first_seen": "2026-09-10",
+    "commit": "f80db5187",
+    "subject": "Custom quick actions (#555)"
+   },
+   {
+    "name": "DictionaryScreen",
+    "ts": "Library/ThunderstormDictionary.swift:458",
+    "tc": "Tinycast/Features/Dictionary/UI/DictionaryScreen.swift:4",
+    "first_seen": "2026-09-18",
+    "commit": "91d8b9c20",
+    "subject": "Define Words (#848)"
+   },
+   {
+    "name": "EmojiCell",
+    "ts": "ThunderstormEmojiSurface.swift:243",
+    "tc": "Tinycast/Features/Emoji/EmojiGridView.swift:101",
+    "first_seen": "2026-07-12",
+    "commit": "f68bd9391",
+    "subject": "intehrated emoji and symbols"
+   },
+   {
+    "name": "EmptyResults",
+    "ts": "ThunderstormLauncherChrome.swift:207",
+    "tc": "Tinycast/Features/RootPaletteView.swift:122",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "name": "ExtensionAction",
+    "ts": "Extensions/ThunderstormExtensionNode.swift:188",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionScreen.swift:219",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionFailureView",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1212",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionCommandView.swift:64",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionFilePicker",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1135",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionFormView.swift:263",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionFormView",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:957",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionFormView.swift:5",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionGridCell",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:473",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionListView.swift:279",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionImage",
+    "ts": "Extensions/ThunderstormExtensionNode.swift:304",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:4",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionItemRow",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:152",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionListView.swift:155",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionListView",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:66",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionListView.swift:5",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionManifest",
+    "ts": "Extensions/ThunderstormExtensionStore.swift:156",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionManifest.swift:187",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionMetadataView",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:604",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionDetailView.swift:37",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionPreferenceRow",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1333",
+    "tc": "Tinycast/Features/Extensions/Settings/ExtensionsSettingsView.swift:610",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionRuntime",
+    "ts": "Extensions/ThunderstormExtensionRuntime.swift:27",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionRuntime.swift:22",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "ExtensionTagPicker",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1104",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionFormView.swift:224",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "FavoritesStore",
+    "ts": "ThunderstormFavoritesStore.swift:14",
+    "tc": "Tinycast/Core/FavoritesStore.swift:6",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "name": "FileSearchScreen",
+    "ts": "ThunderstormFileSearchScreen.swift:29",
+    "tc": "Tinycast/Features/FileSearch/UI/FileSearchScreen.swift:3",
+    "first_seen": "2026-08-10",
+    "commit": "91ba10af3",
+    "subject": "Search files through the Spotlight index (#222)"
+   },
+   {
+    "name": "FuzzyMatch",
+    "ts": "ThunderstormFuzzyMatch.swift:22",
+    "tc": "Tinycast/Core/AppIndex.swift:65",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "name": "HeaderBackButton",
+    "ts": "ThunderstormLauncherChrome.swift:147",
+    "tc": "Tinycast/Palette/RootPaletteView.swift:1163",
+    "first_seen": "2026-09-08",
+    "commit": "e3b9f43eb",
+    "subject": "Make Escape walk back through the screens it opened (#504)"
+   },
+   {
+    "name": "InputSourceSwitcher",
+    "ts": "ThunderstormInputSourceSwitcher.swift:16",
+    "tc": "Tinycast/Platform/InputSourceSwitcher.swift:6",
+    "first_seen": "2026-08-18",
+    "commit": "d87fc624b",
+    "subject": "Add input source switcher (#267)"
+   },
+   {
+    "name": "InstalledExtension",
+    "ts": "Extensions/ThunderstormExtensionStore.swift:209",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionCatalog.swift:4",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "KeyCap",
+    "ts": "ThunderstormLauncherChrome.swift:16",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:156",
+    "first_seen": "2026-06-30",
+    "commit": "a716d4b35",
+    "subject": "fix inconsistency"
+   },
+   {
+    "name": "MCPOAuth",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:25",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuth.swift:3",
+    "first_seen": "2026-09-23",
+    "commit": "3463f3329",
+    "subject": "Add OAuth authentication for HTTP MCP servers (#1077)"
+   },
+   {
+    "name": "MCPServer",
+    "ts": "AI/MCP/ThunderstormMCPSettings.swift:35",
+    "tc": "Tinycast/Features/MCP/Model/MCPServer.swift:36",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "name": "MCPTool",
+    "ts": "AI/MCP/ThunderstormMCPManager.swift:23",
+    "tc": "Tinycast/Features/MCP/Model/MCPTool.swift:4",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "name": "MeetingCalendar",
+    "ts": "Meetings/ThunderstormMeetings.swift:33",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingCalendar.swift:4",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "name": "MeetingRow",
+    "ts": "Meetings/ThunderstormMeeting.swift:91",
+    "tc": "Tinycast/Features/Calendar/UI/ScheduleView.swift:76",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "name": "MenuCircleButton",
+    "ts": "ThunderstormLauncherChrome.swift:124",
+    "tc": "Tinycast/Features/RootPaletteView.swift:489",
+    "first_seen": "2026-07-10",
+    "commit": "9ebdf5d0a",
+    "subject": "fixed"
+   },
+   {
+    "name": "MenuSearchScreen",
+    "ts": "Library/ThunderstormMenuSearchScreen.swift:27",
+    "tc": "Tinycast/Features/MenuSearch/UI/MenuSearchScreen.swift:3",
+    "first_seen": "2026-09-11",
+    "commit": "992c3dcdf",
+    "subject": "Search Menu Items for the frontmost app (#587)"
+   },
+   {
+    "name": "NotesPanel",
+    "ts": "Library/ThunderstormNotesWindow.swift:412",
+    "tc": "Tinycast/Features/Notes/UI/NotesPanel.swift:6",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "name": "NotesWindowController",
+    "ts": "Library/ThunderstormNotesWindow.swift:31",
+    "tc": "Tinycast/Features/Notes/UI/NotesWindowController.swift:5",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "name": "PaletteState",
+    "ts": "ThunderstormPalette.swift:17",
+    "tc": "Tinycast/Palette/PaletteState.swift:6",
+    "first_seen": "2026-08-05",
+    "commit": "277e96ff6",
+    "subject": "Write down the naming vocabulary (#189)"
+   },
+   {
+    "name": "PhotoCapture",
+    "ts": "Meetings/ThunderstormCamera.swift:200",
+    "tc": "Tinycast/Features/Camera/Service/CameraSession.swift:126",
+    "first_seen": "2026-09-06",
+    "commit": "b99795966",
+    "subject": "Open the camera from the launcher, not only before a meeting (#472)"
+   },
+   {
+    "name": "ProbeView",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:598",
+    "tc": "Tinycast/DesignSystem/Scrolling/OverlayScroller.swift:16",
+    "first_seen": "2026-07-21",
+    "commit": "1da47f0c9",
+    "subject": "might remove this"
+   },
+   {
+    "name": "QuickActionPanel",
+    "ts": "AI/QuickActions/ThunderstormQuickActionPanel.swift:204",
+    "tc": "Tinycast/Features/QuickActions/UI/QuickActionPanel.swift:5",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "name": "QuickActionPanelController",
+    "ts": "AI/QuickActions/ThunderstormQuickActionPanel.swift:25",
+    "tc": "Tinycast/Features/QuickActions/UI/QuickActionPanelController.swift:6",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "name": "QuicklinkEditorScreen",
+    "ts": "Library/ThunderstormLibraryEditors.swift:363",
+    "tc": "Tinycast/Features/Quicklinks/UI/QuicklinkEditorScreen.swift:3",
+    "first_seen": "2026-10-10",
+    "commit": "308f7ccd4",
+    "subject": "Add launcher forms for Snippets, Quicklinks, Custom Commands and Events (#1488)"
+   },
+   {
+    "name": "QuicklinkEditorView",
+    "ts": "Library/ThunderstormLibraryEditors.swift:645",
+    "tc": "Tinycast/Features/Quicklinks/UI/QuicklinkEditorView.swift:3",
+    "first_seen": "2026-10-10",
+    "commit": "308f7ccd4",
+    "subject": "Add launcher forms for Snippets, Quicklinks, Custom Commands and Events (#1488)"
+   },
+   {
+    "name": "QuicklinkStore",
+    "ts": "Library/ThunderstormQuicklinks.swift:142",
+    "tc": "Tinycast/Core/Quicklinks/QuicklinkStore.swift:13",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "name": "RightClickCatcher",
+    "ts": "ThunderstormLauncherChrome.swift:242",
+    "tc": "Tinycast/Core/RightClick.swift:5",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "name": "RuntimeError",
+    "ts": "Extensions/ThunderstormExtensionRuntime.swift:385",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionRuntime.swift:46",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "SectionHeader",
+    "ts": "ThunderstormLauncherChrome.swift:188",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:74",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "name": "SnippetEditorScreen",
+    "ts": "Library/ThunderstormLibraryEditors.swift:471",
+    "tc": "Tinycast/Features/Snippets/UI/SnippetEditorScreen.swift:3",
+    "first_seen": "2026-10-10",
+    "commit": "308f7ccd4",
+    "subject": "Add launcher forms for Snippets, Quicklinks, Custom Commands and Events (#1488)"
+   },
+   {
+    "name": "SnippetEditorView",
+    "ts": "Library/ThunderstormLibraryEditors.swift:790",
+    "tc": "Tinycast/Features/Snippets/UI/SnippetEditorView.swift:3",
+    "first_seen": "2026-10-10",
+    "commit": "308f7ccd4",
+    "subject": "Add launcher forms for Snippets, Quicklinks, Custom Commands and Events (#1488)"
+   },
+   {
+    "name": "SystemCommand",
+    "ts": "ThunderstormSystemCommands.swift:94",
+    "tc": "Tinycast/Core/SystemCommand.swift:3",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "name": "WindowCommand",
+    "ts": "Windows/ThunderstormWindowCommands.swift:73",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:3",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "name": "WindowInventory",
+    "ts": "Windows/ThunderstormWindowInventory.swift:32",
+    "tc": "Tinycast/Features/WindowManagement/Service/WindowInventory.swift:6",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "name": "WindowLayout",
+    "ts": "Windows/ThunderstormWindowLayouts.swift:31",
+    "tc": "Tinycast/Core/WindowManagement/WindowLayout.swift:10",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "name": "WindowLayoutPreview",
+    "ts": "Windows/ThunderstormWindowLayoutEditor.swift:523",
+    "tc": "Tinycast/Features/WindowManagement/Settings/WindowLayoutPreview.swift:5",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "name": "WindowLayoutRunner",
+    "ts": "Windows/ThunderstormWindowLayouts.swift:427",
+    "tc": "Tinycast/Features/WindowManagement/Service/WindowLayoutRunner.swift:6",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "name": "WindowLayoutStore",
+    "ts": "Windows/ThunderstormWindowLayouts.swift:177",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowLayoutStore.swift:6",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   }
+  ]
+ },
+ "funcs": {
+  "distinctive_declared": 761,
+  "distinctive_shared": 29,
+  "rate": 0.0381,
+  "items": [
+   {
+    "name": "acceptsFirstMouse",
+    "ts": "ThunderstormLauncherChrome.swift:332",
+    "tc": "Tests/palette-menu-click-test.swift:27",
+    "first_seen": "2026-10-09",
+    "commit": "0b694a046",
+    "subject": "Fix palette menu clicks and cropping; prefer synchronous code"
+   },
+   {
+    "name": "activateMenuItem",
+    "ts": "ThunderstormView.swift:1014",
+    "tc": "Tinycast/Features/RootPaletteView.swift:599",
+    "first_seen": "2026-07-22",
+    "commit": "c8aa25a1a",
+    "subject": "fix popover focus and keyboard navigation"
+   },
+   {
+    "name": "becomeFirstResponder",
+    "ts": "ThunderstormInlineField.swift:55",
+    "tc": "third-party/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift:206",
+    "first_seen": "2026-07-02",
+    "commit": "904d164f8",
+    "subject": "fixed settings not opening"
+   },
+   {
+    "name": "controlTextDidChange",
+    "ts": "ThunderstormInlineField.swift:274",
+    "tc": "third-party/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift:156",
+    "first_seen": "2026-07-02",
+    "commit": "904d164f8",
+    "subject": "fixed settings not opening"
+   },
+   {
+    "name": "copyToClipboard",
+    "ts": "AI/QuickActions/ThunderstormQuickActionRunner.swift:459",
+    "tc": "Tinycast/Core/AppCore.swift:139",
+    "first_seen": "2026-06-30",
+    "commit": "afbbee09e",
+    "subject": "fixed clipboard history"
+   },
+   {
+    "name": "disarmHoverHighlight",
+    "ts": "ThunderstormPointerState.swift:67",
+    "tc": "Tinycast/Palette/PaletteState.swift:55",
+    "first_seen": "2026-08-11",
+    "commit": "ef45fbe82",
+    "subject": "Stop the palette's highlight and selection drifting under the floating bars (#229)"
+   },
+   {
+    "name": "importAllFromRaycast",
+    "ts": "Extensions/ThunderstormExtensionStore.swift:433",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionManager.swift:197",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "installObserversIfNeeded",
+    "ts": "ThunderstormIntegrationCatalog.swift:56",
+    "tc": "Tinycast/Core/Snippets/SnippetKeywordListener.swift:187",
+    "first_seen": "2026-07-30",
+    "commit": "c6d936f24",
+    "subject": "Add production-ready snippets support (#98)"
+   },
+   {
+    "name": "isCommandEnabled",
+    "ts": "Extensions/ThunderstormExtensionConfiguration.swift:204",
+    "tc": "Tinycast/Features/Launcher/Service/AppIndex.swift:266",
+    "first_seen": "2026-08-30",
+    "commit": "3754cf8a7",
+    "subject": "Make every built-in command bindable to a shortcut (#399)"
+   },
+   {
+    "name": "makeFirstResponder",
+    "ts": "ThunderstormWindowController.swift:2065",
+    "tc": "Tinycast/Palette/PalettePanel.swift:29",
+    "first_seen": "2026-08-19",
+    "commit": "3dee7bf93",
+    "subject": "Revert the owned search text view and fix the IME placeholder on the SwiftUI field (#282)"
+   },
+   {
+    "name": "menuNeedsUpdate",
+    "ts": "Extensions/ThunderstormExtensionMenuBar.swift:802",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionMenuBarController.swift:300",
+    "first_seen": "2026-09-20",
+    "commit": "a27fd4163",
+    "subject": "Run an extension's menu bar command, and draw its item natively (#963)"
+   },
+   {
+    "name": "moveSwitcherSelection",
+    "ts": "Library/ThunderstormNotesWindowModel.swift:1420",
+    "tc": "Tinycast/Features/Notes/UI/NotesCoordinator.swift:166",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "name": "openCalendarSettings",
+    "ts": "Meetings/ThunderstormMeetingsAccess.swift:132",
+    "tc": "Tinycast/Platform/Permissions.swift:44",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "name": "openCameraSettings",
+    "ts": "Meetings/ThunderstormMeetingsAccess.swift:137",
+    "tc": "Tinycast/Platform/Permissions.swift:58",
+    "first_seen": "2026-08-24",
+    "commit": "a0ecb1314",
+    "subject": "Let a meeting join itself, and put the next one in the menu bar (#320)"
+   },
+   {
+    "name": "openInCalendar",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:211",
+    "tc": "Tinycast/Features/Calendar/UI/CalendarCoordinator.swift:185",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "name": "openInDictionary",
+    "ts": "Library/ThunderstormDictionary.swift:125",
+    "tc": "Tinycast/Features/Dictionary/UI/DictionaryCoordinator.swift:23",
+    "first_seen": "2026-09-18",
+    "commit": "91d8b9c20",
+    "subject": "Define Words (#848)"
+   },
+   {
+    "name": "removeLastAttachment",
+    "ts": "AI/Chat/ThunderstormAIChatSession.swift:207",
+    "tc": "Tinycast/Features/AI/UI/AIChatCoordinator.swift:167",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "name": "requestCalendarAccess",
+    "ts": "Meetings/ThunderstormMeetingsAccess.swift:82",
+    "tc": "Tinycast/Platform/Permissions.swift:39",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "name": "requestCameraAccess",
+    "ts": "Meetings/ThunderstormMeetingsAccess.swift:109",
+    "tc": "Tinycast/Platform/Permissions.swift:53",
+    "first_seen": "2026-08-24",
+    "commit": "a0ecb1314",
+    "subject": "Let a meeting join itself, and put the next one in the menu bar (#320)"
+   },
+   {
+    "name": "rightMouseDown",
+    "ts": "ThunderstormLauncherChrome.swift:269",
+    "tc": "Tinycast/Core/RightClick.swift:21",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "name": "runAppleScript",
+    "ts": "ThunderstormSystemActions.swift:329",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:573",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "name": "scheduleToastDismissal",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:663",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionManager.swift:460",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "showInfoInFinder",
+    "ts": "ThunderstormSystemActions.swift:228",
+    "tc": "Tinycast/Features/Launcher/Service/AppLauncher.swift:17",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "name": "tapWasDisabled",
+    "ts": "Library/ThunderstormSnippetExpansion.swift:757",
+    "tc": "Tinycast/Core/Snippets/SnippetKeywordListener.swift:286",
+    "first_seen": "2026-07-30",
+    "commit": "c6d936f24",
+    "subject": "Add production-ready snippets support (#98)"
+   },
+   {
+    "name": "textDidEndEditing",
+    "ts": "Library/ThunderstormLibraryItemSettings.swift:967",
+    "tc": "Tinycast/DesignSystem/SettingsComponents.swift:285",
+    "first_seen": "2026-09-23",
+    "commit": "91c7c3f5d",
+    "subject": "Polish alias and shortcut recorder controls (#1051)"
+   },
+   {
+    "name": "toggleQuickLook",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:1431",
+    "tc": "Tinycast/Features/FileSearch/UI/FileSearchScreen.swift:51",
+    "first_seen": "2026-09-12",
+    "commit": "5d8dbb77a",
+    "subject": "Give Search Files a preview pane, a type filter and an Actions menu worth opening (#612)"
+   },
+   {
+    "name": "updateTrackingAreas",
+    "ts": "ThunderstormScrolling.swift:535",
+    "tc": "Tinycast/Core/ThinScrollbar.swift:318",
+    "first_seen": "2026-07-02",
+    "commit": "a7e843e14",
+    "subject": "fixed scrollbar"
+   },
+   {
+    "name": "viewDidChangeEffectiveAppearance",
+    "ts": "Library/ThunderstormShellRunner.swift:1025",
+    "tc": "Tinycast/Features/Notes/UI/NoteTextView.swift:256",
+    "first_seen": "2026-09-18",
+    "commit": "9a9d8d2a9",
+    "subject": "Render Markdown in Notes (#880)"
+   },
+   {
+    "name": "viewDidMoveToWindow",
+    "ts": "ThunderstormScrolling.swift:351",
+    "tc": "Tinycast/Core/OverlayScroller.swift:20",
+    "first_seen": "2026-06-30",
+    "commit": "cd4534d75",
+    "subject": "scrollbar fixed"
+   }
+  ]
+ },
+ "vars": {
+  "distinctive_declared": 799,
+  "distinctive_shared": 9,
+  "rate": 0.0113,
+  "items": [
+   {
+    "name": "bottomBarHeight",
+    "ts": "ThunderstormLayout.swift:19",
+    "tc": "Tinycast/Core/Theme.swift:26",
+    "first_seen": "2026-06-30",
+    "commit": "e56ed9496",
+    "subject": "fixed scrollbar"
+   },
+   {
+    "name": "cursorOffsetFromEnd",
+    "ts": "Library/ThunderstormPlaceholders.swift:209",
+    "tc": "Tinycast/Core/Snippets/SnippetTemplateEngine.swift:66",
+    "first_seen": "2026-07-30",
+    "commit": "c6d936f24",
+    "subject": "Add production-ready snippets support (#98)"
+   },
+   {
+    "name": "disabledByDefault",
+    "ts": "Extensions/ThunderstormExtensionStore.swift:177",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionManifest.swift:151",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "name": "frameAutosaveName",
+    "ts": "AI/Chat/ThunderstormAIChatWindow.swift:69",
+    "tc": "Tinycast/Features/Notes/UI/NotesWindowController.swift:6",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "name": "hasFullDiskAccess",
+    "ts": "ThunderstormUninstaller.swift:182",
+    "tc": "Tinycast/Features/Uninstall/Model/UninstallProtection.swift:24",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "name": "maxOutputTokens",
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:50",
+    "tc": "Tinycast/Features/AI/Model/AIRequest.swift:57",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "name": "primaryActionTitle",
+    "ts": "ThunderstormPalette.swift:302",
+    "tc": "Tinycast/Features/PaletteScreen.swift:8",
+    "first_seen": "2026-08-05",
+    "commit": "0eb506da4",
+    "subject": "Add the PaletteScreen protocol and the selection harness (#176)"
+   },
+   {
+    "name": "quickActionSettings",
+    "ts": "AI/QuickActions/ThunderstormQuickActionsFeature.swift:89",
+    "tc": "Tinycast/App/AppCore.swift:50",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "name": "showsFormattingBar",
+    "ts": "Library/ThunderstormNotesWindowModel.swift:158",
+    "tc": "Tinycast/Features/Notes/UI/NotesCoordinator.swift:84",
+    "first_seen": "2026-09-18",
+    "commit": "9a9d8d2a9",
+    "subject": "Render Markdown in Notes (#880)"
+   }
+  ]
+ },
+ "strings": {
+  "candidates": 2660,
+  "shared": 288,
+  "rate": 0.1083,
+  "items": [
+   {
+    "text": "checkmark.circle",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:403",
+    "tc": "Tinycast/Core/Backup/BackupActions.swift:46",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "checkmark.seal",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:406",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:152",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "doc.on.clipboard",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:435",
+    "tc": "Tinycast/Core/AppCore.swift:11",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "Remove Attachments",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:439",
+    "tc": "Tinycast/Features/AI/UI/AIScreen.swift:39",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "square.and.pencil",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:445",
+    "tc": "Tinycast/Features/AI/UI/AIChatWindowChrome.swift:95",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "clock.arrow.circlepath",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:448",
+    "tc": "Tinycast/Features/Settings/ClipboardSettingsView.swift:30",
+    "first_seen": "2026-07-02",
+    "commit": "ccb05c209",
+    "subject": "fixed settings"
+   },
+   {
+    "text": "arrow.clockwise",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:459",
+    "tc": "Tinycast/Core/SystemCommand.swift:108",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Delete All Chats…",
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:481",
+    "tc": "Tinycast/Features/AI/UI/AIChatSidebarView.swift:133",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "Reasoning effort",
+    "ts": "AI/Chat/ThunderstormAIEffortSlider.swift:292",
+    "tc": "Tinycast/Features/AI/Settings/AISettingsView.swift:92",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "arrow.counterclockwise",
+    "ts": "AI/Chat/ThunderstormAIEffortSlider.swift:52",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:245",
+    "first_seen": "2026-07-28",
+    "commit": "0e8e62416",
+    "subject": "Add adaptive launcher ranking (#54)"
+   },
+   {
+    "text": "bubble.left.and.bubble.right",
+    "ts": "AI/Chat/ThunderstormAIHistoryScreen.swift:118",
+    "tc": "Tinycast/Features/AI/UI/ChatHistoryScreen.swift:84",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "exclamationmark.triangle.fill",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:211",
+    "tc": "Tinycast/Features/Settings/GeneralSettingsView.swift:31",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "Hide reasoning",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:243",
+    "tc": "Tinycast/Features/AI/UI/ChatTranscriptView.swift:444",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "Show reasoning",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:243",
+    "tc": "Tinycast/Features/AI/UI/ChatTranscriptView.swift:444",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "checkmark.circle.fill",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:369",
+    "tc": "Tinycast/Features/Settings/GeneralSettingsView.swift:31",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "xmark.circle.fill",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:371",
+    "tc": "Tinycast/Features/Settings/AppHotkeysSettingsView.swift:39",
+    "first_seen": "2026-07-01",
+    "commit": "19f6dd410",
+    "subject": "fix settings ui"
+   },
+   {
+    "text": "Remove \\(attachment.name)",
+    "ts": "AI/Chat/ThunderstormAIMessageViews.swift:497",
+    "tc": "Tinycast/Features/AI/UI/AIScreen.swift:234",
+    "first_seen": "2026-09-06",
+    "commit": "71960e575",
+    "subject": "Say why a pasted file was refused, and stop copying the thumbnail cache (#467)"
+   },
+   {
+    "text": "Loading models…",
+    "ts": "AI/Chat/ThunderstormAIModelPanel.swift:253",
+    "tc": "Tinycast/Palette/RootPaletteView.swift:151",
+    "first_seen": "2026-09-06",
+    "commit": "be19aa642",
+    "subject": "Add the option to select installed AI models (#461)"
+   },
+   {
+    "text": "application/json, text/event-stream",
+    "ts": "AI/MCP/ThunderstormMCPConnection.swift:353",
+    "tc": "Tinycast/Features/MCP/Service/MCPHTTPTransport.swift:71",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "text": "code_challenge",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:147",
+    "tc": "Scripts/raycast-runtime/src/api/oauth.js:100",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "code_challenge_method",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:148",
+    "tc": "Scripts/raycast-runtime/src/api/oauth.js:101",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "authorization_code",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:170",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuthRequest.swift:9",
+    "first_seen": "2026-09-23",
+    "commit": "3463f3329",
+    "subject": "Add OAuth authentication for HTTP MCP servers (#1077)"
+   },
+   {
+    "text": "response_types",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:286",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuthRequest.swift:35",
+    "first_seen": "2026-09-23",
+    "commit": "3463f3329",
+    "subject": "Add OAuth authentication for HTTP MCP servers (#1077)"
+   },
+   {
+    "text": "token_endpoint_auth_method",
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:287",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuthRequest.swift:36",
+    "first_seen": "2026-09-23",
+    "commit": "3463f3329",
+    "subject": "Add OAuth authentication for HTTP MCP servers (#1077)"
+   },
+   {
+    "text": "content_block_start",
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:200",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:157",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "text": "content_block_delta",
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:211",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:125",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "thinking_delta",
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:224",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:129",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "input_json_delta",
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:236",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:167",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "text": "control_request",
+    "ts": "AI/Providers/ThunderstormAICommandLineProvider.swift:273",
+    "tc": "Tests/ai-fixtures/installed-cli-stub.js:43",
+    "first_seen": "2026-09-23",
+    "commit": "e307213c2",
+    "subject": "Offer Tinycast's MCP servers on the Codex and Claude routes (#1081)"
+   },
+   {
+    "text": "control_response",
+    "ts": "AI/Providers/ThunderstormAICommandLineProvider.swift:440",
+    "tc": "Tests/ai-provider-test.swift:1488",
+    "first_seen": "2026-09-23",
+    "commit": "e307213c2",
+    "subject": "Offer Tinycast's MCP servers on the Codex and Claude routes (#1081)"
+   },
+   {
+    "text": "Apple Intelligence",
+    "ts": "AI/Providers/ThunderstormAIOnDeviceProvider.swift:68",
+    "tc": "Tinycast/Features/AI/Model/AppleIntelligence.swift:30",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "text": "completion_tokens",
+    "ts": "AI/Providers/ThunderstormAIOpenAIProvider.swift:239",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:185",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "reasoning_content",
+    "ts": "AI/Providers/ThunderstormAIOpenAIProvider.swift:243",
+    "tc": "Tinycast/Features/AI/Model/AIStreamDecoder.swift:241",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "arrow.uturn.backward",
+    "ts": "AI/QuickActions/ThunderstormQuickActionPanel.swift:350",
+    "tc": "Tinycast/Features/Settings/RaycastImportSelection.swift:21",
+    "first_seen": "2026-07-14",
+    "commit": "215f223cf",
+    "subject": "implemented pop to root"
+   },
+   {
+    "text": "text.badge.checkmark",
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:78",
+    "tc": "Tinycast/Features/QuickActions/Settings/CustomQuickActionEditorSheet.swift:20",
+    "first_seen": "2026-09-10",
+    "commit": "f80db5187",
+    "subject": "Custom quick actions (#555)"
+   },
+   {
+    "text": "pencil.and.outline",
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:79",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:231",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "list.bullet.rectangle",
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:80",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:151",
+    "first_seen": "2026-06-30",
+    "commit": "8fed14cdc",
+    "subject": "fixed"
+   },
+   {
+    "text": "wand.and.stars",
+    "ts": "AI/QuickActions/ThunderstormQuickActionsSettingsPage.swift:409",
+    "tc": "Tinycast/Features/Onboarding/OnboardingView.swift:96",
+    "first_seen": "2026-07-13",
+    "commit": "093d3224f",
+    "subject": "added onboarding"
+   },
+   {
+    "text": "doc.text.magnifyingglass",
+    "ts": "AI/QuickActions/ThunderstormQuickActionsSettingsPage.swift:410",
+    "tc": "Tinycast/Features/Launcher/Model/CommandCatalog.swift:44",
+    "first_seen": "2026-08-10",
+    "commit": "91ba10af3",
+    "subject": "Search files through the Spotlight index (#222)"
+   },
+   {
+    "text": "arrow.up.left.and.arrow.down.right",
+    "ts": "AI/QuickActions/ThunderstormQuickActionsSettingsPage.swift:413",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:157",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "chevron.left.forwardslash.chevron.right",
+    "ts": "AI/QuickActions/ThunderstormQuickActionsSettingsPage.swift:413",
+    "tc": "Tinycast/Features/About/AboutView.swift:34",
+    "first_seen": "2026-07-03",
+    "commit": "88c883fd0",
+    "subject": "removed unused stuffs"
+   },
+   {
+    "text": "Select text in another app first.",
+    "ts": "AI/QuickActions/ThunderstormSelectionCapture.swift:110",
+    "tc": "Tinycast/Features/QuickActions/Model/QuickActionFailure.swift:17",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "text": "Select some text first.",
+    "ts": "AI/QuickActions/ThunderstormSelectionCapture.swift:112",
+    "tc": "Tinycast/Features/QuickActions/Model/QuickActionFailure.swift:21",
+    "first_seen": "2026-08-27",
+    "commit": "9d8412ebe",
+    "subject": "Add an on-device Apple Intelligence route, and act on any app's selection from four shortc"
+   },
+   {
+    "text": "arrow.left.arrow.right",
+    "ts": "AI/QuickActions/ThunderstormTranslatorScreen.swift:301",
+    "tc": "Tinycast/Features/Settings/SettingsTab.swift:48",
+    "first_seen": "2026-09-11",
+    "commit": "2a93f66ed",
+    "subject": "Reach a window or a menu bar item from the launcher (#602) (#603)"
+   },
+   {
+    "text": "text.magnifyingglass",
+    "ts": "AI/QuickActions/ThunderstormTranslatorScreen.swift:318",
+    "tc": "Tinycast/Features/Launcher/Model/CommandID.swift:53",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "text": "chevron.up.chevron.down",
+    "ts": "AI/QuickActions/ThunderstormTranslatorScreen.swift:446",
+    "tc": "Tinycast/Features/Settings/GeneralSettingsView.swift:161",
+    "first_seen": "2026-07-11",
+    "commit": "40dff96c7",
+    "subject": "hyper key implemented"
+   },
+   {
+    "text": "https://example.com/mcp",
+    "ts": "AI/Settings/ThunderstormMCPServerPage.swift:34",
+    "tc": "Tinycast/Features/MCP/Settings/MCPServerEditor.swift:96",
+    "first_seen": "2026-09-01",
+    "commit": "b7f974f61",
+    "subject": "Call MCP servers' tools from the AI chat (#411) (#428)"
+   },
+   {
+    "text": "Delete all chats?",
+    "ts": "AI/ThunderstormAIFeature.swift:305",
+    "tc": "Tinycast/Features/AI/UI/AIChatCoordinator.swift:81",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "Claude Opus 5.5",
+    "ts": "AI/ThunderstormAIModelCatalog.swift:213",
+    "tc": "Tests/installed-ai-test.swift:182",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "input_modalities",
+    "ts": "AI/ThunderstormAIModelCatalog.swift:414",
+    "tc": "Tinycast/Features/AI/Model/AIModelDiscovery.swift:179",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "https://api.openai.com/v1",
+    "ts": "AI/ThunderstormAISettings.swift:78",
+    "tc": "Tinycast/Features/AI/Model/AIConnection.swift:24",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "https://openrouter.ai/api/v1",
+    "ts": "AI/ThunderstormAISettings.swift:81",
+    "tc": "Tinycast/Features/AI/Model/AIConnection.swift:27",
+    "first_seen": "2026-08-25",
+    "commit": "dcc884939",
+    "subject": "Add AI chat with BYOK providers and an optional ChatGPT subscription (#319)"
+   },
+   {
+    "text": "dollarsign.arrow.circlepath",
+    "ts": "Calculator/ThunderstormCalcAnswer.swift:83",
+    "tc": "Tinycast/Features/Settings/MiscellaneousSettingsView.swift:21",
+    "first_seen": "2026-07-27",
+    "commit": "d69e505c8",
+    "subject": "Currency conversion in the inline calculator (#35)"
+   },
+   {
+    "text": "exclamationmark.triangle",
+    "ts": "Calculator/ThunderstormCalcAnswer.swift:89",
+    "tc": "Tinycast/Features/Launcher/CalculatorCardView.swift:52",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "text": "America/Argentina/Buenos_Aires",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:222",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:341",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "America/Sao_Paulo",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:223",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:314",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "America/New_York",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:226",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:286",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "Asia/Hong_Kong",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:228",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:329",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "America/Los_Angeles",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:232",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:289",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "Asia/Ho_Chi_Minh",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:263",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:306",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "rio de janeiro",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:282",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:314",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "salt lake city",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:286",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:293",
+    "first_seen": "2026-08-29",
+    "commit": "f9970ff79",
+    "subject": "Cover the cities outside Europe, and India properly"
+   },
+   {
+    "text": "silicon valley",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:293",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:295",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "czech republic",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:308",
+    "tc": "Tinycast/Features/Calculator/Model/CountryZoneData.generated.swift:74",
+    "first_seen": "2026-09-14",
+    "commit": "f2430e6ef",
+    "subject": "Answer time-zone queries for countries (#710)"
+   },
+   {
+    "text": "Asia/Kuala_Lumpur",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:319",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:332",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "America/Mexico_City",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:319",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:315",
+    "first_seen": "2026-08-28",
+    "commit": "58b682228",
+    "subject": "Answer time zones, business days and the spelled-out phrasings the calculator was missing "
+   },
+   {
+    "text": "United Kingdom",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:334",
+    "tc": "Tests/calc-test.swift:1252",
+    "first_seen": "2026-09-16",
+    "commit": "0df1bd567",
+    "subject": "Recognize place-first time queries (#768)"
+   },
+   {
+    "text": "united kingdom",
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:335",
+    "tc": "Tinycast/Features/Calculator/Model/CountryZoneData.generated.swift:268",
+    "first_seen": "2026-09-14",
+    "commit": "f2430e6ef",
+    "subject": "Answer time-zone queries for countries (#710)"
+   },
+   {
+    "text": "(\\(unit.symbol))",
+    "ts": "Calculator/ThunderstormCalcUnits.swift:121",
+    "tc": "Tinycast/Features/Calculator/Model/CalcUnitExpression.swift:47",
+    "first_seen": "2026-09-07",
+    "commit": "4f6136edf",
+    "subject": "Turn the calculator into a typed evaluator for units, currencies, dates and time zones (#4"
+   },
+   {
+    "text": "Copy Expression",
+    "ts": "Calculator/ThunderstormCalculatorFeature.swift:67",
+    "tc": "Tinycast/Features/Calculator/CalculatorHistoryView.swift:134",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "text": "Calculator History",
+    "ts": "Calculator/ThunderstormCalculatorFeature.swift:78",
+    "tc": "Tinycast/Core/CommandRegistry.swift:16",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "text": "Search calculations…",
+    "ts": "Calculator/ThunderstormCalculatorHistoryScreen.swift:36",
+    "tc": "Tinycast/Core/AppCore.swift:28",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "text": "puzzlepiece.extension",
+    "ts": "Extensions/ThunderstormExtensionCommandProvider.swift:72",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionAppearance.swift:9",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "square.and.arrow.down",
+    "ts": "Extensions/ThunderstormExtensionCommandProvider.swift:83",
+    "tc": "Tinycast/Core/CommandRegistry.swift:35",
+    "first_seen": "2026-07-13",
+    "commit": "acbc13156",
+    "subject": "implemented raycast import"
+   },
+   {
+    "text": "text.aligncenter",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:106",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:203",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "ellipsis.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:123",
+    "tc": "Tinycast/Features/Settings/SettingsRootView.swift:33",
+    "first_seen": "2026-07-27",
+    "commit": "d69e505c8",
+    "subject": "Currency conversion in the inline calculator (#35)"
+   },
+   {
+    "text": "circle.lefthalf.filled",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:127",
+    "tc": "Tinycast/Core/SystemCommand.swift:121",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "dollarsign.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:141",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:157",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "bitcoinsign.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:152",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:229",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "plus.square.on.square",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:159",
+    "tc": "Tinycast/Features/Quicklinks/QuicklinkListView.swift:179",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "exclamationmark.2",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:169",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:162",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "exclamationmark.3",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:170",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:162",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "shoeprints.fill",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:181",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:234",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "textformat.size",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:198",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:238",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "waveform.path.ecg",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:202",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:176",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "exclamationmark.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:208",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:240",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "square.3.layers.3d",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:213",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:168",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "lightbulb.slash",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:218",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:241",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "chart.xyaxis.line",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:219",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:175",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "rectangle.portrait.and.arrow.right",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:226",
+    "tc": "Tinycast/Core/SystemCommand.swift:110",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "doc.badge.plus",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:251",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:250",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "folder.badge.plus",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:252",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:251",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "person.crop.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:259",
+    "tc": "Tinycast/Features/About/AboutView.swift:37",
+    "first_seen": "2026-07-03",
+    "commit": "88c883fd0",
+    "subject": "removed unused stuffs"
+   },
+   {
+    "text": "person.text.rectangle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:260",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:178",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "plus.forwardslash.minus",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:272",
+    "tc": "Tinycast/Core/CommandRegistry.swift:26",
+    "first_seen": "2026-07-04",
+    "commit": "f2fd9464f",
+    "subject": "implemented calculator"
+   },
+   {
+    "text": "questionmark.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:277",
+    "tc": "Tinycast/Core/ModalWindowController.swift:124",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "arrow.uturn.forward",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:285",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:183",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "person.badge.minus",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:286",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:257",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "arrowshape.turn.up.left",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:290",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:183",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "text.alignleft",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:300",
+    "tc": "Tinycast/Features/Clipboard/ClipboardView.swift:72",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "speaker.wave.3",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:312",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:188",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "speaker.wave.2",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:315",
+    "tc": "Tinycast/Core/ModalWindowController.swift:153",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "bubble.left.fill",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:318",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:265",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "exclamationmark.bubble",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:319",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:266",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "ellipsis.rectangle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:320",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:267",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "character.cursor.ibeam",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:344",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:191",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "selection.pin.in.out",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:346",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:272",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "hand.thumbsdown",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:347",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:192",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "hand.thumbsdown.fill",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:348",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:273",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "hand.thumbsup.fill",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:350",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:273",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "flashlight.on.fill",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:352",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:274",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "textformat.abc.dottedunderline",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:363",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:225",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "wrench.and.screwdriver",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:376",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:197",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "person.badge.plus",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:51",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:144",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "square.grid.2x2",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:56",
+    "tc": "Tinycast/Features/Settings/SettingsRootView.swift:35",
+    "first_seen": "2026-08-01",
+    "commit": "63a318875",
+    "subject": "Cleanups (#138)"
+   },
+   {
+    "text": "square.grid.3x3",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:57",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:205",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "arrow.down.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:64",
+    "tc": "Tinycast/Features/Settings/BackupSettingsView.swift:70",
+    "first_seen": "2026-07-13",
+    "commit": "acbc13156",
+    "subject": "implemented raycast import"
+   },
+   {
+    "text": "arrow.up.right",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:67",
+    "tc": "Tinycast/Features/About/AboutView.swift:165",
+    "first_seen": "2026-07-26",
+    "commit": "1af08c88b",
+    "subject": "fix links"
+   },
+   {
+    "text": "arrow.up.circle",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:71",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:194",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "arrow.down.right.and.arrow.up.left",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:72",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:172",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "dot.radiowaves.left.and.right",
+    "ts": "Extensions/ThunderstormExtensionIcons.swift:87",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:242",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "Nothing to show",
+    "ts": "Extensions/ThunderstormExtensionMenuBar.swift:885",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionCommandView.swift:50",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "error_description",
+    "ts": "Extensions/ThunderstormExtensionOAuth.swift:112",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionOAuthSession.swift:115",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "Copied to Clipboard",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:1392",
+    "tc": "Scripts/raycast-runtime/src/api/index.js:22",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "Something went wrong.",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:526",
+    "tc": "Tinycast/Features/Updates/UI/UpdateWindowView.swift:122",
+    "first_seen": "2026-08-20",
+    "commit": "2774c63f4",
+    "subject": "Update Tinycast from inside the app, and leave Homebrew alone (#303)"
+   },
+   {
+    "text": "clipboard.copy",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:711",
+    "tc": "Scripts/raycast-runtime/fixtures.mjs:309",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "org.nspasteboard.ConcealedType",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:721",
+    "tc": "Tinycast/Core/ClipboardManager.swift:13",
+    "first_seen": "2026-07-17",
+    "commit": "13733cd5b",
+    "subject": "skips password copy"
+   },
+   {
+    "text": "clipboard.readText",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:732",
+    "tc": "Scripts/raycast-runtime/test.mjs:216",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "oauth.authorize",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:836",
+    "tc": "Scripts/raycast-runtime/test.mjs:252",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "oauth.setTokens",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:841",
+    "tc": "Scripts/raycast-runtime/test.mjs:256",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "oauth.getTokens",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:849",
+    "tc": "Scripts/raycast-runtime/test.mjs:254",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "oauth.removeTokens",
+    "ts": "Extensions/ThunderstormExtensionSession.swift:851",
+    "tc": "Scripts/raycast-runtime/test.mjs:259",
+    "first_seen": "2026-08-24",
+    "commit": "37c1d2ca0",
+    "subject": "Add Raycast extension OAuth 2.0 PKCE authentication support (#325)"
+   },
+   {
+    "text": "Search extensions",
+    "ts": "Extensions/ThunderstormExtensionSettingsLinks.swift:143",
+    "tc": "Tinycast/Features/Extensions/Settings/ExtensionsSettingsView.swift:176",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "arrow.up.forward.app",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1402",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:131",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "text": "link.badge.plus",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1408",
+    "tc": "Tinycast/Features/Launcher/Model/CommandRegistry.swift:42",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "text.badge.plus",
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1409",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:187",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "com.apple.finder",
+    "ts": "Extensions/ThunderstormExtensionSystem.swift:59",
+    "tc": "Tinycast/Core/AppLauncher.swift:54",
+    "first_seen": "2026-07-27",
+    "commit": "70e354e72",
+    "subject": "add Quit Application action and Quit All Applications command (#34)"
+   },
+   {
+    "text": "paperplane.fill",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1268",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:47",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "tray.full.fill",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1268",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:45",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "paintbrush.fill",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1271",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:51",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "creditcard.fill",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1272",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:60",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "chart.bar.fill",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:1272",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:62",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "Import from Raycast",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:255",
+    "tc": "Tinycast/Core/CommandRegistry.swift:22",
+    "first_seen": "2026-07-13",
+    "commit": "acbc13156",
+    "subject": "implemented raycast import"
+   },
+   {
+    "text": "Show in Finder",
+    "ts": "Extensions/ThunderstormExtensionsSettings.swift:865",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:143",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "text": "calculator-history.json",
+    "ts": "Library/ThunderstormCalculatorHistory.swift:29",
+    "tc": "Tinycast/Core/CalculatorHistoryStore.swift:29",
+    "first_seen": "2026-07-08",
+    "commit": "1c2a1d3ce",
+    "subject": "fixed claculation history"
+   },
+   {
+    "text": "stop.circle.fill",
+    "ts": "Library/ThunderstormCommandOutputWindow.swift:398",
+    "tc": "Tinycast/Features/AI/UI/AIChatDetailView.swift:203",
+    "first_seen": "2026-09-23",
+    "commit": "75974f86f",
+    "subject": "Add an AI Chat window with a conversations sidebar (#1047)"
+   },
+   {
+    "text": "Import Raycast Scripts",
+    "ts": "Library/ThunderstormCustomCommands.swift:260",
+    "tc": "Tinycast/Features/CustomCommands/Settings/CommandsSettingsView.swift:54",
+    "first_seen": "2026-09-07",
+    "commit": "bbdacc5e6",
+    "subject": "Import a folder of Raycast script commands (#490)"
+   },
+   {
+    "text": "plus.rectangle.on.rectangle",
+    "ts": "Library/ThunderstormCustomCommands.swift:275",
+    "tc": "Tinycast/Features/Launcher/Model/CommandID.swift:95",
+    "first_seen": "2026-08-28",
+    "commit": "bde9b26e7",
+    "subject": "Dedicated Snippets browser and global shortcut (#372)"
+   },
+   {
+    "text": "Open in Dictionary",
+    "ts": "Library/ThunderstormDictionary.swift:437",
+    "tc": "Tinycast/Features/Dictionary/UI/DictionaryScreen.swift:30",
+    "first_seen": "2026-09-18",
+    "commit": "91d8b9c20",
+    "subject": "Define Words (#848)"
+   },
+   {
+    "text": "Look up a word…",
+    "ts": "Library/ThunderstormDictionary.swift:475",
+    "tc": "Tinycast/Palette/PaletteMode.swift:62",
+    "first_seen": "2026-09-18",
+    "commit": "91d8b9c20",
+    "subject": "Define Words (#848)"
+   },
+   {
+    "text": "Copy Definition",
+    "ts": "Library/ThunderstormDictionary.swift:605",
+    "tc": "Tinycast/Features/Dictionary/UI/DictionaryScreen.swift:20",
+    "first_seen": "2026-09-18",
+    "commit": "91d8b9c20",
+    "subject": "Define Words (#848)"
+   },
+   {
+    "text": "Duplicate Quicklink",
+    "ts": "Library/ThunderstormLibraryActions.swift:160",
+    "tc": "Tinycast/Features/Quicklinks/QuicklinkListView.swift:179",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "Copy to Clipboard",
+    "ts": "Library/ThunderstormLibraryActions.swift:181",
+    "tc": "Tinycast/Features/Clipboard/ClipboardView.swift:63",
+    "first_seen": "2026-06-30",
+    "commit": "afbbee09e",
+    "subject": "fixed clipboard history"
+   },
+   {
+    "text": "Clipboard history",
+    "ts": "Library/ThunderstormLibraryBackupCategories.swift:864",
+    "tc": "Tinycast/Features/Settings/BackupSettingsView.swift:35",
+    "first_seen": "2026-07-14",
+    "commit": "af8333a49",
+    "subject": "fix preferences"
+   },
+   {
+    "text": "square.and.arrow.up",
+    "ts": "Library/ThunderstormLibraryBackupPages.swift:651",
+    "tc": "Tinycast/Core/CommandRegistry.swift:34",
+    "first_seen": "2026-07-13",
+    "commit": "acbc13156",
+    "subject": "implemented raycast import"
+   },
+   {
+    "text": "Create Quicklink",
+    "ts": "Library/ThunderstormLibraryBrowsers.swift:100",
+    "tc": "Tinycast/Features/Launcher/Model/CommandRegistry.swift:24",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "Open Quicklink",
+    "ts": "Library/ThunderstormLibraryBrowsers.swift:106",
+    "tc": "Tinycast/Features/Quicklinks/QuicklinkListView.swift:157",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "Search snippets…",
+    "ts": "Library/ThunderstormLibraryBrowsers.swift:306",
+    "tc": "Tinycast/Palette/PaletteMode.swift:49",
+    "first_seen": "2026-08-28",
+    "commit": "bde9b26e7",
+    "subject": "Dedicated Snippets browser and global shortcut (#372)"
+   },
+   {
+    "text": "Create Snippet",
+    "ts": "Library/ThunderstormLibraryBrowsers.swift:365",
+    "tc": "Scripts/raycast-runtime/src/api/components.js:446",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "Search quicklinks…",
+    "ts": "Library/ThunderstormLibraryBrowsers.swift:41",
+    "tc": "Tinycast/Features/Settings/QuicklinksSettingsView.swift:67",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "https://example.com",
+    "ts": "Library/ThunderstormLibraryEditors.swift:299",
+    "tc": "Tests/raycast-test.swift:351",
+    "first_seen": "2026-08-01",
+    "commit": "10c64c121",
+    "subject": "Auto-detect and import Raycast v1 (.rayconfig) exports (#140)"
+   },
+   {
+    "text": "Edit Quicklink",
+    "ts": "Library/ThunderstormLibraryEditors.swift:381",
+    "tc": "Tinycast/Features/Settings/QuicklinkEditorSheet.swift:39",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "play.rectangle",
+    "ts": "Library/ThunderstormLibraryEditors.swift:639",
+    "tc": "Tinycast/Features/Settings/QuicklinkEditorSheet.swift:256",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "exclamationmark.circle.fill",
+    "ts": "Library/ThunderstormLibraryEditors.swift:894",
+    "tc": "Tinycast/Core/ModalWindowController.swift:44",
+    "first_seen": "2026-07-31",
+    "commit": "660beb07e",
+    "subject": "Fix modal button order, Return/Escape binding, and expand ModalKind (#126)"
+   },
+   {
+    "text": "No quicklinks yet.",
+    "ts": "Library/ThunderstormLibraryItemSettings.swift:24",
+    "tc": "Tinycast/Features/Quicklinks/Settings/QuicklinksSettingsView.swift:74",
+    "first_seen": "2026-09-19",
+    "commit": "425f3c2fd",
+    "subject": "Calm the Settings panes and reorder the sidebar"
+   },
+   {
+    "text": "No snippets yet.",
+    "ts": "Library/ThunderstormLibraryItemSettings.swift:469",
+    "tc": "Tinycast/Features/Snippets/Settings/SnippetsSettingsView.swift:67",
+    "first_seen": "2026-08-08",
+    "commit": "08725809e",
+    "subject": "looks nuts (#210)"
+   },
+   {
+    "text": "Search Menu Items",
+    "ts": "Library/ThunderstormMenuSearch.swift:456",
+    "tc": "Tinycast/Features/Launcher/Model/CommandID.swift:54",
+    "first_seen": "2026-09-11",
+    "commit": "992c3dcdf",
+    "subject": "Search Menu Items for the frontmost app (#587)"
+   },
+   {
+    "text": "Search menu items…",
+    "ts": "Library/ThunderstormMenuSearchScreen.swift:43",
+    "tc": "Tinycast/Palette/PaletteMode.swift:52",
+    "first_seen": "2026-09-11",
+    "commit": "992c3dcdf",
+    "subject": "Search Menu Items for the frontmost app (#587)"
+   },
+   {
+    "text": "arrow.triangle.2.circlepath",
+    "ts": "Library/ThunderstormNotesWindowViews.swift:509",
+    "tc": "Tinycast/Features/Settings/WindowManagementSettingsView.swift:38",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "No notes found",
+    "ts": "Library/ThunderstormNotesWindowViews.swift:638",
+    "tc": "Tinycast/Features/Notes/UI/NoteSwitcherView.swift:75",
+    "first_seen": "2026-08-17",
+    "commit": "0747ed2d5",
+    "subject": "Add native floating Markdown notes (#232)"
+   },
+   {
+    "text": "Choose Folder…",
+    "ts": "Library/ThunderstormNotesWindowViews.swift:68",
+    "tc": "Tinycast/Features/WindowManagement/Settings/WindowLayoutArgumentField.swift:33",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "text": "Search Quicklinks",
+    "ts": "Library/ThunderstormQuicklinks.swift:511",
+    "tc": "Tinycast/Features/Launcher/Model/CommandRegistry.swift:25",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~",
+    "ts": "Library/ThunderstormScriptCommands.swift:611",
+    "tc": "Tinycast/Core/Snippets/SnippetTemplateEngine.swift:254",
+    "first_seen": "2026-07-30",
+    "commit": "c6d936f24",
+    "subject": "Add production-ready snippets support (#98)"
+   },
+   {
+    "text": "Show in launcher",
+    "ts": "Library/ThunderstormShellCommandsSettings.swift:442",
+    "tc": "Tinycast/Features/Settings/ShortcutsSettingsView.swift:95",
+    "first_seen": "2026-07-09",
+    "commit": "df89fa282",
+    "subject": "fixed settings ui"
+   },
+   {
+    "text": "Remove argument",
+    "ts": "Library/ThunderstormShellCommandsSettings.swift:522",
+    "tc": "Tinycast/Features/CustomCommands/UI/CustomCommandEditorView.swift:218",
+    "first_seen": "2026-10-10",
+    "commit": "308f7ccd4",
+    "subject": "Add launcher forms for Snippets, Quicklinks, Custom Commands and Events (#1488)"
+   },
+   {
+    "text": "init(coder:) has not been implemented",
+    "ts": "Library/ThunderstormShellRunner.swift:1013",
+    "tc": "third-party/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift:113",
+    "first_seen": "2026-07-02",
+    "commit": "904d164f8",
+    "subject": "fixed settings not opening"
+   },
+   {
+    "text": "\\($0.key)=\\($0.value)",
+    "ts": "Library/ThunderstormShellRunner.swift:316",
+    "tc": "Tinycast/Platform/PseudoTerminal.swift:53",
+    "first_seen": "2026-08-28",
+    "commit": "a7be7348c",
+    "subject": "Prompt for a custom command's arguments and stream its output live (#378)"
+   },
+   {
+    "text": "Search Snippets",
+    "ts": "Library/ThunderstormSnippets.swift:841",
+    "tc": "Tinycast/Features/Snippets/Settings/SnippetsSettingsView.swift:68",
+    "first_seen": "2026-08-28",
+    "commit": "bde9b26e7",
+    "subject": "Dedicated Snippets browser and global shortcut (#372)"
+   },
+   {
+    "text": "square.2.layers.3d",
+    "ts": "Library/ThunderstormSystemProviders.swift:38",
+    "tc": "Tinycast/Features/AppleShortcuts/Model/AppleShortcut.swift:6",
+    "first_seen": "2026-09-15",
+    "commit": "d4e788fb5",
+    "subject": "Search and run Apple Shortcuts from the launcher (#756)"
+   },
+   {
+    "text": "org.nspasteboard.TransientType",
+    "ts": "Library/ThunderstormTextInsertion.swift:229",
+    "tc": "Tinycast/Core/ClipboardManager.swift:14",
+    "first_seen": "2026-07-17",
+    "commit": "13733cd5b",
+    "subject": "skips password copy"
+   },
+   {
+    "text": "Switch Windows",
+    "ts": "Library/ThunderstormWindowSwitcher.swift:559",
+    "tc": "Tinycast/Features/Launcher/Model/CommandID.swift:56",
+    "first_seen": "2026-09-11",
+    "commit": "2a93f66ed",
+    "subject": "Reach a window or a menu bar item from the launcher (#602) (#603)"
+   },
+   {
+    "text": "macwindow.on.rectangle",
+    "ts": "Library/ThunderstormWindowSwitcher.swift:562",
+    "tc": "Tinycast/App/TinycastApp.swift:14",
+    "first_seen": "2026-07-17",
+    "commit": "5c47c06f9",
+    "subject": "change icon"
+   },
+   {
+    "text": "window switcher",
+    "ts": "Library/ThunderstormWindowSwitcher.swift:563",
+    "tc": "Tinycast/Features/Settings/SettingsSearchCatalog.swift:362",
+    "first_seen": "2026-09-11",
+    "commit": "2a93f66ed",
+    "subject": "Reach a window or a menu bar item from the launcher (#602) (#603)"
+   },
+   {
+    "text": "Switch to Window",
+    "ts": "Library/ThunderstormWindowSwitcherScreen.swift:255",
+    "tc": "Tinycast/Features/WindowSwitcher/UI/WindowSwitchScreen.swift:9",
+    "first_seen": "2026-09-11",
+    "commit": "2a93f66ed",
+    "subject": "Reach a window or a menu bar item from the launcher (#602) (#603)"
+   },
+   {
+    "text": "Reading windows…",
+    "ts": "Library/ThunderstormWindowSwitcherScreen.swift:478",
+    "tc": "Tinycast/Features/WindowManagement/UI/RoomPickerScreen.swift:85",
+    "first_seen": "2026-09-25",
+    "commit": "f2ec8c958",
+    "subject": "feat: Implement Room Management feature with UI components for room selection and preview"
+   },
+   {
+    "text": "Open in Calendar",
+    "ts": "Meetings/ThunderstormMeeting.swift:151",
+    "tc": "Tinycast/Features/Calendar/UI/MeetingCardView.swift:94",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "Couldn't open the meeting link",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:192",
+    "tc": "Tinycast/Features/Calendar/UI/CalendarCoordinator.swift:169",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "com.apple.iCal",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:214",
+    "tc": "Tools/fuzz-test.swift:49",
+    "first_seen": "2026-08-03",
+    "commit": "248cdfed6",
+    "subject": "Search apps by their macOS alternate names (#153)"
+   },
+   {
+    "text": "meet.google.com",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:57",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:109",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "teams.microsoft.com",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:58",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:110",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "teams.live.com",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:58",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:110",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "teams.microsoft.us",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:58",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:110",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "gotomeeting.com",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:63",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:115",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "join.skype.com",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:65",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:117",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "Microsoft Teams",
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:76",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:90",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "\\(minutes) min",
+    "ts": "Meetings/ThunderstormMeetingNotch.swift:88",
+    "tc": "Tinycast/Features/Calendar/Model/EventDraft.swift:31",
+    "first_seen": "2026-08-24",
+    "commit": "a0ecb1314",
+    "subject": "Let a meeting join itself, and put the next one in the menu bar (#320)"
+   },
+   {
+    "text": "Copy Meeting Link",
+    "ts": "Meetings/ThunderstormMeetingScreens.swift:128",
+    "tc": "Tinycast/Features/Calendar/UI/MeetingCardView.swift:88",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "questionmark.circle.fill",
+    "ts": "Meetings/ThunderstormMeetingScreens.swift:444",
+    "tc": "Tinycast/Features/Settings/Panes/PermissionsSettingsView.swift:68",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "com.apple.screenIsUnlocked",
+    "ts": "Meetings/ThunderstormMeetings.swift:158",
+    "tc": "Tinycast/Features/HotKeys/Service/HyperKeyManager.swift:185",
+    "first_seen": "2026-10-11",
+    "commit": "00ad157fe",
+    "subject": "Expand the Hyper Key: all modifier keys, per-keyboard remapping, diagnostics and Secure In"
+   },
+   {
+    "text": "com.apple.screenIsLocked",
+    "ts": "Meetings/ThunderstormMeetingsAccess.swift:264",
+    "tc": "Tinycast/Features/HotKeys/Service/HyperKeyManager.swift:182",
+    "first_seen": "2026-10-11",
+    "commit": "00ad157fe",
+    "subject": "Expand the Hyper Key: all modifier keys, per-keyboard remapping, diagnostics and Secure In"
+   },
+   {
+    "text": "Join Next Meeting",
+    "ts": "Meetings/ThunderstormMeetingsFeature.swift:180",
+    "tc": "Tinycast/Features/Calendar/Settings/CalendarSettingsView.swift:32",
+    "first_seen": "2026-08-22",
+    "commit": "79ea79894",
+    "subject": "Join the meeting you are about to be late for, from the palette or a chord (#313)"
+   },
+   {
+    "text": "Restart Application",
+    "ts": "ThunderstormAppActions.swift:176",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:65",
+    "first_seen": "2026-08-28",
+    "commit": "87ae8cd77",
+    "subject": "Restart a running application from its Actions menu and ⌘R (#375)"
+   },
+   {
+    "text": "Quit Application",
+    "ts": "ThunderstormAppActions.swift:243",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:251",
+    "first_seen": "2026-07-27",
+    "commit": "70e354e72",
+    "subject": "add Quit Application action and Quit All Applications command (#34)"
+   },
+   {
+    "text": "Contents/Info.plist",
+    "ts": "ThunderstormAppIndex.swift:418",
+    "tc": "Tinycast/Core/SettingsPaneScanner.swift:31",
+    "first_seen": "2026-07-04",
+    "commit": "87df0f31f",
+    "subject": "added system settings in launcher"
+   },
+   {
+    "text": "com.apple.systempreferences",
+    "ts": "ThunderstormAppNames.swift:138",
+    "tc": "Tools/fuzz-test.swift:48",
+    "first_seen": "2026-08-03",
+    "commit": "248cdfed6",
+    "subject": "Search apps by their macOS alternate names (#153)"
+   },
+   {
+    "text": "System Preferences",
+    "ts": "ThunderstormAppNames.swift:138",
+    "tc": "Tools/fuzz-test.swift:47",
+    "first_seen": "2026-08-03",
+    "commit": "248cdfed6",
+    "subject": "Search apps by their macOS alternate names (#153)"
+   },
+   {
+    "text": "com.apple.Photos",
+    "ts": "ThunderstormAppNames.swift:142",
+    "tc": "Tools/fuzz-test.swift:43",
+    "first_seen": "2026-08-03",
+    "commit": "248cdfed6",
+    "subject": "Search apps by their macOS alternate names (#153)"
+   },
+   {
+    "text": "com.apple.iBooksX",
+    "ts": "ThunderstormAppNames.swift:143",
+    "tc": "Tools/uninstall-test.swift:67",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "com.apple.AppStore",
+    "ts": "ThunderstormAppNames.swift:144",
+    "tc": "Tools/fuzz-test.swift:44",
+    "first_seen": "2026-08-03",
+    "commit": "248cdfed6",
+    "subject": "Search apps by their macOS alternate names (#153)"
+   },
+   {
+    "text": "InfoPlist.loctable",
+    "ts": "ThunderstormAppNames.swift:87",
+    "tc": "Tinycast/Platform/BundleLocalization.swift:23",
+    "first_seen": "2026-09-03",
+    "commit": "cb46dba0d",
+    "subject": "Rank the launcher by evidence a habit can outweigh, and name every kind alike (#441)"
+   },
+   {
+    "text": "InfoPlist.strings",
+    "ts": "ThunderstormAppNames.swift:96",
+    "tc": "Tests/app-name-test.swift:155",
+    "first_seen": "2026-09-24",
+    "commit": "29d4bff99",
+    "subject": "Find apps named only in a zh-Hans folder by that name"
+   },
+   {
+    "text": "Paste as Plain Text",
+    "ts": "ThunderstormClipboardFeature.swift:250",
+    "tc": "Tests/action-menu-search-test.swift:21",
+    "first_seen": "2026-09-18",
+    "commit": "e25bd13bc",
+    "subject": "Add search to action menus (#864)"
+   },
+   {
+    "text": "Clear clipboard history?",
+    "ts": "ThunderstormClipboardFeature.swift:382",
+    "tc": "Tinycast/Features/Settings/ClipboardSettingsView.swift:49",
+    "first_seen": "2026-07-01",
+    "commit": "19f6dd410",
+    "subject": "fix settings ui"
+   },
+   {
+    "text": "Clipboard History",
+    "ts": "ThunderstormClipboardFeature.swift:93",
+    "tc": "Tinycast/App/TinycastApp.swift:10",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "visual studio code",
+    "ts": "ThunderstormClipboardPreview.swift:121",
+    "tc": "Tests/calc-performance.swift:13",
+    "first_seen": "2026-09-07",
+    "commit": "4f6136edf",
+    "subject": "Turn the calculator into a typed evaluator for units, currencies, dates and time zones (#4"
+   },
+   {
+    "text": "Search clipboard…",
+    "ts": "ThunderstormClipboardScreen.swift:68",
+    "tc": "Tinycast/Core/AppCore.swift:12",
+    "first_seen": "2026-06-28",
+    "commit": "a8b282fb8",
+    "subject": "initial mockup done"
+   },
+   {
+    "text": "Remove from Favorites",
+    "ts": "ThunderstormClipboardScreen.swift:756",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:135",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "text": "Add to Favorites",
+    "ts": "ThunderstormClipboardScreen.swift:756",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:139",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "text": "line.3.horizontal.decrease.circle",
+    "ts": "ThunderstormClipboardScreen.swift:798",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:233",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "No emoji found",
+    "ts": "ThunderstormEmojiSurface.swift:65",
+    "tc": "Tinycast/Features/RootPaletteView.swift:334",
+    "first_seen": "2026-07-12",
+    "commit": "f68bd9391",
+    "subject": "intehrated emoji and symbols"
+   },
+   {
+    "text": "System Settings",
+    "ts": "ThunderstormEntrySections.swift:132",
+    "tc": "Tools/fuzz-test.swift:46",
+    "first_seen": "2026-06-28",
+    "commit": "2549bdba6",
+    "subject": "fixed bugs"
+   },
+   {
+    "text": "Apple Shortcuts",
+    "ts": "ThunderstormEntrySections.swift:172",
+    "tc": "Tinycast/Features/Settings/SettingsTab.swift:17",
+    "first_seen": "2026-09-15",
+    "commit": "d4e788fb5",
+    "subject": "Search and run Apple Shortcuts from the launcher (#756)"
+   },
+   {
+    "text": "Open in Browser",
+    "ts": "ThunderstormFallbacks.swift:468",
+    "tc": "Scripts/raycast-runtime/src/api/components.js:364",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "slider.horizontal.3",
+    "ts": "ThunderstormFallbacks.swift:503",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:57",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "folder.badge.gearshape",
+    "ts": "ThunderstormFileActions.swift:220",
+    "tc": "Tinycast/Features/Extensions/Settings/ExtensionRegistriesSheet.swift:167",
+    "first_seen": "2026-08-18",
+    "commit": "a69a11b76",
+    "subject": "Add a custom search paths setting for extension package managers (#266)"
+   },
+   {
+    "text": "Moved to Trash",
+    "ts": "ThunderstormFileActions.swift:487",
+    "tc": "Tinycast/Features/FileSearch/UI/FileSearchCoordinator.swift:95",
+    "first_seen": "2026-09-12",
+    "commit": "5d8dbb77a",
+    "subject": "Give Search Files a preview pane, a type filter and an Actions menu worth opening (#612)"
+   },
+   {
+    "text": "No matching files",
+    "ts": "ThunderstormFileSearch.swift:82",
+    "tc": "Tinycast/Features/RootPaletteView.swift:642",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "gearshape.fill",
+    "ts": "ThunderstormIconProvider.swift:361",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:57",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "<APP> Settings",
+    "ts": "ThunderstormIntegrationCatalog.swift:175",
+    "tc": "Tinycast/Features/Launcher/Model/CommandID.swift:82",
+    "first_seen": "2026-09-23",
+    "commit": "643c646ac",
+    "subject": "Rebuild root search ranking and add Suggestions"
+   },
+   {
+    "text": "square.grid.2x2.fill",
+    "ts": "ThunderstormIntegrationCatalog.swift:197",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:58",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "model context protocol",
+    "ts": "ThunderstormIntegrationCatalog.swift:683",
+    "tc": "Tinycast/Features/Settings/SettingsSearchCatalog.swift:269",
+    "first_seen": "2026-09-02",
+    "commit": "79b85aca3",
+    "subject": "Search Settings, and give it the system titlebar (#439)"
+   },
+   {
+    "text": "Application Support",
+    "ts": "ThunderstormPathIndex.swift:63",
+    "tc": "Tools/uninstall-test.swift:185",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "Group Containers",
+    "ts": "ThunderstormPathIndex.swift:64",
+    "tc": "Tools/uninstall-test.swift:157",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "Saved Application State",
+    "ts": "ThunderstormPathIndex.swift:64",
+    "tc": "Tools/uninstall-test.swift:135",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "list.dash.header.rectangle",
+    "ts": "ThunderstormSearchModel.swift:1653",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:23",
+    "first_seen": "2026-09-18",
+    "commit": "e25bd13bc",
+    "subject": "Add search to action menus (#864)"
+   },
+   {
+    "text": "Move Favorite Up",
+    "ts": "ThunderstormSearchModel.swift:1728",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:35",
+    "first_seen": "2026-08-19",
+    "commit": "b22b6b90e",
+    "subject": "Reorder favorites, and launch them by ⌘-digit (#285)"
+   },
+   {
+    "text": "Move Favorite Down",
+    "ts": "ThunderstormSearchModel.swift:1738",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:43",
+    "first_seen": "2026-08-19",
+    "commit": "b22b6b90e",
+    "subject": "Reorder favorites, and launch them by ⌘-digit (#285)"
+   },
+   {
+    "text": "Hide from Search",
+    "ts": "ThunderstormSearchModel.swift:1764",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:67",
+    "first_seen": "2026-09-11",
+    "commit": "2eae038a1",
+    "subject": "Hide a launcher result from search via ⌘K (#590)"
+   },
+   {
+    "text": "rectangle.center.inset.filled",
+    "ts": "ThunderstormSearchModel.swift:1897",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:155",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "Open Application",
+    "ts": "ThunderstormSearchModel.swift:448",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:131",
+    "first_seen": "2026-06-29",
+    "commit": "071397b86",
+    "subject": "design fixed"
+   },
+   {
+    "text": "System Setting",
+    "ts": "ThunderstormSearchResult.swift:434",
+    "tc": "Tinycast/Core/AppIndex.swift:16",
+    "first_seen": "2026-07-04",
+    "commit": "87df0f31f",
+    "subject": "added system settings in launcher"
+   },
+   {
+    "text": "Uninstall Application",
+    "ts": "ThunderstormSearchResult.swift:483",
+    "tc": "Tinycast/Core/AppCore.swift:19",
+    "first_seen": "2026-08-02",
+    "commit": "66d6d19b6",
+    "subject": "Uninstall Application: remove an app and its leftovers (#145)"
+   },
+   {
+    "text": "Quit All Applications",
+    "ts": "ThunderstormSearchResult.swift:486",
+    "tc": "Tinycast/Core/CommandRegistry.swift:26",
+    "first_seen": "2026-07-27",
+    "commit": "70e354e72",
+    "subject": "add Quit Application action and Quit All Applications command (#34)"
+   },
+   {
+    "text": "Eject All Disks",
+    "ts": "ThunderstormSearchResult.swift:489",
+    "tc": "Tinycast/Core/SystemCommand.swift:93",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Open System Setting",
+    "ts": "ThunderstormSearchResult.swift:512",
+    "tc": "Tinycast/Features/RootPaletteView.swift:618",
+    "first_seen": "2026-07-24",
+    "commit": "d7b5102c3",
+    "subject": "Hide footer action group on empty results; clearer launch labels"
+   },
+   {
+    "text": "rectangle.split.2x1",
+    "ts": "ThunderstormSearchSourcesEntrySections.swift:132",
+    "tc": "Tinycast/Features/WindowManagement/Settings/WindowLayoutInspector.swift:14",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "text": "com.apple.calculator",
+    "ts": "ThunderstormSearchSourcesSettingsSection.swift:194",
+    "tc": "Tests/raycast-test.swift:355",
+    "first_seen": "2026-08-01",
+    "commit": "10c64c121",
+    "subject": "Auto-detect and import Raycast v1 (.rayconfig) exports (#140)"
+   },
+   {
+    "text": "/System/Applications/Mission Control.app/Contents/MacOS/Mission Control",
+    "ts": "ThunderstormSystemActions.swift:179",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:105",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "speaker.slash.fill",
+    "ts": "ThunderstormSystemActions.swift:310",
+    "tc": "Tinycast/Features/Modal/TinycastModalView.swift:97",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "speaker.wave.2.fill",
+    "ts": "ThunderstormSystemActions.swift:316",
+    "tc": "Tests/volume-test.swift:84",
+    "first_seen": "2026-08-01",
+    "commit": "63a318875",
+    "subject": "Cleanups (#138)"
+   },
+   {
+    "text": "Privacy_Automation",
+    "ts": "ThunderstormSystemActions.swift:362",
+    "tc": "Tinycast/Core/AppCore.swift:494",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "/System/Library/PrivateFrameworks/login.framework/Versions/Current/login",
+    "ts": "ThunderstormSystemActions.swift:60",
+    "tc": "Tinycast/Features/SystemActions/Service/SystemActionRunner.swift:329",
+    "first_seen": "2026-10-06",
+    "commit": "5383274b6",
+    "subject": "Lock the screen from a hotkey without a synthetic shortcut"
+   },
+   {
+    "text": "Restart your Mac?",
+    "ts": "ThunderstormSystemCommands.swift:221",
+    "tc": "Tinycast/Core/AppCore.swift:445",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Shut down your Mac?",
+    "ts": "ThunderstormSystemCommands.swift:240",
+    "tc": "Tinycast/Core/AppCore.swift:446",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Toggle Stage Manager",
+    "ts": "ThunderstormSystemCommands.swift:363",
+    "tc": "Tinycast/Core/SystemCommand.swift:90",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "squares.leading.rectangle",
+    "ts": "ThunderstormSystemCommands.swift:365",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:120",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Dismiss Notifications",
+    "ts": "ThunderstormSystemCommands.swift:371",
+    "tc": "Tinycast/Core/SystemCommand.swift:98",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Previous Track",
+    "ts": "ThunderstormSystemCommands.swift:402",
+    "tc": "Tinycast/Core/SystemCommand.swift:78",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Toggle Hidden Files",
+    "ts": "ThunderstormSystemCommands.swift:491",
+    "tc": "Tinycast/Core/SystemCommand.swift:94",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "Toggle Bluetooth",
+    "ts": "ThunderstormSystemCommands.swift:496",
+    "tc": "Tinycast/Core/SystemCommand.swift:99",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "cup.and.saucer.fill",
+    "ts": "ThunderstormSystemCommands.swift:535",
+    "tc": "Tinycast/Features/Extensions/Service/SymbolCatalog.swift:39",
+    "first_seen": "2026-08-14",
+    "commit": "4cb914e76",
+    "subject": "Run Raycast extensions natively (#235)"
+   },
+   {
+    "text": "Privacy_Bluetooth",
+    "ts": "ThunderstormSystemToggles.swift:109",
+    "tc": "Tinycast/Core/AppCore.swift:495",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth",
+    "ts": "ThunderstormSystemToggles.swift:159",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:543",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "com.apple.WindowManager",
+    "ts": "ThunderstormSystemToggles.swift:30",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:117",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "com.apple.notificationcenterui",
+    "ts": "ThunderstormSystemToggles.swift:325",
+    "tc": "Tinycast/Core/SystemCommandRunner.swift:468",
+    "first_seen": "2026-07-30",
+    "commit": "15d4d6dca",
+    "subject": "System commands: macOS actions in the launcher (#107)"
+   },
+   {
+    "text": "https://github.com",
+    "ts": "ThunderstormWebIntentEngine.swift:149",
+    "tc": "Tools/quicklink-test.swift:150",
+    "first_seen": "2026-08-03",
+    "commit": "1012e2f8d",
+    "subject": "Add Quicklinks (#154)"
+   },
+   {
+    "text": "arrow.up.right.square",
+    "ts": "ThunderstormWebResultSurface.swift:222",
+    "tc": "Tinycast/Features/Settings/MiscellaneousSettingsView.swift:152",
+    "first_seen": "2026-07-27",
+    "commit": "d69e505c8",
+    "subject": "Currency conversion in the inline calculator (#35)"
+   },
+   {
+    "text": "First Two Thirds",
+    "ts": "Windows/ThunderstormWindowCommands.swift:293",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:123",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "Center Two Thirds",
+    "ts": "Windows/ThunderstormWindowCommands.swift:294",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowCommand.swift:146",
+    "first_seen": "2026-09-13",
+    "commit": "11a97a7a4",
+    "subject": "Add a Center Two Thirds window command (#650)"
+   },
+   {
+    "text": "Last Two Thirds",
+    "ts": "Windows/ThunderstormWindowCommands.swift:295",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:124",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "Almost Maximize",
+    "ts": "Windows/ThunderstormWindowCommands.swift:299",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:126",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "Reasonable Size",
+    "ts": "Windows/ThunderstormWindowCommands.swift:300",
+    "tc": "Tinycast/Features/WindowManagement/WindowCommand.swift:128",
+    "first_seen": "2026-08-03",
+    "commit": "aa630959b",
+    "subject": "added reasonable size window management command"
+   },
+   {
+    "text": "Maximize Height",
+    "ts": "Windows/ThunderstormWindowCommands.swift:302",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:127",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "Maximize Width",
+    "ts": "Windows/ThunderstormWindowCommands.swift:303",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:128",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "rectangle.lefthalf.filled",
+    "ts": "Windows/ThunderstormWindowCommands.swift:349",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:146",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "rectangle.righthalf.filled",
+    "ts": "Windows/ThunderstormWindowCommands.swift:350",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:147",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "rectangle.tophalf.filled",
+    "ts": "Windows/ThunderstormWindowCommands.swift:351",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:148",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "rectangle.bottomhalf.filled",
+    "ts": "Windows/ThunderstormWindowCommands.swift:352",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:149",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "rectangle.split.3x1",
+    "ts": "Windows/ThunderstormWindowCommands.swift:357",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:162",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "arrow.up.and.down",
+    "ts": "Windows/ThunderstormWindowCommands.swift:362",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:159",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "arrow.left.and.right",
+    "ts": "Windows/ThunderstormWindowCommands.swift:363",
+    "tc": "Tinycast/Core/WindowManagement/WindowCommand.swift:160",
+    "first_seen": "2026-07-31",
+    "commit": "a5a7fdb58",
+    "subject": "feat: Window management commands in the launcher (#127)"
+   },
+   {
+    "text": "window management",
+    "ts": "Windows/ThunderstormWindowCommands.swift:385",
+    "tc": "Tests/fuzz-test.swift:330",
+    "first_seen": "2026-10-08",
+    "commit": "d5963ec39",
+    "subject": "Improve launcher category search"
+   },
+   {
+    "text": "com.apple.dock",
+    "ts": "Windows/ThunderstormWindowGeometry.swift:156",
+    "tc": "Tinycast/App/AppDelegate.swift:60",
+    "first_seen": "2026-09-19",
+    "commit": "7e29a2313",
+    "subject": "Close Tinycast's windows when the Dock's Quit is chosen"
+   },
+   {
+    "text": "Bring to front",
+    "ts": "Windows/ThunderstormWindowLayoutEditor.swift:698",
+    "tc": "Tinycast/Features/WindowManagement/Settings/WindowLayoutInspector.swift:98",
+    "first_seen": "2026-09-14",
+    "commit": "e0f16ff71",
+    "subject": "Let a window layout bring one window to front (#700)"
+   },
+   {
+    "text": "Edit Window Layout",
+    "ts": "Windows/ThunderstormWindowLayoutEditor.swift:89",
+    "tc": "Tinycast/Features/WindowManagement/Settings/WindowLayoutEditorSheet.swift:73",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "text": "rectangle.3.group",
+    "ts": "Windows/ThunderstormWindowLayoutEditor.swift:90",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowLayout.swift:94",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   },
+   {
+    "text": "Window commands",
+    "ts": "Windows/ThunderstormWindowSettingsPage.swift:53",
+    "tc": "Tinycast/Features/Settings/SettingsSearchCatalog.swift:356",
+    "first_seen": "2026-09-02",
+    "commit": "79b85aca3",
+    "subject": "Search Settings, and give it the system titlebar (#439)"
+   },
+   {
+    "text": "restore windows",
+    "ts": "Windows/ThunderstormWorkspaces.swift:851",
+    "tc": "Tinycast/Features/Settings/SettingsSearchCatalog.swift:357",
+    "first_seen": "2026-09-06",
+    "commit": "247092d7a",
+    "subject": "Arrange a whole multi-display setup from one command (#475)"
+   }
+  ]
+ },
+ "comments": {
+  "candidates": 11256,
+  "shared": 5,
+  "rate": 0.0004,
+  "items": [
+   {
+    "text": "Selection wins over hover when a row is both; otherwise hover shows its fainter layer.",
+    "ts": "ThunderstormDropletLibraryRow.swift:61",
+    "tc": "Tinycast/Features/Launcher/LauncherView.swift:103",
+    "first_seen": "2026-06-30",
+    "commit": "e56ed9496",
+    "subject": "fixed scrollbar"
+   },
+   {
+    "text": "Snap to the origin on the first row so its header shows too.",
+    "ts": "ThunderstormDropletsLibraryView.swift:122",
+    "tc": "Tinycast/Features/Launcher/UI/LauncherList.swift:118",
+    "first_seen": "2026-08-06",
+    "commit": "946c5907b",
+    "subject": "Set a checkable comment budget and trim the codebase to it (#197)"
+   },
+   {
+    "text": "Matches the list rows and section headers' own indent below.",
+    "ts": "ThunderstormView.swift:487",
+    "tc": "Tinycast/Palette/RootPaletteView.swift:371",
+    "first_seen": "2026-08-10",
+    "commit": "16f26e88a",
+    "subject": "support palette panel draggable (#208)"
+   },
+   {
+    "text": "Identical metrics in both states, so typing can't move the search bar.",
+    "ts": "ThunderstormView.swift:540",
+    "tc": "Tinycast/Palette/RootPaletteView.swift:354",
+    "first_seen": "2026-08-06",
+    "commit": "946c5907b",
+    "subject": "Set a checkable comment budget and trim the codebase to it (#197)"
+   },
+   {
+    "text": "Open disarmed: a pointer already over a row must not highlight it.",
+    "ts": "ThunderstormWindowController.swift:231",
+    "tc": "Tinycast/Palette/PaletteWindowController.swift:30",
+    "first_seen": "2026-08-06",
+    "commit": "946c5907b",
+    "subject": "Set a checkable comment budget and trim the codebase to it (#197)"
+   }
+  ]
+ },
+ "enums": {
+  "enums_declared": 77,
+  "matched": 11,
+  "items": [
+   {
+    "ts": "Calculator/ThunderstormCalcLexer.swift:CalcOperator",
+    "ts_cases": 20,
+    "tc": "Tinycast/Features/Calculator/Model/CalcOperator.swift:CalcOperator",
+    "tc_cases": 21,
+    "shared": 16,
+    "jaccard": 0.64,
+    "lcs": 13,
+    "first_seen": "2026-09-07",
+    "cases": [
+     "plus",
+     "minus",
+     "times",
+     "divide",
+     "power",
+     "percent",
+     "factorial",
+     "modulo",
+     "bitAnd",
+     "bitOr",
+     "bitXor",
+     "bitNot",
+     "shiftLeft",
+     "shiftRight",
+     "equal",
+     "notEqual",
+     "less",
+     "lessEqual",
+     "greater",
+     "greaterEqual"
+    ]
+   },
+   {
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:MeetingService",
+    "ts_cases": 13,
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:Provider",
+    "tc_cases": 11,
+    "shared": 9,
+    "jaccard": 0.6,
+    "lcs": 9,
+    "first_seen": "2026-08-22",
+    "cases": [
+     "zoom",
+     "googleMeet",
+     "teams",
+     "webex",
+     "jitsi",
+     "whereby",
+     "chime",
+     "goTo",
+     "blueJeans",
+     "skype",
+     "faceTime",
+     "slack",
+     "other"
+    ]
+   },
+   {
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:Block",
+    "ts_cases": 8,
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionDetailView.swift:Block",
+    "tc_cases": 9,
+    "shared": 8,
+    "jaccard": 0.889,
+    "lcs": 7,
+    "first_seen": "2026-09-25",
+    "cases": [
+     "heading",
+     "paragraph",
+     "bullet",
+     "quote",
+     "code",
+     "image",
+     "table",
+     "rule"
+    ]
+   },
+   {
+    "ts": "AI/Chat/ThunderstormAIMarkdown.swift:AIMarkdownBlock",
+    "ts_cases": 8,
+    "tc": "Tinycast/Features/AI/Model/MarkdownBlock.swift:MarkdownBlock",
+    "tc_cases": 10,
+    "shared": 7,
+    "jaccard": 0.636,
+    "lcs": 5,
+    "first_seen": "2026-09-30",
+    "cases": [
+     "heading",
+     "paragraph",
+     "listItem",
+     "quote",
+     "code",
+     "math",
+     "table",
+     "rule"
+    ]
+   },
+   {
+    "ts": "Extensions/ThunderstormExtensionNode.swift:JSON",
+    "ts_cases": 6,
+    "tc": "Tinycast/Features/Settings/Model/SettingsFileJSON.swift:SettingsFileJSON",
+    "tc_cases": 6,
+    "shared": 6,
+    "jaccard": 1.0,
+    "lcs": 6,
+    "first_seen": "2026-09-26",
+    "cases": [
+     "null",
+     "bool",
+     "number",
+     "string",
+     "array",
+     "object"
+    ]
+   },
+   {
+    "ts": "Library/ThunderstormPlaceholders.swift:PlaceholderModifier",
+    "ts_cases": 6,
+    "tc": "Tinycast/Features/Snippets/Model/SnippetTemplateEngine.swift:Modifier",
+    "tc_cases": 6,
+    "shared": 6,
+    "jaccard": 1.0,
+    "lcs": 6,
+    "first_seen": "2026-08-08",
+    "cases": [
+     "uppercase",
+     "lowercase",
+     "trim",
+     "percentEncode",
+     "jsonStringify",
+     "raw"
+    ]
+   },
+   {
+    "ts": "ThunderstormClipboardKind.swift:ClipboardKind",
+    "ts_cases": 6,
+    "tc": "Tinycast/Features/Clipboard/Model/ClipboardFilter.swift:ClipboardFilter",
+    "tc_cases": 7,
+    "shared": 6,
+    "jaccard": 0.857,
+    "lcs": 3,
+    "first_seen": "2026-09-06",
+    "cases": [
+     "text",
+     "link",
+     "email",
+     "color",
+     "image",
+     "file"
+    ]
+   },
+   {
+    "ts": "AI/QuickActions/ThunderstormQuickActionStore.swift:QuickActionBuiltIn",
+    "ts_cases": 4,
+    "tc": "Tinycast/Features/QuickActions/Model/QuickAction.swift:QuickAction",
+    "tc_cases": 4,
+    "shared": 4,
+    "jaccard": 1.0,
+    "lcs": 3,
+    "first_seen": "2026-08-27",
+    "cases": [
+     "fixGrammar",
+     "rewrite",
+     "summarize",
+     "translate"
+    ]
+   },
+   {
+    "ts": "Meetings/ThunderstormMeeting.swift:Status",
+    "ts_cases": 5,
+    "tc": "Tinycast/Features/Calendar/Model/MeetingDetails.swift:Response",
+    "tc_cases": 4,
+    "shared": 4,
+    "jaccard": 0.8,
+    "lcs": 3,
+    "first_seen": "2026-10-01",
+    "cases": [
+     "accepted",
+     "declined",
+     "tentative",
+     "pending",
+     "unknown"
+    ]
+   },
+   {
+    "ts": "Extensions/ThunderstormExtensionNode.swift:ExtensionImage",
+    "ts_cases": 7,
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:Source",
+    "tc_cases": 5,
+    "shared": 4,
+    "jaccard": 0.5,
+    "lcs": 3,
+    "first_seen": "2026-08-20",
+    "cases": [
+     "symbol",
+     "file",
+     "remote",
+     "fileIcon",
+     "text",
+     "color",
+     "none"
+    ]
+   },
+   {
+    "ts": "ThunderstormFileDetailPane.swift:PreviewKind",
+    "ts_cases": 6,
+    "tc": "Tinycast/Features/Clipboard/Model/ClipboardFileKind.swift:ClipboardFileKind",
+    "tc_cases": 6,
+    "shared": 4,
+    "jaccard": 0.5,
+    "lcs": 3,
+    "first_seen": "2026-09-06",
+    "cases": [
+     "image",
+     "pdf",
+     "text",
+     "video",
+     "audio",
+     "other"
+    ]
+   }
+  ]
+ },
+ "string_runs": {
+  "runs_ge4": 52,
+  "longest": 10,
+  "total_literals_in_runs": 281,
+  "items": [
+   {
+    "length": 10,
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:144-153",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuth.swift:226-230",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "response_type",
+     "code",
+     "client_id",
+     "redirect_uri",
+     "code_challenge",
+     "code_challenge_method",
+     "S256",
+     "state",
+     "resource",
+     "scope"
+    ]
+   },
+   {
+    "length": 9,
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:332-343",
+    "tc": "Tinycast/Features/AI/Model/AIRequestBody.swift:157-166",
+    "first_seen": "2026-10-06",
+    "sample": [
+     "type",
+     "image",
+     "source",
+     "type",
+     "base64",
+     "media_type",
+     "data",
+     "type",
+     "document"
+    ]
+   },
+   {
+    "length": 9,
+    "ts": "AI/Providers/ThunderstormAIOpenAIProvider.swift:305-315",
+    "tc": "Tinycast/Features/AI/Model/AIRequestBody.swift:97-99",
+    "first_seen": "2026-10-06",
+    "sample": [
+     "type",
+     "image_url",
+     "image_url",
+     "url",
+     "type",
+     "file",
+     "file",
+     "filename",
+     "file_data"
+    ]
+   },
+   {
+    "length": 9,
+    "ts": "Extensions/ThunderstormExtensionNode.swift:398-406",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionImage.swift:166-174",
+    "first_seen": "2026-09-19",
+    "sample": [
+     "raycast-blue",
+     "raycast-green",
+     "raycast-magenta",
+     "raycast-orange",
+     "raycast-purple",
+     "raycast-red",
+     "raycast-yellow",
+     "raycast-primary-text",
+     "raycast-secondary-text"
+    ]
+   },
+   {
+    "length": 8,
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:284-287",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuthRequest.swift:37-39",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "redirect_uris",
+     "grant_types",
+     "authorization_code",
+     "refresh_token",
+     "response_types",
+     "code",
+     "token_endpoint_auth_method",
+     "none"
+    ]
+   },
+   {
+    "length": 8,
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:368-375",
+    "tc": "Tinycast/Features/AI/Model/AIRequestBody.swift:141-145",
+    "first_seen": "2026-10-06",
+    "sample": [
+     "type",
+     "text",
+     "text",
+     "type",
+     "tool_use",
+     "id",
+     "name",
+     "input"
+    ]
+   },
+   {
+    "length": 8,
+    "ts": "Calculator/ThunderstormCalcCurrencies.swift:68-68",
+    "tc": "Tinycast/Features/Calculator/Model/CurrencyData.generated.swift:216-219",
+    "first_seen": "2026-08-14",
+    "sample": [
+     "boliviano",
+     "BOB",
+     "bolivianos",
+     "BOB",
+     "cedi",
+     "GHS",
+     "cedis",
+     "GHS"
+    ]
+   },
+   {
+    "length": 8,
+    "ts": "Calculator/ThunderstormCalcDates.swift:227-239",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionDateExpression.swift:144-147",
+    "first_seen": "2026-09-06",
+    "sample": [
+     "day",
+     "days",
+     "week",
+     "weeks",
+     "month",
+     "months",
+     "year",
+     "years"
+    ]
+   },
+   {
+    "length": 8,
+    "ts": "Calculator/ThunderstormCalcDates.swift:766-767",
+    "tc": "Tests/ai-provider-test.swift:1645-1645",
+    "first_seen": "2026-10-09",
+    "sample": [
+     "one",
+     "two",
+     "three",
+     "four",
+     "five",
+     "six",
+     "seven",
+     "eight"
+    ]
+   },
+   {
+    "length": 7,
+    "ts": "AI/MCP/ThunderstormMCPConnection.swift:128-133",
+    "tc": "Tinycast/Features/MCP/Service/MCPOAuthService.swift:17-20",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "initialize",
+     "protocolVersion",
+     "capabilities",
+     "clientInfo",
+     "name",
+     "<APP>",
+     "version"
+    ]
+   },
+   {
+    "length": 7,
+    "ts": "AI/MCP/ThunderstormMCPConnection.swift:129-133",
+    "tc": "Tinycast/Features/MCP/Service/MCPServerConnection.swift:139-143",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "protocolVersion",
+     "capabilities",
+     "clientInfo",
+     "name",
+     "<APP>",
+     "version",
+     "CFBundleShortVersionString"
+    ]
+   },
+   {
+    "length": 7,
+    "ts": "AI/MCP/ThunderstormMCPConnection.swift:350-355",
+    "tc": "Tinycast/Features/MCP/Service/MCPHTTPTransport.swift:72-78",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "POST",
+     "application/json",
+     "Content-Type",
+     "application/json, text/event-stream",
+     "Accept",
+     "MCP-Protocol-Version",
+     "Mcp-Session-Id"
+    ]
+   },
+   {
+    "length": 7,
+    "ts": "AI/Providers/ThunderstormAICommandLineProvider.swift:253-253",
+    "tc": "Tinycast/Features/AI/Service/InstalledAIManager.swift:33-34",
+    "first_seen": "2026-09-28",
+    "sample": [
+     "-p",
+     "--input-format",
+     "stream-json",
+     "--output-format",
+     "stream-json",
+     "--verbose",
+     "--no-session-persistence"
+    ]
+   },
+   {
+    "length": 6,
+    "ts": "AI/Chat/ThunderstormAIMarkdown.swift:512-512",
+    "tc": "Tinycast/Features/Calculator/Model/CalcMath.swift:10-11",
+    "first_seen": "2026-09-07",
+    "sample": [
+     "arcsin",
+     "arccos",
+     "arctan",
+     "sinh",
+     "cosh",
+     "tanh"
+    ]
+   },
+   {
+    "length": 6,
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:333-343",
+    "tc": "Tinycast/Features/AI/Model/AIRequestBody.swift:167-174",
+    "first_seen": "2026-10-06",
+    "sample": [
+     "source",
+     "type",
+     "base64",
+     "media_type",
+     "data",
+     "type"
+    ]
+   },
+   {
+    "length": 6,
+    "ts": "Calculator/ThunderstormCalcParser.swift:684-684",
+    "tc": "Tinycast/Features/Calculator/Model/CalcMath.swift:9-10",
+    "first_seen": "2026-09-07",
+    "sample": [
+     "asin",
+     "acos",
+     "atan",
+     "arcsin",
+     "arccos",
+     "arctan"
+    ]
+   },
+   {
+    "length": 6,
+    "ts": "Calculator/ThunderstormCalcTimeZones.swift:229-229",
+    "tc": "Tinycast/Features/Calculator/Model/CalcTimeZone.swift:287-287",
+    "first_seen": "2026-08-29",
+    "sample": [
+     "ist",
+     "Asia/Kolkata",
+     "jst",
+     "Asia/Tokyo",
+     "kst",
+     "Asia/Seoul"
+    ]
+   },
+   {
+    "length": 6,
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1444-1445",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionScreen.swift:336-341",
+    "first_seen": "2026-09-20",
+    "sample": [
+     "escape",
+     "space",
+     "pageUp",
+     "pageDown",
+     "home",
+     "end"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:202-204",
+    "tc": "Tinycast/Features/MCP/Service/MCPHTTPTransport.swift:72-76",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "POST",
+     "application/json",
+     "Content-Type",
+     "application/json, text/event-stream",
+     "Accept"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:298-300",
+    "tc": "Tinycast/Features/MCP/Model/MCPOAuthRequest.swift:27-30",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "POST",
+     "application/x-www-form-urlencoded",
+     "Content-Type",
+     "application/json",
+     "Accept"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "AI/Providers/ThunderstormAIAnthropicProvider.swift:345-347",
+    "tc": "Tests/ai-provider-test.swift:57-61",
+    "first_seen": "2026-10-09",
+    "sample": [
+     "source",
+     "type",
+     "base64",
+     "media_type",
+     "application/pdf"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Calculator/ThunderstormCalcUnits.swift:196-196",
+    "tc": "Tinycast/Features/Calculator/Model/CalcUnits.swift:169-169",
+    "first_seen": "2026-08-29",
+    "sample": [
+     "mm",
+     "millimeter",
+     "millimeters",
+     "millimetre",
+     "millimetres"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Calculator/ThunderstormCalcUnits.swift:197-197",
+    "tc": "Tinycast/Features/Calculator/Model/CalcUnits.swift:172-172",
+    "first_seen": "2026-08-29",
+    "sample": [
+     "cm",
+     "centimeter",
+     "centimeters",
+     "centimetre",
+     "centimetres"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Calculator/ThunderstormCalcUnits.swift:200-200",
+    "tc": "Tinycast/Features/Calculator/Model/CalcUnits.swift:176-176",
+    "first_seen": "2026-08-29",
+    "sample": [
+     "km",
+     "kilometer",
+     "kilometers",
+     "kilometre",
+     "kilometres"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Extensions/ThunderstormExtensionDeveloper.swift:721-721",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionFetcher.swift:211-212",
+    "first_seen": "2026-10-09",
+    "sample": [
+     "/usr/local/bin",
+     "/usr/bin",
+     "/bin",
+     "/usr/sbin",
+     "/sbin"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Extensions/ThunderstormExtensionSession.swift:226-226",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionFetcher.swift:211-212",
+    "first_seen": "2026-10-09",
+    "sample": [
+     "/usr/local/bin",
+     "/usr/bin",
+     "/bin",
+     "/usr/sbin",
+     "/sbin"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1442-1442",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionScreen.swift:328-330",
+    "first_seen": "2026-09-20",
+    "sample": [
+     "return",
+     "enter",
+     "delete",
+     "backspace",
+     "deleteForward"
+    ]
+   },
+   {
+    "length": 5,
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:79-83",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:109-113",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "Whereby",
+     "Amazon Chime",
+     "GoTo Meeting",
+     "BlueJeans",
+     "Skype"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/Chat/ThunderstormAIChatScreen.swift:466-466",
+    "tc": "Tinycast/Features/AI/UI/AIChatSidebarView.swift:121-122",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "Unpin Chat",
+     "Pin Chat",
+     "pin.slash",
+     "pin"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/Chat/ThunderstormAIHistoryScreen.swift:134-135",
+    "tc": "Tinycast/Features/AI/UI/AIChatSidebarView.swift:121-122",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "Unpin Chat",
+     "Pin Chat",
+     "pin.slash",
+     "pin"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/MCP/ThunderstormMCPConnection.swift:352-353",
+    "tc": "Tinycast/Features/MCP/Service/MCPOAuthService.swift:22-23",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "application/json",
+     "Content-Type",
+     "application/json, text/event-stream",
+     "Accept"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/MCP/ThunderstormMCPOAuth.swift:203-204",
+    "tc": "Tinycast/Features/MCP/Service/MCPOAuthService.swift:22-23",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "application/json",
+     "Content-Type",
+     "application/json, text/event-stream",
+     "Accept"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/Providers/ThunderstormAICommandLineProvider.swift:253-253",
+    "tc": "Tinycast/Features/AI/Service/InstalledCLIProvider.swift:303-304",
+    "first_seen": "2026-09-28",
+    "sample": [
+     "--input-format",
+     "stream-json",
+     "--output-format",
+     "stream-json"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "AI/Providers/ThunderstormAICommandLineProvider.swift:253-253",
+    "tc": "Tinycast/Features/AI/Service/InstalledCLIProvider.swift:287-289",
+    "first_seen": "2026-09-23",
+    "sample": [
+     "stream-json",
+     "--output-format",
+     "stream-json",
+     "--verbose"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Calculator/ThunderstormCalcUnits.swift:267-267",
+    "tc": "Tinycast/Features/Calculator/Model/CalcUnits.swift:227-227",
+    "first_seen": "2026-08-29",
+    "sample": [
+     "milliliter",
+     "milliliters",
+     "millilitre",
+     "millilitres"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionDeveloper.swift:666-666",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionPackageManager.swift:41-41",
+    "first_seen": "2026-10-01",
+    "sample": [
+     "install",
+     "--ignore-scripts",
+     "--no-audit",
+     "--no-fund"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionDeveloper.swift:694-694",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionPackageManager.swift:41-41",
+    "first_seen": "2026-10-01",
+    "sample": [
+     "install",
+     "--ignore-scripts",
+     "--no-audit",
+     "--no-fund"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionDeveloper.swift:700-700",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionPackageManager.swift:41-41",
+    "first_seen": "2026-10-01",
+    "sample": [
+     "install",
+     "--ignore-scripts",
+     "--no-audit",
+     "--no-fund"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionDeveloper.swift:721-721",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionPackageManager.swift:60-63",
+    "first_seen": "2026-10-01",
+    "sample": [
+     "/opt/homebrew/bin",
+     "/usr/local/bin",
+     "/usr/bin",
+     "/bin"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionMenuBar.swift:1025-1026",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionScreen.swift:332-335",
+    "first_seen": "2026-09-20",
+    "sample": [
+     "arrowUp",
+     "arrowDown",
+     "arrowLeft",
+     "arrowRight"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionSession.swift:226-226",
+    "tc": "Tinycast/Features/Extensions/Model/ExtensionPackageManager.swift:60-63",
+    "first_seen": "2026-10-01",
+    "sample": [
+     "/opt/homebrew/bin",
+     "/usr/local/bin",
+     "/usr/bin",
+     "/bin"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionStore.swift:341-347",
+    "tc": "Tinycast/Features/Extensions/Service/ExtensionInstaller.swift:89-100",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "/usr/bin/ditto",
+     "-x",
+     "-k",
+     "package.json"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Extensions/ThunderstormExtensionSurface.swift:1443-1443",
+    "tc": "Tinycast/Features/Extensions/UI/ExtensionScreen.swift:332-335",
+    "first_seen": "2026-09-20",
+    "sample": [
+     "arrowUp",
+     "arrowDown",
+     "arrowLeft",
+     "arrowRight"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:61-63",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:128-130",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "whereby.com",
+     "chime.aws",
+     "gotomeeting.com",
+     "gotomeet.me"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Meetings/ThunderstormMeetingLinks.swift:74-77",
+    "tc": "Tinycast/Features/Calendar/Model/MeetingLink.swift:104-107",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "Zoom",
+     "Google Meet",
+     "Microsoft Teams",
+     "Webex"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "ThunderstormClipboardScreen.swift:756-757",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:27-28",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "Remove from Favorites",
+     "Add to Favorites",
+     "star.slash",
+     "star"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "ThunderstormSearchModel.swift:1714-1716",
+    "tc": "Tinycast/Features/Launcher/UI/AppActionsMenu.swift:27-28",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "Remove from Favorites",
+     "Add to Favorites",
+     "star.slash",
+     "star"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "ThunderstormSearchScopes.swift:40-43",
+    "tc": "Tinycast/Features/Launcher/Model/SearchScopes.swift:7-10",
+    "first_seen": "2026-10-10",
+    "sample": [
+     "/Applications",
+     "/Applications/Utilities",
+     "/System/Applications",
+     "/System/Applications/Utilities"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Windows/ThunderstormWindowCommands.swift:282-285",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowCommand.swift:124-127",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "Left Half",
+     "Right Half",
+     "Top Half",
+     "Bottom Half"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Windows/ThunderstormWindowCommands.swift:290-293",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowCommand.swift:134-137",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "First Third",
+     "Center Third",
+     "Last Third",
+     "First Two Thirds"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Windows/ThunderstormWindowCommands.swift:349-352",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowCommand.swift:164-167",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "rectangle.lefthalf.filled",
+     "rectangle.righthalf.filled",
+     "rectangle.tophalf.filled",
+     "rectangle.bottomhalf.filled"
+    ]
+   },
+   {
+    "length": 4,
+    "ts": "Windows/ThunderstormWindowCommands.swift:366-369",
+    "tc": "Tinycast/Features/WindowManagement/Model/WindowCommand.swift:188-191",
+    "first_seen": "2026-10-08",
+    "sample": [
+     "arrow.left",
+     "arrow.right",
+     "arrow.up",
+     "arrow.down"
+    ]
+   }
+  ]
+ }
+}

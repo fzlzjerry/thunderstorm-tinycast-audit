@@ -1,0 +1,22 @@
+other side: 6350 files, 981141 significant lines (all history)
+
+== thunderstorm-embedded-js vs tinycast
+   files 2, significant lines 1037
+   lines that also occur somewhere on the other side: 56 (54.0 per 1,000)
+   runs of 3+ consecutive lines: 2, longest 4
+   share of all fingerprints found on the other side: renamed 1.92%, literal 1.78%
+   highest single-file containment: renamed 0.029, literal 0.028
+   top files by containment (renamed / literal):
+     0.029 / 0.028  host_script.js
+     0.007 / 0.002  utils_script.js
+   runs (ours -> theirs):
+       4 lines  host_script.js:215-218  ->  Scripts/raycast-runtime/src/reconciler.js@ebfb9c4f70:21-24
+           | supportsMutation:true,
+           | supportsPersistence:false,
+           | supportsHydration:false,
+           | isPrimaryRenderer:true,
+       4 lines  host_script.js:253-256  ->  Scripts/raycast-runtime/src/reconciler.js@ebfb9c4f70:98-101
+           | beforeActiveInstanceBlur:()=>{},
+           | afterActiveInstanceBlur:()=>{},
+           | prepareScopeUpdate:()=>{},
+           | getInstanceFromScope:()=>null,

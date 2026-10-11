@@ -1,0 +1,193 @@
+other side: 6350 files, 981141 significant lines (all history)
+
+== thunderstorm/Sources(prefix-stripped) vs tinycast
+   files 256, significant lines 54180
+   lines that also occur somewhere on the other side: 4101 (75.7 per 1,000)
+   runs of 3+ consecutive lines: 43, longest 5
+   share of all fingerprints found on the other side: renamed 2.77%, literal 0.24%
+   highest single-file containment: renamed 0.212, literal 0.117
+   top files by containment (renamed / literal):
+     0.212 / 0.000  ThunderstormDropletLibraryRow.swift
+     0.177 / 0.000  Calculator/ThunderstormCalcAnswer.swift
+     0.158 / 0.011  Extensions/ThunderstormExtensionNode.swift
+     0.148 / 0.117  Calculator/ThunderstormCalcCurrencies.swift
+     0.125 / 0.012  ThunderstormLauncherChrome.swift
+     0.111 / 0.000  ThunderstormClipboardDetailView.swift
+     0.104 / 0.031  ThunderstormDiagnostics.swift
+     0.102 / 0.000  ThunderstormClipboardRow.swift
+     0.095 / 0.010  AI/ThunderstormAIKeychain.swift
+     0.094 / 0.006  ThunderstormFavoritesStrip.swift
+   runs (ours -> theirs):
+       5 lines  Extensions/ThunderstormExtensionNode.swift:401-405  ->  Tinycast/Features/Extensions/UI/ExtensionImage.swift@2152400f5c:177-181
+           | case"raycast-orange":return.orange
+           | case"raycast-purple":return.purple
+           | case"raycast-red":return.red
+           | case"raycast-yellow":return.yellow
+           | case"raycast-primary-text":return.primary
+       4 lines  Extensions/ThunderstormExtensionDeveloper.swift:240-243  ->  Tinycast/Features/CustomCommands/UI/CustomCommandCoordinator.swift@370dd1a507:125-128
+           | let panel=NSOpenPanel()
+           | panel.canChooseDirectories=true
+           | panel.canChooseFiles=false
+           | panel.allowsMultipleSelection=false
+       4 lines  Extensions/ThunderstormExtensionHostScript.swift:248-251  ->  Scripts/raycast-runtime/src/reconciler.js@ebfb9c4f70:21-24
+           | supportsMutation:true,
+           | supportsPersistence:false,
+           | supportsHydration:false,
+           | isPrimaryRenderer:true,
+       4 lines  Extensions/ThunderstormExtensionHostScript.swift:286-289  ->  Scripts/raycast-runtime/src/reconciler.js@ebfb9c4f70:98-101
+           | beforeActiveInstanceBlur:()=>{},
+           | afterActiveInstanceBlur:()=>{},
+           | prepareScopeUpdate:()=>{},
+           | getInstanceFromScope:()=>null,
+       4 lines  Extensions/ThunderstormExtensionNode.swift:52-55  ->  Tinycast/Features/AI/Model/JSONValue.swift@c206bc9466:39-42
+           | case.null:return NSNull()
+           | case.bool(let value):return value
+           | case.number(let value):return value
+           | case.string(let value):return value
+       4 lines  Library/ThunderstormCommandOutputWindow.swift:481-484  ->  Tinycast/Features/Notes/UI/NoteEditorView.swift@5f93c7ad67:205-208
+           | textView.isVerticallyResizable=true
+           | textView.isHorizontallyResizable=false
+           | textView.autoresizingMask=[.width]
+           | textView.minSize=.zero
+       4 lines  Library/ThunderstormLibraryItemSettings.swift:907-910  ->  Tinycast/Features/Notes/UI/NoteEditorView.swift@5f93c7ad67:224-227
+           | textView.isAutomaticQuoteSubstitutionEnabled=false
+           | textView.isAutomaticDashSubstitutionEnabled=false
+           | textView.isAutomaticTextReplacementEnabled=false
+           | textView.isAutomaticSpellingCorrectionEnabled=false
+       4 lines  Library/ThunderstormLibrarySettings.swift:55-58  ->  Tinycast/Features/CustomCommands/UI/CustomCommandCoordinator.swift@370dd1a507:125-128
+           | let panel=NSOpenPanel()
+           | panel.canChooseDirectories=true
+           | panel.canChooseFiles=false
+           | panel.allowsMultipleSelection=false
+       4 lines  Library/ThunderstormMenuSearch.swift:336-339  ->  Tinycast/Features/MenuSearch/Model/MenuSearchShortcut.swift@368fcd3a43:26-29
+           | case 0xF700:return"↑"
+           | case 0xF701:return"↓"
+           | case 0xF702:return"←"
+           | case 0xF703:return"→"
+       4 lines  Library/ThunderstormMenuSearch.swift:342-345  ->  Tinycast/Features/MenuSearch/Model/MenuSearchShortcut.swift@368fcd3a43:30-33
+           | case 0xF729:return"↖"
+           | case 0xF72B:return"↘"
+           | case 0xF72C:return"⇞"
+           | case 0xF72D:return"⇟"
+       4 lines  Library/ThunderstormScriptCommands.swift:715-718  ->  Tinycast/Features/CustomCommands/UI/CustomCommandCoordinator.swift@370dd1a507:125-128
+           | let panel=NSOpenPanel()
+           | panel.canChooseDirectories=true
+           | panel.canChooseFiles=false
+           | panel.allowsMultipleSelection=false
+       4 lines  ThunderstormFileActions.swift:407-410  ->  Tinycast/Features/CustomCommands/UI/CustomCommandCoordinator.swift@370dd1a507:125-128
+           | let panel=NSOpenPanel()
+           | panel.canChooseDirectories=true
+           | panel.canChooseFiles=false
+           | panel.allowsMultipleSelection=false
+       3 lines  AI/Chat/ThunderstormAIAttachments.swift:139-141  ->  Tinycast/Features/Clipboard/Service/ClipboardTextExtractor.swift@4955e7fb92:38-40
+           | let options:[CFString:Any]=[
+           | kCGImageSourceCreateThumbnailFromImageAlways:true,
+           | kCGImageSourceCreateThumbnailWithTransform:true,
+       3 lines  AI/QuickActions/ThunderstormQuickActionPanel.swift:414-417  ->  Tinycast/Features/FileSearch/UI/PlainTextSurface.swift@30f386e1c2:21-24
+           | func makeCoordinator()->Coordinator{Coordinator()}
+           | func makeNSView(context:Context)->NSScrollView{
+           | let scrollView=NSTextView.scrollableTextView()
+       3 lines  AI/QuickActions/ThunderstormQuickActionPanel.swift:416-418  ->  Tinycast/Features/CustomCommands/UI/TerminalLogView.swift@81dca697ab:23-25
+           | func makeNSView(context:Context)->NSScrollView{
+           | let scrollView=NSTextView.scrollableTextView()
+           | scrollView.drawsBackground=false
+       3 lines  AI/QuickActions/ThunderstormQuickActionStore.swift:193-195  ->  Tinycast/Features/CustomCommands/Model/CustomCommand.swift@09d3d3d233:103-105
+           | init(from decoder:Decoder)throws{
+           | let container=try decoder.container(keyedBy:CodingKeys.self)
+           | id=try container.decode(UUID.self,forKey:.id)
+       3 lines  AI/ThunderstormAI.swift:211-216  ->  Tinycast/Features/AI/Service/AIToolLoopProvider.swift@76996fcb3f:34-39
+           | continuation.finish()
+           | continuation.finish(throwing:error)
+           | continuation.onTermination={_ in task.cancel()}
+       3 lines  Extensions/ThunderstormExtensionImages.swift:355-357  ->  Tinycast/Features/Clipboard/Service/ClipboardTextExtractor.swift@4955e7fb92:38-40
+           | let options:[CFString:Any]=[
+           | kCGImageSourceCreateThumbnailFromImageAlways:true,
+           | kCGImageSourceCreateThumbnailWithTransform:true,
+       3 lines  Extensions/ThunderstormExtensionNode.swift:38-40  ->  Tinycast/Features/Settings/Model/SettingsFileJSON.swift@db9b55fb04:30-32
+           | case let string as String:
+           | self=.string(string)
+           | case let array as[Any]:
+       3 lines  Extensions/ThunderstormExtensionRuntime.swift:400-404  ->  Tinycast/Features/AI/Service/InstalledCLIProvider.swift@9ddb68a1cc:568-571
+           | process.standardOutput=FileHandle.nullDevice
+           | process.standardError=FileHandle.nullDevice
+           | process.waitUntilExit()
+       3 lines  Extensions/ThunderstormExtensionStore.swift:576-580  ->  Tinycast/Features/AI/Service/InstalledCLIProvider.swift@9ddb68a1cc:568-571
+           | process.standardOutput=FileHandle.nullDevice
+           | process.standardError=FileHandle.nullDevice
+           | process.waitUntilExit()
+       3 lines  Extensions/ThunderstormExtensionSurface.swift:686-688  ->  Tinycast/Features/Extensions/UI/ExtensionDetailView.swift@7473bfd8c0:231-233
+           | var rowHeight:CGFloat=0
+           | for subview in subviews{
+           | let size=subview.sizeThatFits(.unspecified)
+       3 lines  Extensions/ThunderstormExtensionSurface.swift:703-705  ->  Tinycast/Features/Extensions/UI/ExtensionDetailView.swift@7473bfd8c0:231-233
+           | var rowHeight:CGFloat=0
+           | for subview in subviews{
+           | let size=subview.sizeThatFits(.unspecified)
+       3 lines  Extensions/ThunderstormExtensionSurface.swift:863-867  ->  Tinycast/Features/Extensions/UI/ExtensionDetailView.swift@07414cbd42:302-307
+           | var blocks:[Block]=[]
+           | var paragraph:[String]=[]
+           | func flushParagraph(){
+       3 lines  Extensions/ThunderstormExtensionsSettings.swift:1429-1432  ->  Tinycast/Features/Extensions/Settings/ExtensionsSettingsView.swift@be6777c0e7:816-819
+           | panel.directoryURL=URL(fileURLWithPath:"/Applications")
+           | panel.allowedContentTypes=[.application]
+           | guard panel.runModal()==.OK,let url=panel.url else{return}
+       3 lines  Library/ThunderstormCommandIcons.swift:217-219  ->  Tinycast/Features/Clipboard/Service/ClipboardTextExtractor.swift@4955e7fb92:38-40
+           | let options:[CFString:Any]=[
+           | kCGImageSourceCreateThumbnailFromImageAlways:true,
+           | kCGImageSourceCreateThumbnailWithTransform:true,
+       3 lines  Library/ThunderstormCustomCommands.swift:46-48  ->  Tinycast/Features/Quicklinks/Model/Quicklink.swift@f99eb19c7f:75-77
+           | init(from decoder:Decoder)throws{
+           | let container=try decoder.container(keyedBy:CodingKeys.self)
+           | id=try container.decodeIfPresent(UUID.self,forKey:.id)??UUID()
+       3 lines  Library/ThunderstormCustomCommands.swift:96-98  ->  Tinycast/Features/Quicklinks/Model/Quicklink.swift@f99eb19c7f:75-77
+           | init(from decoder:Decoder)throws{
+           | let container=try decoder.container(keyedBy:CodingKeys.self)
+           | id=try container.decodeIfPresent(UUID.self,forKey:.id)??UUID()
+       3 lines  Library/ThunderstormLibraryBackupMirror.swift:147-149  ->  Tinycast/Features/CustomCommands/UI/CustomCommandCoordinator.swift@370dd1a507:126-128
+           | panel.canChooseDirectories=true
+           | panel.canChooseFiles=false
+           | panel.allowsMultipleSelection=false
+       3 lines  Library/ThunderstormLibraryItemSettings.swift:887-891  ->  Tinycast/Features/Notes/UI/NoteEditorView.swift@5f93c7ad67:12-16
+           | func makeCoordinator()->Coordinator{
+           | Coordinator(parent:self)
+           | func makeNSView(context:Context)->NSScrollView{
+       3 lines  Library/ThunderstormLibraryItemSettings.swift:904-906  ->  Tinycast/Features/AI/UI/ChatComposerTextView.swift@fc683689e5:50-52
+           | textView.isRichText=false
+           | textView.importsGraphics=false
+           | textView.allowsUndo=true
+       3 lines  Library/ThunderstormLibraryTransfer.swift:224-226  ->  Tinycast/Features/Backup/Service/BackupActions.swift@e6415caa3e:30-32
+           | let panel=NSOpenPanel()
+           | panel.allowedContentTypes=[.json]
+           | panel.allowsMultipleSelection=false
+       3 lines  Library/ThunderstormPlaceholders.swift:485-487  ->  Tinycast/Features/Snippets/Model/SnippetTemplateEngine.swift@732ff2a293:496-498
+           | .split(separator:",")
+           | .map{$0.trimmingCharacters(in:.whitespaces)}
+           | .filter{!$0.isEmpty}
+       3 lines  Library/ThunderstormSnippetExpansion.swift:713-715  ->  Tinycast/Features/HotKeys/Service/ModifierTapMonitor.swift@55fd75b93a:261-263
+           | |(1<<CGEventType.leftMouseDown.rawValue)
+           | |(1<<CGEventType.rightMouseDown.rawValue)
+           | |(1<<CGEventType.otherMouseDown.rawValue)
+       3 lines  Library/ThunderstormSnippetExpansion.swift:719-721  ->  Tinycast/Features/HotKeys/Service/ModifierTapMonitor.swift@55fd75b93a:266-269
+           | tap:.cgSessionEventTap,
+           | place:.tailAppendEventTap,
+           | options:.listenOnly,
+       3 lines  Library/ThunderstormSnippets.swift:74-76  ->  Tinycast/Features/Quicklinks/Model/Quicklink.swift@f99eb19c7f:75-77
+           | init(from decoder:Decoder)throws{
+           | let container=try decoder.container(keyedBy:CodingKeys.self)
+           | id=try container.decodeIfPresent(UUID.self,forKey:.id)??UUID()
+       3 lines  ThunderstormDeeplinks.swift:326-329  ->  Tinycast/Features/Extensions/Model/ExtensionDeepLink.swift@66d4037115:17-19
+           | let extensionName:String
+           | let commandName:String
+           | let arguments:[String:String]
+       3 lines  ThunderstormDropletsLibraryView.swift:91-94  ->  Tinycast/Features/AI/UI/ChatHistoryView.swift@0007855277:45-48
+           | return ScrollViewReader{proxy in
+           | LazyVStack(spacing:0){
+           | ForEach(rows){row in
+       3 lines  ThunderstormFileActions.swift:623-625  ->  Tinycast/Features/AI/UI/AIChatCoordinator.swift@48c7a42ff3:470-472
+           | let panel=NSOpenPanel()
+           | panel.canChooseFiles=true
+           | panel.canChooseDirectories=false
+       3 lines  ThunderstormLauncherChrome.swift:80-82  ->  Tinycast/DesignSystem/BarButton.swift@4aff103d66:38-40
+           | struct BarButton<Label:View>:View{
+           | var chrome:BarButtonChrome=.capsule
+           | var isSelected=false

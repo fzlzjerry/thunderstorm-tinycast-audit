@@ -1,0 +1,116 @@
+{
+ "thunderstorm": {
+  "types": {
+   "declared": 1203,
+   "shared": 163,
+   "distinctive_declared": 997,
+   "distinctive_shared": 83,
+   "distinctive_shared_rate": 0.0832
+  },
+  "funcs": {
+   "distinctive_declared": 761,
+   "distinctive_shared": 29,
+   "rate": 0.0381
+  },
+  "vars": {
+   "distinctive_declared": 799,
+   "distinctive_shared": 9,
+   "rate": 0.0113
+  },
+  "strings": {
+   "candidates": 2660,
+   "shared": 288,
+   "rate": 0.1083
+  },
+  "comments": {
+   "candidates": 11256,
+   "shared": 5,
+   "rate": 0.0004
+  },
+  "enums": {
+   "enums_declared": 77,
+   "matched": 11
+  },
+  "string_runs": {
+   "runs_ge4": 52,
+   "longest": 10,
+   "total_literals_in_runs": 281
+  }
+ },
+ "baseline_A": {
+  "types": {
+   "declared": 602,
+   "shared": 66,
+   "distinctive_declared": 436,
+   "distinctive_shared": 14,
+   "distinctive_shared_rate": 0.0321
+  },
+  "funcs": {
+   "distinctive_declared": 666,
+   "distinctive_shared": 19,
+   "rate": 0.0285
+  },
+  "vars": {
+   "distinctive_declared": 168,
+   "distinctive_shared": 3,
+   "rate": 0.0179
+  },
+  "strings": {
+   "candidates": 1301,
+   "shared": 46,
+   "rate": 0.0354
+  },
+  "comments": {
+   "candidates": 5344,
+   "shared": 0,
+   "rate": 0.0
+  },
+  "enums": {
+   "enums_declared": 45,
+   "matched": 4
+  },
+  "string_runs": {
+   "runs_ge4": 2,
+   "longest": 20,
+   "total_literals_in_runs": 29
+  }
+ },
+ "baseline_B": {
+  "types": {
+   "declared": 1023,
+   "shared": 53,
+   "distinctive_declared": 895,
+   "distinctive_shared": 6,
+   "distinctive_shared_rate": 0.0067
+  },
+  "funcs": {
+   "distinctive_declared": 1928,
+   "distinctive_shared": 12,
+   "rate": 0.0062
+  },
+  "vars": {
+   "distinctive_declared": 461,
+   "distinctive_shared": 3,
+   "rate": 0.0065
+  },
+  "strings": {
+   "candidates": 3753,
+   "shared": 24,
+   "rate": 0.0064
+  },
+  "comments": {
+   "candidates": 5055,
+   "shared": 0,
+   "rate": 0.0
+  },
+  "enums": {
+   "enums_declared": 58,
+   "matched": 1
+  },
+  "string_runs": {
+   "runs_ge4": 1,
+   "longest": 5,
+   "total_literals_in_runs": 5
+  }
+ }
+}

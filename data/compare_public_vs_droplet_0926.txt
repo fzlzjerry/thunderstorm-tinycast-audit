@@ -1,0 +1,60 @@
+other side: 54 files, 6866 significant lines
+
+== thunderstorm/Sources(subset) vs droplet-0926
+   files 28, significant lines 8734
+   lines that also occur somewhere on the other side: 2760 (316.0 per 1,000)
+   runs of 3+ consecutive lines: 264, longest 102
+   share of all fingerprints found on the other side: renamed 17.73%, literal 15.56%
+   highest single-file containment: renamed 0.771, literal 0.676
+   top files by containment (renamed / literal):
+     0.771 / 0.676  ThunderstormDiagnostics.swift
+     0.581 / 0.484  ThunderstormSearchSources.swift
+     0.451 / 0.472  ThunderstormStringUtilities.swift
+     0.374 / 0.342  ThunderstormSearchService.swift
+     0.319 / 0.203  ThunderstormSearchResult.swift
+     0.293 / 0.275  ThunderstormCurrencyRateStore.swift
+     0.292 / 0.268  ThunderstormUsageStore.swift
+     0.239 / 0.217  ThunderstormUtilityIntentEngine.swift
+     0.208 / 0.179  ThunderstormSystemActions.swift
+     0.188 / 0.179  ThunderstormIconProvider.swift
+   runs (ours -> theirs):
+     102 lines  ThunderstormUtilityIntentEngine.swift:6-191  ->  ThunderstormUtilityIntentEngine.swift:9-194
+      69 lines  ThunderstormSearchService.swift:7-138  ->  ThunderstormSearchService.swift:12-144
+      50 lines  ThunderstormSearchService.swift:1809-1928  ->  ThunderstormSearchService.swift:1147-1266
+      40 lines  ThunderstormUsageStore.swift:333-458  ->  ThunderstormUsageStore.swift:109-238
+      37 lines  ThunderstormSearchService.swift:1158-1233  ->  ThunderstormSearchService.swift:672-748
+      35 lines  ThunderstormUtilityIntentEngine.swift:1034-1100  ->  ThunderstormUtilityIntentEngine.swift:1178-1244
+      30 lines  ThunderstormSearchSources.swift:149-203  ->  ThunderstormSearchSources.swift:105-159
+      29 lines  ThunderstormAppIndex.swift:587-644  ->  ThunderstormAppIndex.swift:270-327
+      28 lines  ThunderstormSearchService.swift:1437-1492  ->  ThunderstormSearchService.swift:935-989
+      22 lines  ThunderstormSearchModel.swift:2837-2880  ->  ThunderstormSearchModel.swift:1015-1054
+      22 lines  ThunderstormSearchService.swift:1242-1294  ->  ThunderstormSearchService.swift:767-807
+      20 lines  ThunderstormCurrencyRateStore.swift:333-362  ->  ThunderstormCurrencyRateStore.swift:151-180
+      20 lines  ThunderstormSearchService.swift:161-189  ->  ThunderstormSearchService.swift:168-196
+      20 lines  ThunderstormWindowController.swift:535-577  ->  ThunderstormWindowController.swift:309-350
+      19 lines  ThunderstormView.swift:411-442  ->  ThunderstormView.swift:201-232
+      18 lines  ThunderstormSearchService.swift:1304-1341  ->  ThunderstormSearchService.swift:818-853
+      18 lines  ThunderstormSystemActions.swift:59-106  ->  ThunderstormSystemActions.swift:26-73
+      18 lines  ThunderstormView.swift:991-1020  ->  ThunderstormView.swift:506-535
+      17 lines  ThunderstormSearchModel.swift:1782-1809  ->  ThunderstormSearchModel.swift:587-614
+      17 lines  ThunderstormSearchService.swift:1952-1991  ->  ThunderstormSearchService.swift:1272-1309
+      17 lines  ThunderstormUtilityIntentEngine.swift:1109-1135  ->  ThunderstormUtilityIntentEngine.swift:1247-1273
+      16 lines  ThunderstormCurrencyRateStore.swift:11-42  ->  ThunderstormCurrencyRateStore.swift:6-37
+      16 lines  ThunderstormCurrencyRateStore.swift:279-305  ->  ThunderstormCurrencyRateStore.swift:118-144
+      16 lines  ThunderstormSearchService.swift:1056-1071  ->  ThunderstormSearchService.swift:646-661
+      16 lines  ThunderstormView.swift:340-363  ->  ThunderstormView.swift:155-178
+      15 lines  ThunderstormWindowController.swift:744-762  ->  ThunderstormWindowController.swift:391-409
+      14 lines  ThunderstormSearchModel.swift:3057-3079  ->  ThunderstormSearchModel.swift:1116-1138
+      14 lines  ThunderstormSearchResult.swift:3-48  ->  ThunderstormSearchResult.swift:7-52
+      14 lines  ThunderstormSearchService.swift:1403-1431  ->  ThunderstormSearchService.swift:902-930
+      14 lines  ThunderstormWindowController.swift:485-516  ->  ThunderstormWindowController.swift:257-283
+      13 lines  ThunderstormSearchModel.swift:2890-2924  ->  ThunderstormSearchModel.swift:1058-1088
+      12 lines  ThunderstormApplicationVisibility.swift:13-37  ->  ThunderstormApplicationVisibility.swift:14-38
+      12 lines  ThunderstormSearchSources.swift:81-103  ->  ThunderstormSearchSources.swift:72-94
+      12 lines  ThunderstormUsageStore.swift:494-513  ->  ThunderstormUsageStore.swift:300-319
+      12 lines  ThunderstormWindowController.swift:1167-1190  ->  ThunderstormWindowController.swift:644-667
+      11 lines  ThunderstormAppIndex.swift:1023-1051  ->  ThunderstormAppIndex.swift:541-569
+      11 lines  ThunderstormCurrencyRateStore.swift:165-187  ->  ThunderstormCurrencyRateStore.swift:83-107
+      11 lines  ThunderstormIconProvider.swift:188-220  ->  ThunderstormIconProvider.swift:126-155
+      11 lines  ThunderstormSearchModel.swift:275-294  ->  ThunderstormSearchModel.swift:833-852
+      11 lines  ThunderstormSearchModel.swift:308-329  ->  ThunderstormSearchModel.swift:353-373
