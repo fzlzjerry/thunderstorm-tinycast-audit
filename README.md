@@ -7,6 +7,7 @@ This repository is an independent audit of the two code bases, their histories, 
 - **Full report (English):** [REPORT.md](REPORT.md)
 - **完整报告（中文）：** [REPORT.zh-CN.md](REPORT.zh-CN.md)
 - **Side-by-side evidence with permalinks:** [EVIDENCE.md](EVIDENCE.md)
+- **Addendum, public timeline before Tinycast (submitted by Droppy):** [ADDENDUM.md](ADDENDUM.md)
 
 ## Findings in brief
 
@@ -15,7 +16,7 @@ This repository is an independent audit of the two code bases, their histories, 
 3. **Droppy 16.0 shipped these components to users without any Tinycast credit**, together with Tinycast's search prompt and a Tinycast quicklink field name. No licence notice in the app mentions Tinycast. This contradicts the statement in Droppy's blog post that "Not a single Droppy user ever received his code."
 4. **The "rewritten" source published on 11 Oct still contains traceable Tinycast material, with the credit removed:** 13 comments / UI strings with ≥0.9 similarity to Tinycast (independent baselines: 0), a whole colour-opacity table, animation constants, coined API names, legacy data-model keys and an AI prompt skeleton, which is more than the leftover "texts, not code" the blog post describes. Several of these sentences were written by Tinycast's outside contributors weeks before the collaboration.
 5. **It is not a wholesale copy.** There is no large verbatim copying (longest identical run: 5 lines, the same as unrelated baselines), no rename-only file ports, and large parts of Thunderstorm (Raycast-extension runtime, AI, calculator parser, backup, dictionary, …) are different implementations built on Droppy's own services. Whether the code base as a whole was "fed to AI" can be neither proven nor ruled out.
-6. **Thunderstorm's name and icon predate Tinycast** (Internet Archive, 12 May 2026), so the icon accusation does not hold; most of Thunderstorm's current features, however, first appear around or after the September collaboration.
+6. **Thunderstorm's name and icon predate Tinycast** (Internet Archive, 12 May 2026), so the icon accusation does not hold. Droppy's public Discord and Reddit posts also show Thunderstorm named in a public release on 20 March 2026 and offered to every beta user on 14 June 2026 as a Spotlight-style launcher with system actions, before Tinycast's repository existed ([ADDENDUM.md](ADDENDUM.md)). Many of its current features (calculator, quicklinks, snippets, Raycast extensions, window layouts, backup), however, first appear around or after the September collaboration.
 7. Thunderstorm's own `compare.py` reproduces its 0.24%, but that metric cannot detect rewritten code: in a control experiment a 100%-derived rewrite scored 0.000. The same run's renamed-fingerprint share (2.77%, 1.6–2.2× the baselines) is not reported in its README.
 
 The report grades each finding, lists what was downgraded or refuted during verification, and states what cannot be determined (Thunderstorm's repository has no development history; Droppy's private history and unreleased builds were not available).
