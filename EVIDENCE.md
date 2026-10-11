@@ -2,6 +2,8 @@
 
 Excerpts re-extracted directly from both repositories by anchor text, with exact line numbers and permalinks. Thunderstorm: snapshot `2ecde78` (2026-10-11). Tinycast: `126c998d` (2026-10-10) unless a historical commit is named. First-seen dates come from `git log --all --reverse -S`. See [REPORT.md](REPORT.md) §6 for context and the verification of each item.
 
+Quoted excerpts remain under their original licences (Tinycast: AGPL-3.0-or-later, © Abue Ammar and contributors; Thunderstorm: GPL-3.0 + Commons Clause, © Jordy Spruit) and are reproduced for commentary and criticism only. The rest of this file is CC BY 4.0; see [README → License](README.md#license).
+
 ## E1. "Open disarmed": verbatim comment followed by the same call
 
 Identical comment in the panel's `show()`, immediately followed by a call with the same name and first argument label, `disarmHoverHighlight(pointerAt: NSEvent.mouseLocation)`. In Tinycast the wording was produced on 2026-08-07 (`946c5907`) by compacting a longer 07-24 comment; Thunderstorm has the compacted form.

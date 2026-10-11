@@ -52,3 +52,9 @@ git -C tinycast log --all --reverse -S"Selection wins over hover when a row is b
 # Thunderstorm's own comparison
 python3 -I thunderstorm/verify/compare.py --ours thunderstorm/Sources --theirs tinycast --history
 ```
+
+## License
+
+- **Report text, evidence write-ups and data** (`README.md`, `REPORT.md`, `REPORT.zh-CN.md`, `EVIDENCE.md`, `data/`): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may share and adapt them, including commercially, as long as you give credit and link back to this repository.
+- **Scripts** (`scripts/`): [MIT](scripts/LICENSE).
+- **Exception, third-party excerpts:** quoted source code, comments and documentation from Tinycast and Thunderstorm (in `EVIDENCE.md`, the reports and `data/`) remain the property of their copyright holders under their own licences: Tinycast, AGPL-3.0-or-later, © Abue Ammar and contributors; Thunderstorm, GPL-3.0 with the Commons Clause, © Jordy Spruit. They are reproduced only for the purposes of commentary and criticism and are not covered by the licences above.

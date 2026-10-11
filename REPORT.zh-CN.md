@@ -413,3 +413,7 @@ python3 -I thunderstorm/verify/compare.py --ours thunderstorm/Sources --theirs t
 - 指控帖：https://x.com/abue_ammar/status/2109257990041981248
 - Atoll DMCA（背景，与本案无关）：https://github.com/github/dmca/blob/master/2026/02/2026-02-10-atoll.md
 - AlternativeTo 新闻：https://alternativeto.net/news/2026/9/droppy-16-transforms-into-extensible-platform-with-droppykit-and-raycast-extension-support/
+
+---
+
+*本报告以 [CC BY 4.0](LICENSE) 许可发布，脚本采用 MIT 许可。文中引用的 Tinycast 与 Thunderstorm 原文仍归各自版权人所有，受其原许可证约束（AGPL-3.0-or-later；GPL-3.0 + Commons Clause），仅用于评论与批评目的。详见 [README → License](README.md#license)。*
